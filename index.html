@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meeting Timer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="options">
+        <ul id="timers">
+          <li data-id="0" data-order="0" data-limit="60" data-seconds="">
+            <div>
+              <span>Introduction</span>
+              <div>
+                <small>1min</small><small class="participant">KD</small>
+              </div>
+            </div>
+          </li>
+          <li data-id="1" data-order="1" data-limit="600" data-seconds="">
+            <div>
+              <span>Treasures</span>
+              <div>
+                <small>10min</small><small class="participant">MW</small>
+              </div>
+            </div>
+          </li>
+          <li data-id="2" data-order="2" data-limit="600" data-seconds="">
+            <div>
+              <span>Spiritual Gems</span>
+              <div>
+                <small>10min</small><small class="participant">JD</small>
+              </div>
+            </div>
+          </li>
+          <li data-id="3" data-order="3" data-limit="240" data-seconds="">
+            <div>
+              <span>Bible Reading</span>
+              <div>
+                <small>4min</small><small class="participant">3D</small>
+              </div>
+            </div>
+          </li>
+          <li data-id="4" data-order="4" data-limit="60" data-seconds="">
+            <div>
+              <span>Chairman's Comments</span>
+              <div>
+                <small>1min</small><small class="participant">KD</small>
+              </div>
+            </div>
+          </li>
+          <li data-id="5" data-order="5" data-limit="180" data-seconds="">
+            <div>
+              <span>First Conversation</span>
+              <div>
+                <small>3min</small><small class="participant">MO & NB</small>
+              </div>
+            </div>
+          </li>
+          <li data-id="6" data-order="6" data-limit="60" data-seconds="">
+            <div>
+              <span>Chairman's Comments</span>
+              <div>
+                <small>1min</small><small class="participant">KD</small>
+              </div>
+            </div>
+          </li>
+          <li data-id="7" data-order="7" data-limit="240" data-seconds="">
+            <div>
+              <span>Return Visit</span>
+              <div>
+                <small>4min</small><small class="participant">MF & NE</small>
+              </div>
+            </div>
+          </li>
+          <li data-id="8" data-order="8" data-limit="60" data-seconds="">
+            <div>
+              <span>Chairman's Comments</span>
+              <div>
+                <small>1min</small><small class="participant">KD</small>
+              </div>
+            </div>
+          </li>
+          <li data-id="9" data-order="9" data-limit="300" data-seconds="">
+            <div>
+              <span>Bible Study</span>
+              <div>
+                <small>5min</small><small class="participant">JI & Z</small>
+              </div>
+            </div>
+          </li>
+          <li data-id="10" data-order="10" data-limit="60" data-seconds="">
+            <div>
+              <span>Chairman's Comments</span>
+              <div>
+                <small>1min</small><small class="participant">KD</small>
+              </div>
+            </div>
+          </li>
+          <li data-id="11" data-order="11" data-limit="900" data-seconds="">
+            <div>
+              <span>Living</span>
+              <div>
+                <small>15min</small><small class="participant">AN</small>
+              </div>
+            </div>
+          </li>
+          <li data-id="12" data-order="12" data-limit="1800" data-seconds="">
+            <div>
+              <span>Cong Bible Study</span>
+              <div>
+                <small>30min</small><small class="participant">JT</small>
+              </div>
+            </div>
+          </li>
+          <li data-id="13" data-order="13" data-limit="180" data-seconds="">
+            <div>
+              <span>Conclusion</span>
+              <div>
+                <small>3min</small><small class="participant">KD</small>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="display">
+        <div class="timer">
+          <span id="hour" class="digits">00</span>
+          <span class="colons">:</span>
+          <span id="minute" class="digits">00</span>
+          <span class="colons">:</span>
+          <span id="second" class="digits">00</span>
+          <span id="time" class="digits"></span>
+        </div>
+        <div class="controls">
+          <button id="start">START</button>
+          <!-- <button id="restart">RESTART</button> -->
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="Timer.js"></script>
+    <script>
+      timerui.init();
+    </script>
+  </body>
+</html>
