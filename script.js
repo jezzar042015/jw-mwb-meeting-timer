@@ -1,6 +1,6 @@
 var timerui = {
   timeInSeconds: 0,
-  timer: null,
+  timer: {},
   start: function () {
     this.timer.start();
     this.runInterval();
@@ -96,6 +96,21 @@ var timerui = {
   },
   storeRunningSeconds: function () {
     $(".selected").attr("data-seconds", timerui.timeInSeconds);
+  },
+  storeToLocalStorage: function () {
+    const timers = [];
+    $("#timers li").each(function () {
+      var t = {
+        id: Number($(this).attr("data-id")),
+        order: Number($(this).attr("data-order")),
+        limit: Number($(this).attr("data-limit")),
+        seconds: Number($(this).attr("data-seconds")),
+        name: $(this).children("div").children(".timer-name").text(),
+        time: $(this).children("div").children("div:first").text(),
+      };
+      timers.push(t);
+    });
+    console.log(JSON.stringify(timers));
   },
   setActiveTimer: function (selected) {
     timerui.unsetSelection();
