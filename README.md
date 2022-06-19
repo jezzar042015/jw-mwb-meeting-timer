@@ -1,6 +1,6 @@
 # jw-mwb-meeting-timer
 
-Timer application for timing operators during JW midweek meetings. Parts with specified timings are implemented in the app for offline use. 
+Timer application for audio/video operators during JW midweek meetings. Parts with specified timings are implemented in the app for offline use. 
 
 To use:
 1. Download the html file inside the pack folder to your local computer.
