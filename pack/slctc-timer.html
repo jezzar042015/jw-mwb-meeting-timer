@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MWB | June 20-26</title>
+    <title>Meeting Timer</title>
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
@@ -29,37 +29,6 @@
         display: grid;
         grid-template-columns: [options] 220px [display] auto;
         grid-template-rows: 100vh;
-      }
-
-      .sidebar {
-        background-color: #313131;
-        overflow-x: auto;
-      }
-
-      .target-meeting {
-        background-color: #313131;
-      }
-
-      .target-meeting select {
-        background-color: none;
-        height: 60px;
-        width: 100%;
-        padding: 8px 15px;
-        text-transform: uppercase;
-        font-weight: 600;
-        border: none;
-      }
-
-      .target-meeting select:focus,
-      button:focus {
-        outline: none;
-      }
-
-      .target-meeting option {
-        padding-top: 8px;
-        padding-bottom: 8px;
-        text-transform: capitalize;
-        
       }
 
       .options {
@@ -105,10 +74,6 @@
       .options .selected {
         background-color: #6550c0;
         height: 100px;
-      }
-
-      .options .disabled {
-        color: rgb(66, 66, 66);
       }
 
       .options .disabled:hover {
@@ -157,7 +122,6 @@
         cursor: pointer;
         border: none;
         margin: 15px;
-        font-weight: 600;
       }
 
       .material-symbols-outlined {
@@ -190,151 +154,125 @@
         background: #7a7a7a;
         border-radius: 2.5px;
       }
-
     </style>
   </head>
   <body>
-    </div>
     <div class="wrapper">
-      <div class="sidebar">
-        <div class="target-meeting">
-          <select name="" id="meeting-selector">
-            <option value="public">Public Meeting</option>
-            <option value="mwb">Midweek Meeting</option>
-          </select>
-        </div>
-        <div class="options">
-          <ul id="timers">
-            <li class="m-public" data-id="0" data-order="0" data-limit="1800" data-seconds="">
+      <div class="options">
+        <ul id="timers">
+          <li data-limit="60" data-seconds="">
+            <div>
+              <span>Introduction</span>
               <div>
-                <span class="timer-name">Public Talk</span>
-                <div>
-                  <small>30min</small><small class="participant"></small>
-                </div>
+                <small>1min</small><small class="participant"></small>
               </div>
-            </li>
-            <li class="m-public" data-id="1" data-order="1" data-limit="3600" data-seconds="">
+            </div>
+          </li>
+          <li data-limit="600" data-seconds="">
+            <div>
+              <span>Treasures</span>
               <div>
-                <span class="timer-name">Watchtower Study</span>
-                <div>
-                  <small>60min</small><small class="participant"></small>
-                </div>
+                <small>10min</small><small class="participant"></small>
               </div>
-            </li>
-            <li class="m-mwb" data-id="0" data-order="0" data-limit="60" data-seconds="">
+            </div>
+          </li>
+          <li data-limit="600" data-seconds="">
+            <div>
+              <span>Spiritual Gems</span>
               <div>
-                <span class="timer-name">Opening Comments</span>
-                <div>
-                  <small>1min</small><small class="participant"></small>
-                </div>
+                <small>10min</small><small class="participant"></small>
               </div>
-            </li>
-            <li class="m-mwb" data-id="1" data-order="1" data-limit="600" data-seconds="">
+            </div>
+          </li>
+          <li data-limit="240" data-seconds="">
+            <div>
+              <span>Bible Reading</span>
               <div>
-                <span class="timer-name">Treasures</span>
-                <div>
-                  <small>10min</small><small class="participant"></small>
-                </div>
+                <small>4min</small><small class="participant"></small>
               </div>
-            </li>
-            <li class="m-mwb" data-id="2" data-order="2" data-limit="600" data-seconds="">
+            </div>
+          </li>
+          <li data-limit="60" data-seconds="">
+            <div>
+              <span>Chairman's Comments</span>
               <div>
-                <span class="timer-name">Spiritual Gems</span>
-                <div>
-                  <small>10min</small><small class="participant"></small>
-                </div>
+                <small>1min</small><small class="participant"></small>
               </div>
-            </li>
-            <li class="m-mwb" data-id="3" data-order="3" data-limit="240" data-seconds="">
+            </div>
+          </li>
+          <li data-limit="180" data-seconds="">
+            <div>
+              <span>First Conversation</span>
               <div>
-                <span class="timer-name">Bible Reading</span>
-                <div>
-                  <small>4min</small><small class="participant"></small>
-                </div>
+                <small>3min</small><small class="participant"></small>
               </div>
-            </li>
-            <li class="m-mwb" data-id="4" data-order="4" data-limit="60" data-seconds="">
+            </div>
+          </li>
+          <li data-limit="60" data-seconds="">
+            <div>
+              <span>Chairman's Comments</span>
               <div>
-                <span class="timer-name">Chairman's Comments</span>
-                <div>
-                  <small>1min</small><small class="participant"></small>
-                </div>
+                <small>1min</small><small class="participant"></small>
               </div>
-            </li>
-            <li class="m-mwb" data-id="5" data-order="5" data-limit="180" data-seconds="">
+            </div>
+          </li>
+          <li data-limit="240" data-seconds="">
+            <div>
+              <span>Return Visit</span>
               <div>
-                <span class="timer-name">First Conversation</span>
-                <div>
-                  <small>3min</small><small class="participant"></small>
-                </div>
+                <small>4min</small><small class="participant"></small>
               </div>
-            </li>
-            <li class="m-mwb" data-id="6" data-order="6" data-limit="60" data-seconds="">
+            </div>
+          </li>
+          <li data-limit="60" data-seconds="">
+            <div>
+              <span>Chairman's Comments</span>
               <div>
-                <span class="timer-name">Chairman's Comments</span>
-                <div>
-                  <small>1min</small><small class="participant"></small>
-                </div>
+                <small>1min</small><small class="participant"></small>
               </div>
-            </li>
-            <li class="m-mwb" data-id="7" data-order="7" data-limit="240" data-seconds="">
+            </div>
+          </li>
+          <li data-limit="300" data-seconds="">
+            <div>
+              <span>Bible Study</span>
               <div>
-                <span class="timer-name">Return Visit</span>
-                <div>
-                  <small>4min</small><small class="participant"></small>
-                </div>
+                <small>5min</small><small class="participant"></small>
               </div>
-            </li>
-            <li class="m-mwb" data-id="8" data-order="8" data-limit="60" data-seconds="">
+            </div>
+          </li>
+          <li data-limit="60" data-seconds="">
+            <div>
+              <span>Chairman's Comments</span>
               <div>
-                <span class="timer-name">Chairman's Comments</span>
-                <div>
-                  <small>1min</small><small class="participant"></small>
-                </div>
+                <small>1min</small><small class="participant"></small>
               </div>
-            </li>
-            <li class="m-mwb" data-id="9" data-order="9" data-limit="300" data-seconds="">
+            </div>
+          </li>
+          <li data-limit="900" data-seconds="">
+            <div>
+              <span>Living</span>
               <div>
-                <span class="timer-name">Bible Study</span>
-                <div>
-                  <small>5min</small><small class="participant"></small>
-                </div>
+                <small>15min</small><small class="participant"></small>
               </div>
-            </li>
-            <li class="m-mwb" data-id="10" data-order="10" data-limit="60" data-seconds="">
+            </div>
+          </li>
+          <li data-limit="1800" data-seconds="">
+            <div>
+              <span>Cong Bible Study</span>
               <div>
-                <span class="timer-name">Chairman's Comments</span>
-                <div>
-                  <small>1min</small><small class="participant"></small>
-                </div>
+                <small>30min</small><small class="participant"></small>
               </div>
-            </li>
-            <li class="m-mwb" data-id="11" data-order="11" data-limit="900" data-seconds="">
+            </div>
+          </li>
+          <li data-limit="180" data-seconds="">
+            <div>
+              <span>Conclusion</span>
               <div>
-                <span class="timer-name">Use 'Enjoy Life!'</span>
-                <div>
-                  <small>15min</small><small class="participant"></small>
-                </div>
+                <small>3min</small><small class="participant"></small>
               </div>
-            </li>
-            <li class="m-mwb" data-id="12" data-order="12" data-limit="1800" data-seconds="">
-              <div>
-                <span class="timer-name">Cong Bible Study</span>
-                <div>
-                  <small>30min</small><small class="participant"></small>
-                </div>
-              </div>
-            </li>
-            <li class="m-mwb" data-id="13" data-order="13" data-limit="180" data-seconds="">
-              <div>
-                <span class="timer-name">Concluding Comments</span>
-                <div>
-                  <small>3min</small><small class="participant"></small>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
+            </div>
+          </li>
+        </ul>
       </div>
       <div class="display">
         <div class="timer">
@@ -347,7 +285,7 @@
         </div>
         <div class="controls">
           <button id="start">START</button>
-          <button id="restart">RESET</button>
+          <!-- <button id="restart">RESTART</button> -->
         </div>
       </div>
     </div>
@@ -355,7 +293,7 @@
     <script>
       var timerui = {
         timeInSeconds: 0,
-        timer: {},
+        timer: null,
         start: function () {
           this.timer.start();
           this.runInterval();
@@ -438,61 +376,28 @@
         },
         autoSetControl: function () {
           $("#start").prop("disabled", !timerui.hasActive());
-          $("#restart").prop("disabled", !timerui.hasActive());
         },
-        disableRestrictedOptions: function () {
+        disableUnselectedOptions: function () {
           $("#timers li").each(function () {
             if (!$(this).hasClass("selected")) {
               $(this).addClass("disabled");
             }
           });
-
-          $("#meeting-selector").prop("disabled", true);
-          $("#restart").prop("disabled", true);
         },
         enableOptions: function () {
           $(".disabled").removeClass("disabled");
-          $("#meeting-selector").prop("disabled", false);
-          $("#restart").prop("disabled", false);
         },
         storeRunningSeconds: function () {
           $(".selected").attr("data-seconds", timerui.timeInSeconds);
-        },
-        storeToLocalStorage: function () {
-          const timers = [];
-          $("#timers li").each(function () {
-            var t = {
-              id: Number($(this).attr("data-id")),
-              order: Number($(this).attr("data-order")),
-              limit: Number($(this).attr("data-limit")),
-              seconds: Number($(this).attr("data-seconds")),
-              name: $(this).children("div").children(".timer-name").text(),
-              time: $(this).children("div").children("div:first").text(),
-            };
-            timers.push(t);
-          });
-          console.log(JSON.stringify(timers));
         },
         setActiveTimer: function (selected) {
           timerui.unsetSelection();
           $(selected).addClass("selected");
         },
-        switchMeeting: function () {
-          var meeting = $("#meeting-selector").val();
-
-          if (meeting === "mwb") {
-            $(".m-mwb").show();
-            $(".m-public").hide();
-          } else if (meeting === "public") {
-            $(".m-mwb").hide();
-            $(".m-public").show();
-          }
-        },
         init: function () {
           timerui.eventHandlers();
           timerui.timer = new Timer();
           timerui.autoSetControl();
-          timerui.switchMeeting();
         },
         eventHandlers: function () {
           $("#timers li").on("click", function () {
@@ -515,22 +420,15 @@
               // starts the timer
               $(this).html("STOP");
               timerui.start();
-              timerui.disableRestrictedOptions();
+              timerui.disableUnselectedOptions();
             }
           });
 
           $("#restart").on("click", function () {
             timerui.timer.reset();
-            $(".selected").attr("data-seconds", 0);
-            timerui.setSelectedStoredTime();
-          });
-
-          $("#meeting-selector").on("click", function () {
-            timerui.switchMeeting();
           });
         },
       };
-
     </script>
     <script>
       class Timer {
@@ -565,7 +463,8 @@
 
           this.isRunning = false;
 
-          this.overallTime = this.overallTime + this._getTimeElapsedSinceLastStart();
+          this.overallTime =
+            this.overallTime + this._getTimeElapsedSinceLastStart();
         }
 
         reset() {
@@ -591,7 +490,6 @@
           return this.overallTime;
         }
       }
-
     </script>
     <script>
       timerui.init();

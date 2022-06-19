@@ -83,16 +83,22 @@ var timerui = {
   },
   autoSetControl: function () {
     $("#start").prop("disabled", !timerui.hasActive());
+    $("#restart").prop("disabled", !timerui.hasActive());
   },
-  disableUnselectedOptions: function () {
+  disableRestrictedOptions: function () {
     $("#timers li").each(function () {
       if (!$(this).hasClass("selected")) {
         $(this).addClass("disabled");
       }
     });
+
+    $("#meeting-selector").prop("disabled", true);
+    $("#restart").prop("disabled", true);
   },
   enableOptions: function () {
     $(".disabled").removeClass("disabled");
+    $("#meeting-selector").prop("disabled", false);
+    $("#restart").prop("disabled", false);
   },
   storeRunningSeconds: function () {
     $(".selected").attr("data-seconds", timerui.timeInSeconds);
@@ -116,10 +122,22 @@ var timerui = {
     timerui.unsetSelection();
     $(selected).addClass("selected");
   },
+  switchMeeting: function () {
+    var meeting = $("#meeting-selector").val();
+
+    if (meeting === "mwb") {
+      $(".m-mwb").show();
+      $(".m-public").hide();
+    } else if (meeting === "public") {
+      $(".m-mwb").hide();
+      $(".m-public").show();
+    }
+  },
   init: function () {
     timerui.eventHandlers();
     timerui.timer = new Timer();
     timerui.autoSetControl();
+    timerui.switchMeeting();
   },
   eventHandlers: function () {
     $("#timers li").on("click", function () {
@@ -142,12 +160,18 @@ var timerui = {
         // starts the timer
         $(this).html("STOP");
         timerui.start();
-        timerui.disableUnselectedOptions();
+        timerui.disableRestrictedOptions();
       }
     });
 
     $("#restart").on("click", function () {
       timerui.timer.reset();
+      $(".selected").attr("data-seconds", 0);
+      timerui.setSelectedStoredTime();
+    });
+
+    $("#meeting-selector").on("click", function () {
+      timerui.switchMeeting();
     });
   },
 };
