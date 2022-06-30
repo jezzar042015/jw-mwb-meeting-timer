@@ -4,6 +4,17 @@ var timerui = {
   start: function () {
     this.timer.start();
     this.runInterval();
+    $("#start").addClass("running");
+  },
+  stop: function () {
+    timerui.timer.stop();
+    $("#start").removeClass("running");
+  },
+  restart: function () {
+    timerui.timer.reset();
+    $(".selected").attr("data-seconds", 0);
+    timerui.setSelectedStoredTime();
+    timerui.autoSetControl();
   },
   runInterval: function () {
     setInterval(() => {
@@ -61,6 +72,9 @@ var timerui = {
     $("#minute").text(m < 10 ? "" + 0 + m : m);
     $("#hour").text(h < 10 ? "" + 0 + h : h);
   },
+  setModalBox: function (status) {
+    status ? $("#alerts").show() : $("#alerts").hide();
+  },
   hasActive: function () {
     return $(".selected").length > 0;
   },
@@ -84,6 +98,9 @@ var timerui = {
   autoSetControl: function () {
     $("#start").prop("disabled", !timerui.hasActive());
     $("#restart").prop("disabled", !timerui.hasActive());
+
+    var seconds = Number($(".selected").attr("data-seconds"));
+    $("#restart").prop("disabled", seconds === 0);
   },
   disableRestrictedOptions: function () {
     $("#timers li").each(function () {
@@ -118,6 +135,14 @@ var timerui = {
     });
     console.log(JSON.stringify(timers));
   },
+  downloadSource: function () {
+    var hiddenElement = document.createElement("a");
+    hiddenElement.href =
+      "data:attachment/text," + encodeURI(document.documentElement.outerHTML);
+    hiddenElement.target = "_blank";
+    hiddenElement.download = $(document).attr("title") + ".html";
+    hiddenElement.click();
+  },
   setActiveTimer: function (selected) {
     timerui.unsetSelection();
     $(selected).addClass("selected");
@@ -132,6 +157,13 @@ var timerui = {
       $(".m-mwb").hide();
       $(".m-public").show();
     }
+
+    timerui.autoSelectFirstTimer();
+  },
+  autoSelectFirstTimer: function () {
+    $("#timers li:visible:first").addClass("selected");
+    timerui.autoSetControl();
+    timerui.setSelectedStoredTime();
   },
   init: function () {
     timerui.eventHandlers();
@@ -152,7 +184,7 @@ var timerui = {
       if (timerui.timer.isRunning) {
         // stops the timer
         $(this).html("START");
-        timerui.timer.stop();
+        timerui.stop();
         timerui.storeRunningSeconds();
         timerui.enableOptions();
         timerui.removeAlerts();
@@ -165,13 +197,16 @@ var timerui = {
     });
 
     $("#restart").on("click", function () {
-      timerui.timer.reset();
-      $(".selected").attr("data-seconds", 0);
-      timerui.setSelectedStoredTime();
+      // timerui.setModalBox(true);
+      timerui.restart();
     });
 
     $("#meeting-selector").on("click", function () {
       timerui.switchMeeting();
+    });
+
+    $("#store-download").on("click", function () {
+      timerui.downloadSource();
     });
   },
 };

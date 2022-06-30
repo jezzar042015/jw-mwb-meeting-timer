@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MWB | June 20-26</title>
+    <title>Meetings - June 27- July 3</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -12,13 +12,12 @@
     />
   </head>
   <body>
-    </div>
     <div class="wrapper">
       <div class="sidebar">
         <div class="target-meeting">
           <select name="" id="meeting-selector">
-            <option value="public">Public Meeting</option>
             <option value="mwb">Midweek Meeting</option>
+            <option value="public">Public Meeting</option>
           </select>
         </div>
         <div class="options">
@@ -113,7 +112,7 @@
             </li>
             <li class="m-mwb" data-id="9" data-order="9" data-limit="300" data-seconds="">
               <div>
-                <span class="timer-name">Bible Study</span>
+                <span class="timer-name">Talk</span>
                 <div>
                   <small>5min</small><small class="participant"></small>
                 </div>
@@ -127,11 +126,19 @@
                 </div>
               </div>
             </li>
-            <li class="m-mwb" data-id="11" data-order="11" data-limit="900" data-seconds="">
+            <li class="m-mwb" data-id="11" data-order="11" data-limit="300" data-seconds="">
               <div>
-                <span class="timer-name">Use 'Enjoy Life!'</span>
+                <span class="timer-name">Local Needs</span>
                 <div>
-                  <small>15min</small><small class="participant"></small>
+                  <small>5min</small><small class="participant"></small>
+                </div>
+              </div>
+            </li>
+            <li class="m-mwb" data-id="11" data-order="11" data-limit="600" data-seconds="">
+              <div>
+                <span class="timer-name">'Love...Does Not Get Puffed Up'</span>
+                <div>
+                  <small>10min</small><small class="participant"></small>
                 </div>
               </div>
             </li>
@@ -167,7 +174,15 @@
           <button id="start">START</button>
           <button id="restart">RESET</button>
         </div>
+        <div class="store-controls">
+          <button id="store-data">Save Meeting</button>
+          <button id="store-download">Download</button>
+        </div>
+        <div id="alerts"></div>
       </div>
+    </div>
+    
+
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="script.js"></script>

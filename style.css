@@ -7,6 +7,7 @@
 }
 
 body {
+  position: relative;
   background-color: #222222;
   height: 100vh;
   width: 100%;
@@ -105,9 +106,28 @@ button:focus {
 }
 
 .display {
+  position: relative;
   display: grid;
   grid-template-rows: [timer] 60% [controls] auto;
 }
+
+#alerts {
+  display: none;
+  position: absolute;
+  background-color: #000000ce;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
+
+.timer-name {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .timer {
   padding: 0px;
   margin: 0px;
@@ -147,6 +167,38 @@ button:focus {
   margin: 15px;
   font-weight: 600;
 }
+
+#restart:hover:enabled {
+  color: #ffff;
+  background-color: rgb(128, 3, 3);
+}
+
+#start.running {
+  color: #ffff;
+  background-color: rgb(7, 142, 231);
+}
+
+#start:hover {
+  color: #ffff;
+  background-color: rgb(7, 142, 231);
+}
+
+.store-controls {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+}
+
+.store-controls button {
+  padding: 5px 15px;
+  cursor: pointer;
+  background-color: rgb(88, 88, 219);
+  border: solid 1px rgb(88, 88, 219);
+  border-radius: 2.5px;
+  color: #ffff;
+}
+
+
 
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
