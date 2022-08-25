@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Meetings - July 11-17</title>
+    <title>Meetings - August 22 - 28</title>
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
@@ -255,6 +255,7 @@
           </select>
         </div>
         <div class="options">
+          <!-- Public Meeting -->
           <ul id="timers">
             <li class="m-public" data-id="0" data-order="0" data-limit="1800" data-seconds="">
               <div>
@@ -268,10 +269,11 @@
               <div>
                 <span class="timer-name">Watchtower Study</span>
                 <div>
-                  <small>60min</small><small class="participant"></small>
+                  <small>50min</small><small class="participant"></small>
                 </div>
               </div>
             </li>
+            <!-- Midweek Meeting -->
             <li class="m-mwb" data-id="0" data-order="0" data-limit="60" data-seconds="">
               <div>
                 <span class="timer-name">Opening Comments</span>
@@ -282,7 +284,7 @@
             </li>
             <li class="m-mwb" data-id="1" data-order="1" data-limit="600" data-seconds="">
               <div>
-                <span class="timer-name">Treasures: "Jehovah Is a God of Justice"</span>
+                <span class="timer-name">"Learn From Two Pillars"</span>
                 <div>
                   <small>10min</small><small class="participant"></small>
                 </div>
@@ -290,7 +292,7 @@
             </li>
             <li class="m-mwb" data-id="2" data-order="2" data-limit="600" data-seconds="">
               <div>
-                <span class="timer-name">Spiritual Gems: 2Sa 20-21</span>
+                <span class="timer-name">Spiritual Gems: 1King 7</span>
                 <div>
                   <small>10min</small><small class="participant"></small>
                 </div>
@@ -313,20 +315,27 @@
               </div>
             </li>
             <!-- MINISTRY -->
-            <li class="m-mwb" data-id="5" data-order="5" data-limit="300" data-seconds="">
+            <li class="m-mwb" data-id="5" data-order="5" data-limit="180" data-seconds="">
               <div>
-                <span class="timer-name">Return Visit Video</span>
+                <span class="timer-name">First Conversation</span>
                 <div>
-                  <small>5min</small><small class="participant"></small>
+                  <small>3min</small><small class="participant"></small>
                 </div>
               </div>
             </li>
-
-            <li class="m-mwb" data-id="5" data-order="5" data-limit="180" data-seconds="">
+            <li class="m-mwb" data-id="6" data-order="6" data-limit="60" data-seconds="">
+              <div>
+                <span class="timer-name">Chairman's Comments</span>
+                <div>
+                  <small>1min</small><small class="participant"></small>
+                </div>
+              </div>
+            </li>
+            <li class="m-mwb" data-id="5" data-order="5" data-limit="240" data-seconds="">
               <div>
                 <span class="timer-name">Return Visit</span>
                 <div>
-                  <small>3min</small><small class="participant"></small>
+                  <small>4min</small><small class="participant"></small>
                 </div>
               </div>
             </li>
@@ -342,7 +351,7 @@
 
             <li class="m-mwb" data-id="7" data-order="7" data-limit="300" data-seconds="">
               <div>
-                <span class="timer-name">Return Visit</span>
+                <span class="timer-name">Bible Study</span>
                 <div>
                   <small>5min</small><small class="participant"></small>
                 </div>
@@ -357,28 +366,29 @@
                 </div>
               </div>
             </li>
+
            <!-- LIVING AS CHRISTIANS -->
-            <li class="m-mwb" data-id="11" data-order="11" data-limit="600" data-seconds="">
-              <div>
-                <span class="timer-name">"Move to Where the Need is Greater"</span>
-                <div>
-                  <small>10min</small><small class="participant"></small>
-                </div>
-              </div>
-            </li>
             <li class="m-mwb" data-id="11" data-order="11" data-limit="300" data-seconds="">
               <div>
-                <span class="timer-name">"How to Use Sample Conversation"</span>
+                <span class="timer-name">"Local Needs"</span>
                 <div>
                   <small>5min</small><small class="participant"></small>
                 </div>
               </div>
             </li>
-            <li class="m-mwb" data-id="12" data-order="12" data-limit="1800" data-seconds="">
+            <li class="m-mwb" data-id="11" data-order="11" data-limit="600" data-seconds="">
+              <div>
+                <span class="timer-name">"Start Bible Studies in September"</span>
+                <div>
+                  <small>10min</small><small class="participant"></small>
+                </div>
+              </div>
+            </li>
+            <li class="m-mwb" data-id="12" data-order="12" data-limit="1200" data-seconds="">
               <div>
                 <span class="timer-name">Congregation Bible Study</span>
                 <div>
-                  <small>30min</small><small class="participant"></small>
+                  <small>20min</small><small class="participant"></small>
                 </div>
               </div>
             </li>
@@ -637,7 +647,6 @@
           this.startTime = 0;
           this.overallTime = 0;
         }
-
         _getTimeElapsedSinceLastStart() {
           if (!this.startTime) {
             return 0;
@@ -652,7 +661,6 @@
           }
 
           this.isRunning = true;
-
           this.startTime = Date.now();
         }
 
@@ -660,20 +668,16 @@
           if (!this.isRunning) {
             return console.error("Timer is already stopped");
           }
-
           this.isRunning = false;
-
           this.overallTime = this.overallTime + this._getTimeElapsedSinceLastStart();
         }
 
         reset() {
           this.overallTime = 0;
-
           if (this.isRunning) {
             this.startTime = Date.now();
             return;
           }
-
           this.startTime = 0;
         }
 
@@ -681,11 +685,9 @@
           if (!this.startTime) {
             return 0;
           }
-
           if (this.isRunning) {
             return this.overallTime + this._getTimeElapsedSinceLastStart();
           }
-
           return this.overallTime;
         }
       }
