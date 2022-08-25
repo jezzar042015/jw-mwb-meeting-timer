@@ -210,8 +210,6 @@
         color: #ffff;
       }
 
-
-
       .material-symbols-outlined {
         font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
       }
@@ -243,7 +241,23 @@
         border-radius: 2.5px;
       }
 
+      .blinking-overtime {
+        color: #fff;
+        /* padding: 10px; */
+        /* display: inline-block; */
+        /* border-radius: 5px; */
+        animation: blinkingBackground 1s infinite;
+      }
+
+      @keyframes blinkingBackground{
+		      /* 0%		{ background-color: #10c018;} */
+		      /* 25%		{ background-color: #1056c0;} */
+		      50%		{ background-color: #ef0a1a;}
+		      /* 75%		{ background-color: #254878;} */
+		      /* 100%	{ background-color: #ef0a1a;} */
+      }
     </style>
+
   </head>
   <body>
     <div class="wrapper">
@@ -404,7 +418,7 @@
         </div>
       </div>
       <div class="display">
-        <div class="timer">
+        <div class="timer ">
           <span id="hour" class="digits">00</span>
           <span class="colons">:</span>
           <span id="minute" class="digits">00</span>
@@ -416,7 +430,7 @@
           <button id="start">START</button>
           <button id="restart">RESET</button>
         </div>
-        <div class="store-controls">
+        <div class="store-controls" style="display: none;">
           <button id="store-data">Save Meeting</button>
           <button id="store-download">Download</button>
         </div>
@@ -482,7 +496,7 @@
             switch (timeralert) {
               case "overtime":
                 $(".timer-warning").removeClass("timer-warning");
-                $(".display").addClass("timer-overtime");
+                $(".display").addClass("blinking-overtime");
                 break;
               case "warning":
                 $(".display").addClass("timer-warning");
@@ -491,7 +505,7 @@
           },
           removeAlerts: function () {
             $(".timer-warning").removeClass("timer-warning");
-            $(".timer-overtime").removeClass("timer-overtime");
+            $(".blinking-overtime").removeClass("blinking-overtime");
           },
           displayTime: function (seconds) {
             var s = seconds % 60;
