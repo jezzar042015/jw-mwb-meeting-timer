@@ -1,4 +1,4 @@
-var timerui = {
+const timerui = {
   timeInSeconds: 0,
   timer: {},
   start: function () {
@@ -26,8 +26,8 @@ var timerui = {
     }, 100);
   },
   watchAlerts: function (currentTimeInSeconds) {
-    var limit = $(".selected").attr("data-limit");
-    var warning = 0;
+    const limit = $(".selected").attr("data-limit");
+    let warning = 0;
 
     if (limit <= 60) {
       warning = limit;
@@ -65,9 +65,9 @@ var timerui = {
     $(".blinking-overtime").removeClass("blinking-overtime");
   },
   displayTime: function (seconds) {
-    var s = seconds % 60;
-    var m = Math.floor(seconds / 60) % 60;
-    var h = Math.floor(seconds / 3600);
+    let s = seconds % 60;
+    let m = Math.floor(seconds / 60) % 60;
+    let h = Math.floor(seconds / 3600);
     $("#second").text(s < 10 ? "" + 0 + s : s);
     $("#minute").text(m < 10 ? "" + 0 + m : m);
     $("#hour").text(h < 10 ? "" + 0 + h : h);
@@ -84,14 +84,14 @@ var timerui = {
   },
   setTime: function (timeVal) {
     x`x`;
-    var t = timeVal.split(".");
+    let t = timeVal.split(".");
 
     $("#hour").text(t[0]);
     $("#minute").text(t[1]);
     $("#second").text(t[2]);
   },
   setSelectedStoredTime: function () {
-    var seconds = Number($(".selected").attr("data-seconds"));
+    let seconds = Number($(".selected").attr("data-seconds"));
     timerui.timer.overallTime = seconds * 1000;
     timerui.displayTime(seconds);
   },
@@ -99,7 +99,7 @@ var timerui = {
     $("#start").prop("disabled", !timerui.hasActive());
     $("#restart").prop("disabled", !timerui.hasActive());
 
-    var seconds = Number($(".selected").attr("data-seconds"));
+    let seconds = Number($(".selected").attr("data-seconds"));
     $("#restart").prop("disabled", seconds === 0);
   },
   disableRestrictedOptions: function () {
@@ -123,7 +123,7 @@ var timerui = {
   storeToLocalStorage: function () {
     const timers = [];
     $("#timers li").each(function () {
-      var t = {
+      const t = {
         id: Number($(this).attr("data-id")),
         order: Number($(this).attr("data-order")),
         limit: Number($(this).attr("data-limit")),
@@ -136,7 +136,7 @@ var timerui = {
     console.log(JSON.stringify(timers));
   },
   downloadSource: function () {
-    var hiddenElement = document.createElement("a");
+    let hiddenElement = document.createElement("a");
     hiddenElement.href =
       "data:attachment/text," + encodeURI(document.documentElement.outerHTML);
     hiddenElement.target = "_blank";
@@ -148,7 +148,7 @@ var timerui = {
     $(selected).addClass("selected");
   },
   switchMeeting: function () {
-    var meeting = $("#meeting-selector").val();
+    let meeting = $("#meeting-selector").val();
 
     if (meeting === "mwb") {
       $(".m-mwb").show();
