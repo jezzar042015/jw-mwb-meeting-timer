@@ -53,7 +53,7 @@ var timerui = {
     switch (timeralert) {
       case "overtime":
         $(".timer-warning").removeClass("timer-warning");
-        $(".display").addClass("timer-overtime");
+        $(".display").addClass("blinking-overtime");
         break;
       case "warning":
         $(".display").addClass("timer-warning");
@@ -62,7 +62,7 @@ var timerui = {
   },
   removeAlerts: function () {
     $(".timer-warning").removeClass("timer-warning");
-    $(".timer-overtime").removeClass("timer-overtime");
+    $(".blinking-overtime").removeClass("blinking-overtime");
   },
   displayTime: function (seconds) {
     var s = seconds % 60;
