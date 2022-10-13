@@ -90,7 +90,7 @@ const source = [
         participant: "JT"
     },
     {
-        name: "CBS: llf 7",
+        name: "CBS: llf 8",
         class: "m-mwb",
         minutes: 20,
         participant: "KD"
