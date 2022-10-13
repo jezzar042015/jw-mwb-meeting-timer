@@ -61,7 +61,7 @@ const source = [
     {
         name: "Bible Study",
         class: "m-mwb",
-        minutes: 3,
+        minutes: 5,
         participant: null
     },
     {
