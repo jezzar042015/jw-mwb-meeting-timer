@@ -14,7 +14,8 @@ const source = [
     {
         name: "Opening Comments",
         class: "m-mwb",
-        minutes: 1
+        minutes: 1,
+        participant: ""
     },
     {
         name: "Treasures",
