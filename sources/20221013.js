@@ -3,13 +3,13 @@ const source = [
         name: "Public Talk",
         class: "m-public",
         minutes: 30,
-        participant: null
+        participant: ""
     },
     {
         name: "Watchtower Study",
         class: "m-public",
         minutes: 50,
-        participant: null
+        participant: ""
     },
     {
         name: "Opening Comments",
@@ -20,72 +20,72 @@ const source = [
         name: "Treasures",
         class: "m-mwb",
         minutes: 10,
-        participant: null
+        participant: ""
     },
     {
         name: "Spiritual Gems",
         class: "m-mwb",
         minutes: 10,
-        participant: null
+        participant: ""
     },
     {
         name: "Bible Reading",
         class: "m-mwb",
         minutes: 4,
-        participant: null
+        participant: ""
     },
     {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: null
+        participant: ""
     },
     {
         name: "Video: Return Visit ",
         class: "m-mwb",
         minutes: 5,
-        participant: null
+        participant: ""
     },
     {
         name: "Return Visit",
         class: "m-mwb",
         minutes: 3,
-        participant: null
+        participant: ""
     },
     {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: null
+        participant: ""
     },
     {
         name: "Bible Study",
         class: "m-mwb",
         minutes: 5,
-        participant: null
+        participant: ""
     },
     {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: null
+        participant: ""
     },
     {
         name: "Maintain Positive Attitude",
         class: "m-mwb",
         minutes: 15,
-        participant: null
+        participant: ""
     },
     {
         name: "CBS: llf 7",
         class: "m-mwb",
         minutes: 20,
-        participant: null
+        participant: ""
     },
     {
         name: "Concluding Comments",
         class: "m-mwb",
         minutes: 3,
-        participant: null
+        participant: ""
     }
 ]
