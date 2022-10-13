@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meetings | October 13&16</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jezzar042015/jw-mwb-meeting-timer/styles.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="sidebar">
+      <div class="target-meeting">
+        <select name="" id="meeting-selector">
+          <option value="mwb">Midweek Meeting</option>
+          <option value="public">Public Meeting</option>
+        </select>
+      </div>
+      <div class="options">
+        <ul id="timers">
+        </ul>
+      </div>
+    </div>
+    <div class="display">
+      <div class="timer ">
+        <span id="hour" class="digits">00</span>
+        <span class="colons">:</span>
+        <span id="minute" class="digits">00</span>
+        <span class="colons">:</span>
+        <span id="second" class="digits">00</span>
+        <span id="time" class="digits"></span>
+      </div>
+      <div class="controls">
+        <button id="start">START</button>
+        <button id="restart">RESET</button>
+      </div>
+      <div class="store-controls" style="display: none;">
+        <button id="store-data">Save Meeting</button>
+        <button id="store-download">Download</button>
+      </div>
+      <div id="alerts"></div>
+    </div>
+  </div>
+
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/jezzar042015/jw-mwb-meeting-timer/sources/20221020.00.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/jezzar042015/jw-mwb-meeting-timer/app.002.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/jezzar042015/jw-mwb-meeting-timer/Timer.js "></script>
+</body>
+
+</html>
