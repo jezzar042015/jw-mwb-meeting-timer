@@ -18,7 +18,7 @@ const source = [
         participant: ""
     },
     {
-        name: "Treasures",
+        name: "Look to Jehovah for Comfort",
         class: "m-mwb",
         minutes: 10,
         participant: ""
