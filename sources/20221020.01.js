@@ -66,7 +66,7 @@ const source = [
         participant: "JT"
     },
     {
-        name: "Bible Study",
+        name: "Talk",
         class: "m-mwb",
         minutes: 5,
         participant: "MW"
@@ -78,7 +78,7 @@ const source = [
         participant: "JT"
     },
     {
-        name: "Love is Patiend and Kind",
+        name: "Love is Patient and Kind",
         class: "m-mwb",
         minutes: 10,
         participant: "JD"
