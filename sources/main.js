@@ -18,7 +18,7 @@ const source = [
         participant: ""
     },
     {
-        name: "Look to Jehovah for Comfort",
+        name: "A Fine Example of Training",
         class: "m-mwb",
         minutes: 10,
         participant: ""
@@ -42,15 +42,21 @@ const source = [
         participant: ""
     },
     {
-        name: "Video: Return Visit ",
+        name: "Initial Call",
         class: "m-mwb",
-        minutes: 5,
+        minutes: 3,
+        participant: ""
+    },
+    {
+        name: "Chairman's Comments",
+        class: "m-mwb",
+        minutes: 1,
         participant: ""
     },
     {
         name: "Return Visit",
         class: "m-mwb",
-        minutes: 3,
+        minutes: 4,
         participant: ""
     },
     {
@@ -72,13 +78,13 @@ const source = [
         participant: ""
     },
     {
-        name: "Maintain Positive Attitude",
+        name: "Helpful Features of lff",
         class: "m-mwb",
         minutes: 15,
         participant: ""
     },
     {
-        name: "CBS: llf 7",
+        name: "CBS: llf 9",
         class: "m-mwb",
         minutes: 20,
         participant: ""
