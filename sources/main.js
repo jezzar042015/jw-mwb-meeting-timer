@@ -15,84 +15,84 @@ const source = [
         name: "Opening Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: ""
+        participant: "KD"
     },
     {
-        name: "A Fine Example of Training",
+        name: "Pick Up Your Son",
         class: "m-mwb",
         minutes: 10,
-        participant: ""
+        participant: "JD"
     },
     {
         name: "Spiritual Gems",
         class: "m-mwb",
         minutes: 10,
-        participant: ""
+        participant: "KD"
     },
     {
         name: "Bible Reading",
         class: "m-mwb",
         minutes: 4,
-        participant: ""
+        participant: "ER"
     },
     {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: ""
+        participant: "KD"
     },
     {
         name: "Initial Call",
         class: "m-mwb",
         minutes: 3,
-        participant: ""
+        participant: "JC/NE"
     },
     {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: ""
+        participant: "KD"
     },
     {
         name: "Return Visit",
         class: "m-mwb",
         minutes: 4,
-        participant: ""
+        participant: "GC/KB"
     },
     {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: ""
+        participant: "KD"
     },
     {
-        name: "Bible Study",
+        name: "Talk",
         class: "m-mwb",
         minutes: 5,
-        participant: ""
+        participant: "JD"
     },
     {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: ""
+        participant: "KD"
     },
     {
         name: "Helpful Features of lff",
         class: "m-mwb",
         minutes: 15,
-        participant: ""
+        participant: "JT"
     },
     {
-        name: "CBS: llf 9",
+        name: "CBS: llf 10",
         class: "m-mwb",
         minutes: 20,
-        participant: ""
+        participant: "MW"
     },
     {
         name: "Concluding Comments",
         class: "m-mwb",
         minutes: 3,
-        participant: ""
+        participant: "KD"
     }
 ]
