@@ -78,7 +78,7 @@ const source = [
         participant: "KD"
     },
     {
-        name: "Helpful Features of lff",
+        name: "Until the Resurrection Becomes Reality",
         class: "m-mwb",
         minutes: 15,
         participant: "JT"
