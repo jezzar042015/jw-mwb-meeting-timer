@@ -1,6 +1,7 @@
 $(document).ready(function () {
   timerui.loadSources()
   timerui.init()
+  timerui.setActiveName()
 });
 
 const timerui = {
@@ -175,10 +176,19 @@ const timerui = {
     $("#timers li:visible:first").addClass("selected");
     timerui.autoSetControl();
     timerui.setSelectedStoredTime();
-  }, zoomShow(li) {
+  },
+  zoomShow(li) {
     const haszoom = $(li).data("haszoom");
     $("#zoom").toggle(haszoom)
   },
+  setActiveName() {
+    let template = ":title (:time)"
+    let t = $('.selected').children('div').children('div').children('.part-minutes').text()
+    let name = ($('.selected').children('div').children('.timer-name').text());
+    template = template.replace(':title', name)
+    template = template.replace(':time', t)
+    $('#active-part').children('span').text(template)
+  },  
   init: function () {
     timerui.eventHandlers();
     timerui.timer = new Timer();
@@ -193,6 +203,7 @@ const timerui = {
         timerui.autoSetControl();
         timerui.setSelectedStoredTime();
         timerui.zoomShow($(this))
+        timerui.setActiveName()
       }
     });
 
@@ -204,11 +215,15 @@ const timerui = {
         timerui.storeRunningSeconds();
         timerui.enableOptions();
         timerui.removeAlerts();
+        $(".display").width('auto')
+        $(".sidebar").animate({ width: 'toggle' }, 0);
       } else {
         // starts the timer
         $(this).html("STOP");
         timerui.start();
         timerui.disableRestrictedOptions();
+        $(".sidebar").animate({ width: 'toggle' }, 00);
+        $(".display").width(window.outerWidth + 'px')
       }
     });
 
@@ -220,8 +235,8 @@ const timerui = {
       $("#zoom-alert").toggle(true)
     });
 
-    $("#zoom-close").on("click", function () {
-      $("#zoom-alert").toggle(false)
+    $("#zoom-alert").on("click", function () {
+      $("#zoom-alert").hide()
     });
 
     $("#meeting-selector").on("click", function () {
@@ -243,7 +258,8 @@ const timerui = {
         '  <div>' +
         '    <span class="timer-name">::meeting-name::</span>' +
         '    <div>' +
-        '      <small>::minutes::min</small><small class="participant">::participant::</small>' +
+        '      <small class="part-minutes">::minutes::min</small>' +
+        '      <small class="participant">::participant::</small>' +
         '    </div>' +
         '  </div>' +
         '</li>'

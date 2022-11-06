@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
 * {
   box-sizing: border-box;
   font-family: "Noto Sans", sans-serif;
@@ -17,7 +18,7 @@ body {
 
 .wrapper {
   display: grid;
-  grid-template-columns: [options] 220px [display] auto;
+  grid-template-columns: [options] 180px [display] auto;
   grid-template-rows: 100vh;
 }
 
@@ -29,6 +30,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+  cursor: pointer;
 }
 
 #zoom-close {
@@ -45,6 +47,7 @@ body {
   font-size: 200px;
   color: white;
 }
+
 .sidebar {
   background-color: #313131;
   overflow-x: auto;
@@ -137,6 +140,13 @@ button:focus {
   grid-template-rows: [timer] 60% [controls] auto;
 }
 
+#active-part {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding: 20px;
+  /* display: none; */
+}
 #alerts {
   display: none;
   position: absolute;
@@ -156,11 +166,12 @@ button:focus {
 
 .timer {
   padding: 0px;
-  margin: 0px 0px 0px 15px;
+  margin: 0px 0px 0px 0px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 800;
+
 }
 
 .timer-overtime {
@@ -172,21 +183,26 @@ button:focus {
 }
 
 .digits {
-  width: 170px;
+  width: 180px;
     text-align: center;
     font-weight: 800;
     font-family: 'Montserrat', sans-serif;
     font-size: 255px;
-  }
+
+}
 
 .colons {
   font-weight: 800;
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
     font-size: 130px;
-  }
+  margin-top: 35px;
+    width: 45px;
+    text-align: center;
+}
 
 .controls {
   text-align: center;
+
 }
 
 .controls button {

@@ -22,7 +22,7 @@ const source = [
         hasParticipation: false
     },
     {
-        name: "There Are More With us",
+        name: '"There Are More With Us Than With Them"',
         class: "m-mwb",
         minutes: 10,
         participant: "MW",
