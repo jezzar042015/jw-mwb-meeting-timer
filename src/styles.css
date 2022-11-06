@@ -42,7 +42,7 @@ body {
   text-align: center;
   font-weight: 800;
   font-family: 'Montserrat', sans-serif;
-  font-size: 250px;
+  font-size: 200px;
   color: white;
 }
 .sidebar {
@@ -156,7 +156,7 @@ button:focus {
 
 .timer {
   padding: 0px;
-  margin: 0px;
+  margin: 0px 0px 0px 15px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -172,17 +172,17 @@ button:focus {
 }
 
 .digits {
-  width: 210px;
+  width: 170px;
     text-align: center;
     font-weight: 800;
     font-family: 'Montserrat', sans-serif;
-    font-size: 300px;
+    font-size: 255px;
   }
 
 .colons {
   font-weight: 800;
     font-family: 'Montserrat', sans-serif;
-    font-size: 225px;
+    font-size: 130px;
   }
 
 .controls {
