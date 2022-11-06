@@ -1,246 +1,295 @@
- @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600&display=swap");
-      * {
-        box-sizing: border-box;
-        font-family: "Noto Sans", sans-serif;
-        margin: 0px;
-        padding: 0px;
-      }
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+* {
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
 
-      body {
-        position: relative;
-        background-color: #222222;
-        height: 100vh;
-        width: 100%;
-        color: white;
-      }
+body {
+  position: relative;
+  background-color: #222222;
+  height: 100vh;
+  width: 100%;
+  color: white;
+}
 
-      .wrapper {
-        display: grid;
-        grid-template-columns: [options] 220px [display] auto;
-        grid-template-rows: 100vh;
-      }
+.wrapper {
+  display: grid;
+  grid-template-columns: [options] 220px [display] auto;
+  grid-template-rows: 100vh;
+}
 
-      .sidebar {
-        background-color: #313131;
-        overflow-x: auto;
-      }
+#zoom-alert {
+  display: none;
+  background-color: #031341;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
-      .target-meeting {
-        background-color: #313131;
-      }
+#zoom-close {
+  position: absolute;
+  bottom: 20px;
 
-      .target-meeting select {
-        background-color: none;
-        height: 60px;
-        width: 100%;
-        padding: 8px 15px;
-        text-transform: uppercase;
-        font-weight: 600;
-        border: none;
-      }
+}
 
-      .target-meeting select:focus,
-      button:focus {
-        outline: none;
-      }
+#zoom-label {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 250px;
+  color: white;
+}
+.sidebar {
+  background-color: #313131;
+  overflow-x: auto;
+}
 
-      .target-meeting option {
-        padding-top: 8px;
-        padding-bottom: 8px;
-        text-transform: capitalize;
-        
-      }
+.target-meeting {
+  background-color: #313131;
+}
 
-      .options {
-        background-color: #313131;
-        overflow-x: auto;
-      }
+.target-meeting select {
+  background-color: none;
+  height: 60px;
+  width: 100%;
+  padding: 8px 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+}
 
-      .options ul {
-        padding-top: 8px;
-        padding-bottom: 8px;
-      }
+.target-meeting select:focus,
+button:focus {
+  outline: none;
+}
 
-      .options li {
-        display: block;
-        position: relative;
-        cursor: pointer;
-        padding: 8px 15px;
-        font-weight: 300;
-        font-size: 15px;
-        height: 60px;
-        border-bottom: dotted 1px #424242;
-      }
+.target-meeting option {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-transform: capitalize;
 
-      .options span {
-        display: inline-block;
-        color: #ffff;
-      }
+}
 
-      .options small {
-        color: rgb(194, 194, 194);
-      }
+.options {
+  background-color: #313131;
+  overflow-x: auto;
+}
 
-      .participant {
-        position: absolute;
-        right: 15px;
-        bottom: 12.5px;
-        font-size: 11px;
-      }
-      .options li:hover {
-        background-color: #6550c0;
-      }
+.options ul {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
 
-      .options .selected {
-        background-color: #6550c0;
-        height: 100px;
-      }
+.options li {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  padding: 8px 15px;
+  font-weight: 300;
+  font-size: 15px;
+  height: 60px;
+  border-bottom: dotted 1px #424242;
+}
 
-      .options .disabled {
-        color: rgb(66, 66, 66);
-      }
+.options span {
+  display: inline-block;
+  color: #ffff;
+}
 
-      .options .disabled:hover {
-        background-color: #313131;
-        cursor: not-allowed;
-      }
+.options small {
+  color: rgb(194, 194, 194);
+}
 
-      .display {
-        position: relative;
-        display: grid;
-        grid-template-rows: [timer] 60% [controls] auto;
-      }
+.participant {
+  position: absolute;
+  right: 15px;
+  bottom: 12.5px;
+  font-size: 11px;
+}
 
-      #alerts {
-        display: none;
-        position: absolute;
-        background-color: #000000ce;
-        height: 100%;
-        width: 100%;
-        top: 0px;
-        left: 0px;
-      }
+.options li:hover {
+  background-color: #6550c0;
+}
 
-      .timer-name {
-        width: 100%;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-      }
+.options .selected {
+  background-color: #6550c0;
+  height: 100px;
+}
 
-      .timer {
-        padding: 0px;
-        margin: 0px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
+.options .disabled {
+  color: rgb(66, 66, 66);
+}
 
-      .timer-overtime {
-        background-color: red;
-      }
+.options .disabled:hover {
+  background-color: #313131;
+  cursor: not-allowed;
+}
 
-      .timer-warning {
-        background-color: orange;
-      }
+.display {
+  position: relative;
+  display: grid;
+  grid-template-rows: [timer] 60% [controls] auto;
+}
 
-      .digits {
-        font-weight: 400;
-        font-size: 290px;
-      }
+#alerts {
+  display: none;
+  position: absolute;
+  background-color: #000000ce;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
 
-      .colons {
-        font-weight: 300;
-        font-size: 225px;
-      }
+.timer-name {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 
-      .controls {
-        text-align: center;
-      }
+.timer {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+}
 
-      .controls button {
-        width: 100px;
-        height: 100px;
-        border-radius: 100%;
-        cursor: pointer;
-        border: none;
-        margin: 15px;
-        font-weight: 600;
-      }
+.timer-overtime {
+  background-color: red;
+}
 
-      #restart:hover:enabled {
-        color: #ffff;
-        background-color: rgb(128, 3, 3);
-      }
+.timer-warning {
+  background-color: orange;
+}
 
-      #start.running {
-        color: #ffff;
-        background-color: rgb(7, 142, 231);
-      }
+.digits {
+  width: 210px;
+    text-align: center;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 300px;
+  }
 
-      #start:hover {
-        color: #ffff;
-        background-color: rgb(7, 142, 231);
-      }
+.colons {
+  font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 225px;
+  }
 
-      .store-controls {
-        position: absolute;
-        right: 15px;
-        bottom: 15px;
-      }
+.controls {
+  text-align: center;
+}
 
-      .store-controls button {
-        padding: 5px 15px;
-        cursor: pointer;
-        background-color: rgb(88, 88, 219);
-        border: solid 1px rgb(88, 88, 219);
-        border-radius: 2.5px;
-        color: #ffff;
-      }
+.controls button {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  cursor: pointer;
+  border: none;
+  margin: 15px;
+  font-weight: 600;
+}
 
-      .material-symbols-outlined {
-        font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
-      }
+#restart:hover:enabled {
+  color: #ffff;
+  background-color: rgb(128, 3, 3);
+}
 
-      #start span {
-        font-size: 80px;
-        font-variation-settings: "OPSZ" 48;
-      }
+#start.running {
+  color: #ffff;
+  background-color: rgb(7, 142, 231);
+}
 
-      #restart span {
-        font-size: 60px;
-        font-variation-settings: "OPSZ" 48;
-      }
+#start:hover {
+  color: #ffff;
+  background-color: rgb(7, 142, 231);
+}
 
-      /* width */
-      ::-webkit-scrollbar {
-        width: 5px;
-      }
+.store-controls {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+}
 
-      /* Track */
-      ::-webkit-scrollbar-track {
-        box-shadow: inset 0 0 5px grey;
-        border-radius: 2.5px;
-      }
+.store-controls button {
+  padding: 5px 15px;
+  cursor: pointer;
+  background-color: rgb(88, 88, 219);
+  border: solid 1px rgb(88, 88, 219);
+  border-radius: 2.5px;
+  color: #ffff;
+}
 
-      /* Handle */
-      ::-webkit-scrollbar-thumb {
-        background: #7a7a7a;
-        border-radius: 2.5px;
-      }
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
 
-      .blinking-overtime {
-        color: #fff;
-        /* padding: 10px; */
-        /* display: inline-block; */
-        /* border-radius: 5px; */
-        animation: blinkingBackground 1s infinite;
-      }
+#start span {
+  font-size: 80px;
+  font-variation-settings: "OPSZ" 48;
+}
 
-      @keyframes blinkingBackground{
-		      /* 0%		{ background-color: #10c018;} */
-		      /* 25%		{ background-color: #1056c0;} */
-		      50%		{ background-color: #ef0a1a;}
-		      /* 75%		{ background-color: #254878;} */
-		      /* 100%	{ background-color: #ef0a1a;} */
-      }
+#restart span {
+  font-size: 60px;
+  font-variation-settings: "OPSZ" 48;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 2.5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #7a7a7a;
+  border-radius: 2.5px;
+}
+
+.blinking-overtime {
+  color: #fff;
+  /* padding: 10px; */
+  /* display: inline-block; */
+  /* border-radius: 5px; */
+  animation: blinkingBackground 1s infinite;
+}
+
+@keyframes blinkingBackground {
+
+  50% {
+    background-color: #ef0a1a;
+  }
+
+}
+
+.blinking-zoom {
+  color: #0a47ef;
+  /* padding: 10px; */
+  /* display: inline-block; */
+  /* border-radius: 5px; */
+  animation: blinkingZoom 1s infinite;
+}
+
+@keyframes blinkingZoom {
+
+
+  50% {
+    color: #fff;
+    background-color: #4274ff;
+  }
+
+}

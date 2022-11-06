@@ -73,9 +73,15 @@ const timerui = {
     let s = seconds % 60;
     let m = Math.floor(seconds / 60) % 60;
     let h = Math.floor(seconds / 3600);
-    $("#second").text(s < 10 ? "" + 0 + s : s);
-    $("#minute").text(m < 10 ? "" + 0 + m : m);
-    $("#hour").text(h < 10 ? "" + 0 + h : h);
+    // $("#second").text(s < 10 ? "" + 0 + s : s);
+    $("#second1").text(s % 10);
+    $("#second2").text(Number.parseInt((s % 100) / 10));
+    // $("#minute").text(m < 10 ? "" + 0 + m : m);
+    $("#minute1").text(m % 10);
+    $("#minute2").text(Number.parseInt((m % 100) / 10));
+
+    $("#hour1").text(h % 10);
+    $("#hour2").text(Number.parseInt((h % 100) / 10));
   },
   setModalBox: function (status) {
     status ? $("#alerts").show() : $("#alerts").hide();
@@ -169,12 +175,16 @@ const timerui = {
     $("#timers li:visible:first").addClass("selected");
     timerui.autoSetControl();
     timerui.setSelectedStoredTime();
+  }, zoomShow(li) {
+    const haszoom = $(li).data("haszoom");
+    $("#zoom").toggle(haszoom)
   },
   init: function () {
     timerui.eventHandlers();
     timerui.timer = new Timer();
     timerui.autoSetControl();
     timerui.switchMeeting();
+    document.title = meetingSchedule
   },
   eventHandlers: function () {
     $("#timers li").on("click", function () {
@@ -182,6 +192,7 @@ const timerui = {
         timerui.setActiveTimer($(this));
         timerui.autoSetControl();
         timerui.setSelectedStoredTime();
+        timerui.zoomShow($(this))
       }
     });
 
@@ -202,8 +213,15 @@ const timerui = {
     });
 
     $("#restart").on("click", function () {
-      // timerui.setModalBox(true);
       timerui.restart();
+    });
+
+    $("#zoom").on("click", function () {
+      $("#zoom-alert").toggle(true)
+    });
+
+    $("#zoom-close").on("click", function () {
+      $("#zoom-alert").toggle(false)
     });
 
     $("#meeting-selector").on("click", function () {
@@ -221,7 +239,7 @@ const timerui = {
       const s = source[i];
 
       let li = '' +
-        '<li class="::meeting-class::" data-id="0" data-order="0" data-limit="::seconds::" data-seconds="">' +
+        '<li class="::meeting-class::" data-id="0" data-order="0" data-limit="::seconds::" data-seconds="" data-HasZoom="::HasZoom::">' +
         '  <div>' +
         '    <span class="timer-name">::meeting-name::</span>' +
         '    <div>' +
@@ -235,6 +253,7 @@ const timerui = {
       li = li.replace('::meeting-name::', s.name)
       li = li.replace('::minutes::', s.minutes)
       li = li.replace('::participant::', s.participant)
+      li = li.replace('::HasZoom::', s.hasParticipation)
 
       $(ul).append(li)
     }

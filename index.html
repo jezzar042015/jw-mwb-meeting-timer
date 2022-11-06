@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Meetings | Oct 31-Nov 6</title>
+  <title>Meetings</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
   <link rel="stylesheet" href="src/styles.css">
 </head>
@@ -25,23 +25,36 @@
       </div>
     </div>
     <div class="display">
-      <div class="timer ">
-        <span id="hour" class="digits">00</span>
+      <div class="timer">
+        <span id="hour2" class="digits">1</span>
+        <span id="hour1" class="digits">1</span>
         <span class="colons">:</span>
-        <span id="minute" class="digits">00</span>
+        <span id="minute2" class="digits">0</span>
+        <span id="minute1" class="digits">0</span>
         <span class="colons">:</span>
-        <span id="second" class="digits">00</span>
+        <span id="second2" class="digits">0</span>
+        <span id="second1" class="digits">0</span>
         <span id="time" class="digits"></span>
       </div>
       <div class="controls">
         <button id="start">START</button>
         <button id="restart">RESET</button>
+        <button id="zoom">ZOOM</button>
       </div>
       <div class="store-controls" style="display: none;">
         <button id="store-data">Save Meeting</button>
         <button id="store-download">Download</button>
       </div>
       <div id="alerts"></div>
+    </div>
+    <!-- zoom alert -->
+    <div id="zoom-alert" class="blinking-zoom">
+      <div id="zoom-label">
+        ZOOM Participant
+      </div>
+      <div class="controls">
+        <button id="zoom-close">CLOSE</button>
+      </div>
     </div>
   </div>
 

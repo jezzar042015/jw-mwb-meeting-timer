@@ -1,98 +1,111 @@
+const meetingSchedule = "Meetings | Nov 7-13"
 const source = [
     {
         name: "Public Talk",
         class: "m-public",
         minutes: 30,
-        participant: ""
+        participant: "",
+        hasParticipation: false
     },
     {
         name: "Watchtower Study",
         class: "m-public",
         minutes: 50,
-        participant: ""
+        participant: "",
+        hasParticipation: true
     },
     {
         name: "Opening Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "KD"
+        participant: "JD",
+        hasParticipation: false
     },
     {
-        name: "Pick Up Your Son",
+        name: "There Are More With us",
         class: "m-mwb",
         minutes: 10,
-        participant: "JD"
+        participant: "MW",
+        hasParticipation: false
     },
     {
         name: "Spiritual Gems",
         class: "m-mwb",
         minutes: 10,
-        participant: "KD"
+        participant: "KD",
+        hasParticipation: true
     },
     {
         name: "Bible Reading",
         class: "m-mwb",
         minutes: 4,
-        participant: "ER"
+        participant: "GA",
+        hasParticipation: false
+
     },
     {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "KD"
+        participant: "JD",
+        hasParticipation: false
+
+    },
+    {
+        name: "Initial Call: Video",
+        class: "m-mwb",
+        minutes: 5,
+        participant: "JD",
+        hasParticipation: true
+
     },
     {
         name: "Initial Call",
         class: "m-mwb",
         minutes: 3,
-        participant: "JC/NE"
+        participant: "JI/MG",
+        hasParticipation: false
     },
     {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "KD"
+        participant: "JD",
+        hasParticipation: false
     },
     {
-        name: "Return Visit",
-        class: "m-mwb",
-        minutes: 4,
-        participant: "GC/KB"
-    },
-    {
-        name: "Chairman's Comments",
-        class: "m-mwb",
-        minutes: 1,
-        participant: "KD"
-    },
-    {
-        name: "Talk",
+        name: "Bible Study",
         class: "m-mwb",
         minutes: 5,
-        participant: "JD"
+        participant: "MO/Z",
+        hasParticipation: false
     },
     {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "KD"
+        participant: "JD",
+        hasParticipation: false
     },
     {
-        name: "Until the Resurrection Becomes Reality",
+        name: "Practive Giving",
         class: "m-mwb",
         minutes: 15,
-        participant: "JT"
+        participant: "KD",
+        hasParticipation: true
     },
     {
-        name: "CBS: llf 10",
+        name: "CBS: llf 11",
         class: "m-mwb",
         minutes: 20,
-        participant: "MW"
+        participant: "JT",
+        hasParticipation: true
     },
     {
         name: "Concluding Comments",
         class: "m-mwb",
         minutes: 3,
-        participant: "KD"
+        participant: "JD",
+        hasParticipation: false
     }
 ]
