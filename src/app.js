@@ -2,6 +2,7 @@ $(document).ready(function () {
   timerui.loadSources()
   timerui.init()
   timerui.setActiveName()
+  overall.init()
 });
 
 const timerui = {
