@@ -37,7 +37,7 @@ const timerui = {
     let warning = 0;
 
     if (limit <= 60) {
-      warning = limit;
+      warning = limit - 10;
     } else if (limit <= 180) {
       warning = limit - 30;
     } else if (limit > 190) {
