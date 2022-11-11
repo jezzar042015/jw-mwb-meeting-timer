@@ -19,28 +19,28 @@ const source = [
         name: "Opening Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JD",
-        hasParticipation: false
-    },
-    {
-        name: '"There Are More With Us Than With Them"',
-        class: "m-mwb",
-        minutes: 10,
         participant: "MW",
         hasParticipation: false
     },
     {
-        name: "Spiritual Gems",
+        name: '"Jehovah Made the Unexpected Happen"',
         class: "m-mwb",
         minutes: 10,
-        participant: "KD",
+        participant: "JT",
+        hasParticipation: false
+    },
+    {
+        name: "Spiritual Gems: 2 Kings 7-8",
+        class: "m-mwb",
+        minutes: 10,
+        participant: "JD",
         hasParticipation: true
     },
     {
         name: "Bible Reading",
         class: "m-mwb",
         minutes: 4,
-        participant: "GA",
+        participant: "3D",
         hasParticipation: false
 
     },
@@ -48,65 +48,65 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JD",
+        participant: "MW",
         hasParticipation: false
 
     },
     {
-        name: "Initial Call: Video",
+        name: "Return Visit: Video",
         class: "m-mwb",
         minutes: 5,
-        participant: "JD",
+        participant: "MW",
         hasParticipation: true
 
     },
     {
-        name: "Initial Call",
+        name: "Return Visit",
         class: "m-mwb",
-        minutes: 3,
-        participant: "JI/MG",
+        minutes: 4,
+        participant: "MD/NB",
         hasParticipation: false
     },
     {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JD",
+        participant: "MW",
         hasParticipation: false
     },
     {
-        name: "Bible Study",
+        name: "Return Visit",
         class: "m-mwb",
-        minutes: 5,
-        participant: "MO/Z",
+        minutes: 4,
+        participant: "CH/Jane",
         hasParticipation: false
     },
     {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JD",
+        participant: "MW",
         hasParticipation: false
     },
     {
-        name: "Practive Giving",
+        name: "Governing Body Update #7",
         class: "m-mwb",
         minutes: 15,
-        participant: "KD",
+        participant: "MW",
         hasParticipation: true
     },
     {
-        name: "CBS: llf 11",
+        name: "CBS: llf 12",
         class: "m-mwb",
         minutes: 20,
-        participant: "JT",
+        participant: "KD",
         hasParticipation: true
     },
     {
         name: "Concluding Comments",
         class: "m-mwb",
         minutes: 3,
-        participant: "JD",
+        participant: "MW",
         hasParticipation: false
     }
 ]

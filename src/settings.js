@@ -95,8 +95,17 @@ const overall = {
         let c = current.getTime()
         let s = start.getTime()
 
-        if (s > c) {
-            console.log((s - c) / 1000);
+        $("#countdown").toggle(s + 30000 > c)
+
+        if (s + 30000 > c && $("#countdown").text() == 'Hide Count Down') {
+            let seconds = (s - c) / 1000
+
+            if (seconds < 0) seconds = 0
+
+            timerui.displayTime(seconds)
+
+            if (seconds <= 300 && seconds > 180) { timerui.raiseAlert('warning') }
+            if (seconds <= 180) { timerui.raiseAlert('overtime') }
         }
     },
     progress() {
@@ -106,7 +115,7 @@ const overall = {
         let d = overall.getDuration(meeting)
         let c = p / d * w
 
-        if (c > 1.5) c = 0
+
         if (c > w) c = w
         if (c < 0) c = 0
 

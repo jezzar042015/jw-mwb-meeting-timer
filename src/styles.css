@@ -233,7 +233,7 @@ button:focus {
 .store-controls {
   position: absolute;
   right: 15px;
-  bottom: 15px;
+  bottom: 35px;
 }
 
 .store-controls button {
@@ -260,6 +260,9 @@ button:focus {
 }
 
 #zoom {
+  display: none;
+}
+#countdown {
   display: none;
 }
 /* width */

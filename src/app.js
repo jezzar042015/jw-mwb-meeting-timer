@@ -75,13 +75,10 @@ const timerui = {
     let s = seconds % 60;
     let m = Math.floor(seconds / 60) % 60;
     let h = Math.floor(seconds / 3600);
-    // $("#second").text(s < 10 ? "" + 0 + s : s);
     $("#second1").text(s % 10);
     $("#second2").text(Number.parseInt((s % 100) / 10));
-    // $("#minute").text(m < 10 ? "" + 0 + m : m);
     $("#minute1").text(m % 10);
     $("#minute2").text(Number.parseInt((m % 100) / 10));
-
     $("#hour1").text(h % 10);
     $("#hour2").text(Number.parseInt((h % 100) / 10));
   },
@@ -223,7 +220,7 @@ const timerui = {
         $(this).html("STOP");
         timerui.start();
         timerui.disableRestrictedOptions();
-        $(".sidebar").animate({ width: 'toggle' }, 00);
+        $(".sidebar").animate({ width: 'toggle' }, 0);
         $(".display").width(window.outerWidth + 'px')
       }
     });
@@ -246,6 +243,25 @@ const timerui = {
 
     $("#store-download").on("click", function () {
       timerui.downloadSource();
+    });
+
+    $("#countdown").on("click", function () {
+      if ($("#countdown").text() == 'Hide Count Down') {
+        timerui.removeAlerts()
+        $("#countdown").text('Show Count Down')
+        $(".display").width('auto')
+        $(".sidebar").animate({ width: 'toggle' }, 0);
+        $(".controls").toggle(true)
+
+        $("#countdown").toggle($('#progress-bar-runtime').width() < 0)
+
+      } else {
+        $("#countdown").text('Hide Count Down')
+        $(".sidebar").animate({ width: 'toggle' }, 0);
+        $(".display").width(window.outerWidth + 'px');
+        $(".controls").toggle(false)
+        $('#active-part').children('span').text('Meeting starts in...')
+      }
     });
   },
   loadSources: function () {
