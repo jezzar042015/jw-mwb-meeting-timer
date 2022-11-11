@@ -78,6 +78,27 @@ const overall = {
 
         return (end.getTime() - start.getTime())
     },
+    countdown() {
+        let meeting = $('#meeting-selector').val()
+        let current = new Date()
+        let start = new Date()
+
+        const setting = overall.settings[meeting]
+
+        start.setDate(current.getDate())
+        start.setMonth(current.getMonth())
+        start.setFullYear(current.getFullYear())
+        start.setHours(setting.start.split(":")[0])
+        start.setMinutes(setting.start.split(":")[1])
+        start.setSeconds(setting.start.split(":")[2])
+
+        let c = current.getTime()
+        let s = start.getTime()
+
+        if (s > c) {
+            console.log((s - c) / 1000);
+        }
+    },
     progress() {
         let meeting = $('#meeting-selector').val()
         let w = $('#progress-bar-base').width()
@@ -94,7 +115,7 @@ const overall = {
     init() {
         setInterval(() => {
             overall.progress()
-            console.log('progress set')
+            overall.countdown()
         }, 100);
     }
 }
