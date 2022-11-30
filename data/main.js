@@ -1,4 +1,4 @@
-const meetingSchedule = "Meetings | Nov 7-13"
+const meetingSchedule = "Meetings | Nov 27-Dec 3"
 
 const source = [
     {
@@ -19,18 +19,18 @@ const source = [
         name: "Opening Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
     },
     {
-        name: '"Jehovah Made the Unexpected Happen"',
+        name: 'An Ambitious, Wicked Woman Does Not Go Unpunished',
         class: "m-mwb",
         minutes: 10,
-        participant: "JT",
+        participant: "KD",
         hasParticipation: false
     },
     {
-        name: "Spiritual Gems: 2 Kings 7-8",
+        name: "Spiritual Gems: 2 Kings 11-12",
         class: "m-mwb",
         minutes: 10,
         participant: "JD",
@@ -40,7 +40,7 @@ const source = [
         name: "Bible Reading",
         class: "m-mwb",
         minutes: 4,
-        participant: "3D",
+        participant: "ER",
         hasParticipation: false
 
     },
@@ -53,60 +53,67 @@ const source = [
 
     },
     {
-        name: "Return Visit: Video",
+        name: "First Conversation",
         class: "m-mwb",
-        minutes: 5,
-        participant: "MW",
-        hasParticipation: true
-
-    },
-    {
-        name: "Return Visit",
-        class: "m-mwb",
-        minutes: 4,
-        participant: "MD/NB",
+        minutes: 3,
+        participant: "NE/GC",
         hasParticipation: false
+
     },
     {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
     },
     {
         name: "Return Visit",
         class: "m-mwb",
         minutes: 4,
-        participant: "CH/Jane",
+        participant: "KB/JI",
         hasParticipation: false
     },
     {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
     },
     {
-        name: "Governing Body Update #7",
+        name: "Bible Study | lff 8: Dig Deeper; 4",
+        class: "m-mwb",
+        minutes: 4,
+        participant: "Z/JC",
+        hasParticipation: false
+    },
+    {
+        name: "Chairman's Comments",
+        class: "m-mwb",
+        minutes: 1,
+        participant: "JD",
+        hasParticipation: false
+    },
+    {
+        name: "Why Should Christians Reach Out?",
         class: "m-mwb",
         minutes: 15,
-        participant: "MW",
+        participant: "JT",
         hasParticipation: true
     },
     {
         name: "CBS: llf 12",
         class: "m-mwb",
         minutes: 20,
-        participant: "KD",
+        participant: "MW",
         hasParticipation: true
     },
     {
         name: "Concluding Comments",
         class: "m-mwb",
         minutes: 3,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
     }
 ]
