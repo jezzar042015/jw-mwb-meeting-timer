@@ -1,4 +1,4 @@
-const meetingSchedule = "Meetings | Nov 7-13"
+const meetingSchedule = "Meetings | Dec 12-18"
 
 const source = [
     {
@@ -30,17 +30,17 @@ const source = [
         hasParticipation: false
     },
     {
-        name: '"Jehovah Made the Unexpected Happen"',
-        class: "m-mwb",
-        minutes: 10,
-        participant: "JT",
-        hasParticipation: false
-    },
-    {
-        name: "Spiritual Gems: 2 Kings 7-8",
+        name: '"Jehovahs Patience Has Limits"',
         class: "m-mwb",
         minutes: 10,
         participant: "JD",
+        hasParticipation: false
+    },
+    {
+        name: "Spiritual Gems: 2 Kings 16-17",
+        class: "m-mwb",
+        minutes: 10,
+        participant: "MW",
         hasParticipation: true
     },
     {
@@ -60,21 +60,14 @@ const source = [
 
     },
     {
-        name: "Return Visit: Video",
+        name: "First Conversation",
         class: "m-mwb",
-        minutes: 5,
-        participant: "MW",
-        hasParticipation: true
+        minutes: 3,
+        participant: "Ji/Z",
+        hasParticipation: false
 
     },
     {
-        name: "Return Visit",
-        class: "m-mwb",
-        minutes: 4,
-        participant: "MD/NB",
-        hasParticipation: false
-    },
-    {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
@@ -85,7 +78,7 @@ const source = [
         name: "Return Visit",
         class: "m-mwb",
         minutes: 4,
-        participant: "CH/Jane",
+        participant: "CW/Jane",
         hasParticipation: false
     },
     {
@@ -96,17 +89,38 @@ const source = [
         hasParticipation: false
     },
     {
-        name: "Governing Body Update #7",
+        name: "BS:lff 8:5",
         class: "m-mwb",
-        minutes: 15,
+        minutes: 5,
+        participant: "CH/KB",
+        hasParticipation: false
+    },
+    {
+        name: "Chairman's Comments",
+        class: "m-mwb",
+        minutes: 1,
         participant: "MW",
+        hasParticipation: false
+    },
+    {
+        name: "Look to the End...With Confidence",
+        class: "m-mwb",
+        minutes: 5,
+        participant: "KD",
         hasParticipation: true
     },
     {
-        name: "CBS: llf 12",
+        name: "Organizational Accomplishments",
         class: "m-mwb",
-        minutes: 20,
-        participant: "KD",
+        minutes: 10,
+        participant: "MW",
+        hasParticipation: false
+    },
+    {
+        name: "CBS: lff 15",
+        class: "m-mwb",
+        minutes: 15,
+        participant: "JT",
         hasParticipation: true
     },
     {
