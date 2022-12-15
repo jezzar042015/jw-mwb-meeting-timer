@@ -119,7 +119,7 @@ const source = [
     {
         name: "CBS: lff 15",
         class: "m-mwb",
-        minutes: 15,
+        minutes: 20,
         participant: "JT",
         hasParticipation: true
     },
