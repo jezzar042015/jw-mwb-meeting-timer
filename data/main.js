@@ -1,4 +1,4 @@
-const meetingSchedule = "Meetings | Dec 12-18"
+const meetingSchedule = "Meetings | Dec 19-25"
 
 const source = [
     {
@@ -19,28 +19,28 @@ const source = [
         name: "Opening Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
-        hasParticipation: false
-    },
-    {
-        name: '"Jehovahs Patience Has Limits"',
-        class: "m-mwb",
-        minutes: 10,
         participant: "JD",
         hasParticipation: false
     },
     {
-        name: "Spiritual Gems: 2 Kings 16-17",
+        name: '"How Our Opposers Try to Weaken Us"',
         class: "m-mwb",
         minutes: 10,
-        participant: "MW",
+        participant: "KD",
+        hasParticipation: false
+    },
+    {
+        name: "Spiritual Gems: 2 Kings 18-19",
+        class: "m-mwb",
+        minutes: 10,
+        participant: "JT",
         hasParticipation: true
     },
     {
         name: "Bible Reading",
         class: "m-mwb",
         minutes: 4,
-        participant: "3D",
+        participant: "RC",
         hasParticipation: false
 
     },
@@ -48,7 +48,7 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
 
     },
@@ -56,7 +56,7 @@ const source = [
         name: "First Conversation",
         class: "m-mwb",
         minutes: 3,
-        participant: "Ji/Z",
+        participant: "JC/NB",
         hasParticipation: false
 
     },
@@ -64,63 +64,56 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
     },
     {
         name: "Return Visit",
         class: "m-mwb",
         minutes: 4,
-        participant: "CW/Jane",
+        participant: "MG/NE",
         hasParticipation: false
     },
     {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
     },
     {
-        name: "BS:lff 8:5",
+        name: "Talk - w20.11 46:14",
         class: "m-mwb",
         minutes: 5,
-        participant: "CH/KB",
-        hasParticipation: false
-    },
-    {
-        name: "Chairman's Comments",
-        class: "m-mwb",
-        minutes: 1,
-        participant: "MW",
-        hasParticipation: false
-    },
-    {
-        name: "Look to the End...With Confidence",
-        class: "m-mwb",
-        minutes: 5,
-        participant: "KD",
-        hasParticipation: true
-    },
-    {
-        name: "Organizational Accomplishments",
-        class: "m-mwb",
-        minutes: 10,
-        participant: "MW",
-        hasParticipation: false
-    },
-    {
-        name: "CBS: lff 15",
-        class: "m-mwb",
-        minutes: 20,
         participant: "JT",
+        hasParticipation: false
+    },
+    {
+        name: "Chairman's Comments",
+        class: "m-mwb",
+        minutes: 1,
+        participant: "JD",
+        hasParticipation: false
+    },
+    {
+        name: "2022 Governing Body Update #8",
+        class: "m-mwb",
+        minutes: 15,
+        participant: "JD",
+        hasParticipation: false
+    },
+    {
+        name: "CBS: lff 16",
+        class: "m-mwb",
+        minutes: 30,
+        participant: "MW",
         hasParticipation: true
     },
     {
         name: "Concluding Comments",
         class: "m-mwb",
         minutes: 3,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
     }
 ]
