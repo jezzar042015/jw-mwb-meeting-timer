@@ -19,7 +19,7 @@ const source = [
         name: "Opening Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JD",
+        participant: "JT",
         hasParticipation: false
     },
     {
@@ -48,7 +48,7 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JD",
+        participant: "JT",
         hasParticipation: false
 
     },
@@ -64,7 +64,7 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JD",
+        participant: "JT",
         hasParticipation: false
     },
     {
@@ -78,34 +78,34 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JD",
+        participant: "JT",
         hasParticipation: false
     },
     {
         name: "Talk - w20.11 46:14",
         class: "m-mwb",
         minutes: 5,
-        participant: "JT",
+        participant: "AB",
         hasParticipation: false
     },
     {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JD",
+        participant: "JT",
         hasParticipation: false
     },
     {
         name: "2022 Governing Body Update #8",
         class: "m-mwb",
-        minutes: 15,
-        participant: "JD",
+        minutes: 20,
+        participant: "JT",
         hasParticipation: false
     },
     {
         name: "CBS: lff 16",
         class: "m-mwb",
-        minutes: 30,
+        minutes: 15,
         participant: "MW",
         hasParticipation: true
     },
@@ -113,7 +113,7 @@ const source = [
         name: "Concluding Comments",
         class: "m-mwb",
         minutes: 3,
-        participant: "JD",
+        participant: "JT",
         hasParticipation: false
     }
 ]
