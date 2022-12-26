@@ -1,4 +1,4 @@
-const meetingSchedule = "Meetings | Dec 19-25"
+const meetingSchedule = "Meetings | Dec 26 - Jan 1"
 
 const source = [
     {
@@ -19,28 +19,28 @@ const source = [
         name: "Opening Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JT",
+        participant: "MW",
         hasParticipation: false
     },
     {
-        name: '"How Our Opposers Try to Weaken Us"',
+        name: '"Prayer Moved Jehovah to Intervene"',
         class: "m-mwb",
         minutes: 10,
         participant: "KD",
         hasParticipation: false
     },
     {
-        name: "Spiritual Gems: 2 Kings 18-19",
+        name: "Spiritual Gems: 2 Kings 20-21",
         class: "m-mwb",
         minutes: 10,
-        participant: "JT",
+        participant: "MW",
         hasParticipation: true
     },
     {
         name: "Bible Reading",
         class: "m-mwb",
         minutes: 4,
-        participant: "RC",
+        participant: "GA",
         hasParticipation: false
 
     },
@@ -48,7 +48,7 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JT",
+        participant: "MW",
         hasParticipation: false
 
     },
@@ -56,7 +56,7 @@ const source = [
         name: "First Conversation",
         class: "m-mwb",
         minutes: 3,
-        participant: "JC/NB",
+        participant: "ER/JT",
         hasParticipation: false
 
     },
@@ -64,56 +64,56 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JT",
+        participant: "MW",
         hasParticipation: false
     },
     {
         name: "Return Visit",
         class: "m-mwb",
         minutes: 4,
-        participant: "MG/NE",
+        participant: "MO/CW",
         hasParticipation: false
     },
     {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JT",
+        participant: "MW",
         hasParticipation: false
     },
     {
-        name: "Talk - w20.11 46:14",
+        name: "BS: lff 8:6",
         class: "m-mwb",
         minutes: 5,
-        participant: "AB",
+        participant: "KB/CH",
         hasParticipation: false
     },
     {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JT",
+        participant: "MW",
         hasParticipation: false
     },
     {
-        name: "2022 Governing Body Update #8",
-        class: "m-mwb",
-        minutes: 20,
-        participant: "JT",
-        hasParticipation: false
-    },
-    {
-        name: "CBS: lff 16",
+        name: "Our Prayers Are Precious to Jehovah",
         class: "m-mwb",
         minutes: 15,
-        participant: "MW",
+        participant: "JT",
+        hasParticipation: true
+    },
+    {
+        name: "CBS: lff 17",
+        class: "m-mwb",
+        minutes: 30,
+        participant: "JD",
         hasParticipation: true
     },
     {
         name: "Concluding Comments",
         class: "m-mwb",
         minutes: 3,
-        participant: "JT",
+        participant: "MW",
         hasParticipation: false
     }
 ]
