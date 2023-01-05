@@ -1,4 +1,4 @@
-const meetingSchedule = "Meetings | Dec 26 - Jan 1"
+const meetingSchedule = "Meetings | Jan 2 - 8"
 
 const source = [
     {
@@ -23,24 +23,24 @@ const source = [
         hasParticipation: false
     },
     {
-        name: '"Prayer Moved Jehovah to Intervene"',
+        name: '"Why Be Humble?"',
         class: "m-mwb",
         minutes: 10,
         participant: "KD",
         hasParticipation: false
     },
     {
-        name: "Spiritual Gems: 2 Kings 20-21",
+        name: "Spiritual Gems: 2 Kings 22-23",
         class: "m-mwb",
         minutes: 10,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: true
     },
     {
         name: "Bible Reading",
         class: "m-mwb",
         minutes: 4,
-        participant: "GA",
+        participant: "ER",
         hasParticipation: false
 
     },
@@ -51,27 +51,27 @@ const source = [
         participant: "MW",
         hasParticipation: false
 
+    },
+    {
+        name: "First Conversation: Video",
+        class: "m-mwb",
+        minutes: 5,
+        participant: "MW",
+        hasParticipation: true
+
+    },
+    {
+        name: "Chairman's Comments",
+        class: "m-mwb",
+        minutes: 1,
+        participant: "MW",
+        hasParticipation: false
     },
     {
         name: "First Conversation",
         class: "m-mwb",
         minutes: 3,
-        participant: "ER/JT",
-        hasParticipation: false
-
-    },
-    {
-        name: "Chairman's Comments",
-        class: "m-mwb",
-        minutes: 1,
-        participant: "MW",
-        hasParticipation: false
-    },
-    {
-        name: "Return Visit",
-        class: "m-mwb",
-        minutes: 4,
-        participant: "MO/CW",
+        participant: "Ji/GC",
         hasParticipation: false
     },
     {
@@ -82,10 +82,10 @@ const source = [
         hasParticipation: false
     },
     {
-        name: "BS: lff 8:6",
+        name: "First Conversation",
         class: "m-mwb",
         minutes: 5,
-        participant: "KB/CH",
+        participant: "CW/NE",
         hasParticipation: false
     },
     {
@@ -96,17 +96,17 @@ const source = [
         hasParticipation: false
     },
     {
-        name: "Our Prayers Are Precious to Jehovah",
+        name: "Humble or Haughty?-Jas 4:6",
         class: "m-mwb",
         minutes: 15,
-        participant: "JT",
+        participant: "JD",
         hasParticipation: true
     },
     {
-        name: "CBS: lff 17",
+        name: "CBS: lff 18:1-5",
         class: "m-mwb",
         minutes: 30,
-        participant: "JD",
+        participant: "JT",
         hasParticipation: true
     },
     {
