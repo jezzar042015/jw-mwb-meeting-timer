@@ -1,4 +1,4 @@
-const meetingSchedule = "Meetings | Jan 2 - 8"
+const meetingSchedule = "Meetings | Jan 9 - 15"
 
 const source = [
     {
@@ -19,28 +19,28 @@ const source = [
         name: "Opening Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
-        hasParticipation: false
-    },
-    {
-        name: '"Why Be Humble?"',
-        class: "m-mwb",
-        minutes: 10,
-        participant: "KD",
-        hasParticipation: false
-    },
-    {
-        name: "Spiritual Gems: 2 Kings 22-23",
-        class: "m-mwb",
-        minutes: 10,
         participant: "JD",
+        hasParticipation: false
+    },
+    {
+        name: '"Maintain Your Sense of Urgency"',
+        class: "m-mwb",
+        minutes: 10,
+        participant: "JT",
+        hasParticipation: false
+    },
+    {
+        name: "Spiritual Gems: 2 Kings 24-25",
+        class: "m-mwb",
+        minutes: 10,
+        participant: "MW",
         hasParticipation: true
     },
     {
         name: "Bible Reading",
         class: "m-mwb",
         minutes: 4,
-        participant: "ER",
+        participant: "AN",
         hasParticipation: false
 
     },
@@ -48,72 +48,65 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
 
     },
     {
-        name: "First Conversation: Video",
+        name: "Return Visit: Video",
         class: "m-mwb",
         minutes: 5,
-        participant: "MW",
-        hasParticipation: true
-
-    },
-    {
-        name: "Chairman's Comments",
-        class: "m-mwb",
-        minutes: 1,
-        participant: "MW",
-        hasParticipation: false
-    },
-    {
-        name: "First Conversation",
-        class: "m-mwb",
-        minutes: 3,
-        participant: "Ji/GC",
-        hasParticipation: false
-    },
-    {
-        name: "Chairman's Comments",
-        class: "m-mwb",
-        minutes: 1,
-        participant: "MW",
-        hasParticipation: false
-    },
-    {
-        name: "First Conversation",
-        class: "m-mwb",
-        minutes: 5,
-        participant: "CW/NE",
-        hasParticipation: false
-    },
-    {
-        name: "Chairman's Comments",
-        class: "m-mwb",
-        minutes: 1,
-        participant: "MW",
-        hasParticipation: false
-    },
-    {
-        name: "Humble or Haughty?-Jas 4:6",
-        class: "m-mwb",
-        minutes: 15,
         participant: "JD",
         hasParticipation: true
+
     },
     {
-        name: "CBS: lff 18:1-5",
+        name: "Return Visit",
+        class: "m-mwb",
+        minutes: 3,
+        participant: "JC/MO",
+        hasParticipation: false
+    },
+    {
+        name: "Chairman's Comments",
+        class: "m-mwb",
+        minutes: 1,
+        participant: "JD",
+        hasParticipation: false
+    },
+    {
+        name: "Return Visit",
+        class: "m-mwb",
+        minutes: 5,
+        participant: "Z/MG",
+        hasParticipation: false
+    },
+    {
+        name: "Chairman's Comments",
+        class: "m-mwb",
+        minutes: 1,
+        participant: "JD",
+        hasParticipation: false
+    },
+    {
+        name: "Local Needs",
+        class: "m-mwb",
+        minutes: 15,
+        participant: "KD",
+        hasParticipation: false
+    },
+    {
+        name: "CBS: lff 18:6-7; Summary; Review; Goal",
         class: "m-mwb",
         minutes: 20,
-        participant: "JT",
+        participant: "MW",
         hasParticipation: true
     },
     {
         name: "Concluding Comments",
         class: "m-mwb",
         minutes: 3,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
     }
 ]
