@@ -1,4 +1,4 @@
-const meetingSchedule = "Meetings | Jan 23 - 29"
+const meetingSchedule = "Meetings | Jan 30 - Feb 5"
 
 const source = [
     {
@@ -19,28 +19,28 @@ const source = [
         name: "Opening Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JD",
+        participant: "KD",
         hasParticipation: false
     },
     {
-        name: '"What Do My Prayers Reveal About Me?"',
+        name: '"You Can Fulfill... Assignments With Jehovahs Help"',
         class: "m-mwb",
         minutes: 10,
         participant: "MW",
         hasParticipation: false
     },
     {
-        name: "Spiritual Gems: 1 Chronicles 4-6",
+        name: "Spiritual Gems: 1 Chronicles 7-9",
         class: "m-mwb",
         minutes: 10,
-        participant: "JD",
+        participant: "KD",
         hasParticipation: true
     },
     {
         name: "Bible Reading",
         class: "m-mwb",
         minutes: 4,
-        participant: "RC",
+        participant: "GA",
         hasParticipation: false
 
     },
@@ -48,7 +48,7 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JD",
+        participant: "KD",
         hasParticipation: false
 
     },
@@ -56,7 +56,7 @@ const source = [
         name: "First Conversation",
         class: "m-mwb",
         minutes: 3,
-        participant: "MO/Ji",
+        participant: "KB/CH",
         hasParticipation: false
 
     },
@@ -64,7 +64,7 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JD",
+        participant: "KD",
         hasParticipation: false
         
     },
@@ -72,49 +72,49 @@ const source = [
         name: "Return Visit",
         class: "m-mwb",
         minutes: 4,
-        participant: "GC/Z",
+        participant: "BD/JC",
         hasParticipation: false
     },
     {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JD",
+        participant: "KD",
         hasParticipation: false
     },
     {
-        name: "BS: lff 8:Summary; Review; Goal",
+        name: "Talk: w21.06 22:3-8",
         class: "m-mwb",
         minutes: 5,
-        participant: "NE/MG",
+        participant: "AB",
         hasParticipation: false
     },
     {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JD",
+        participant: "KD",
         hasParticipation: false
     },
     {
-        name: "Prepare Now for a Medical Emergency",
+        name: "Jehovah Helps Us Through Our Trials",
         class: "m-mwb",
         minutes: 15,
-        participant: "JT",
+        participant: "JD",
         hasParticipation: true
     },
     {
-        name: "CBS: lff 19:5-6; Summary; Review; Goal",
+        name: "CBS: lff 20",
         class: "m-mwb",
         minutes: 20,
-        participant: "KD",
+        participant: "JT",
         hasParticipation: true
     },
     {
         name: "Concluding Comments",
         class: "m-mwb",
         minutes: 3,
-        participant: "JD",
+        participant: "KD",
         hasParticipation: false
     }
 ]
