@@ -19,18 +19,18 @@ const source = [
         name: "Opening Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
     },
     {
-        name: '"Maintain Your Joy Despite Disappointments"',
+        name: '"Help Younger Ones to Succeed"',
         class: "m-mwb",
         minutes: 10,
         participant: "JT",
         hasParticipation: false
     },
     {
-        name: "Spiritual Gems: 1 Chronicles 17-19",
+        name: "Spiritual Gems: 1 Chronicles 20-22",
         class: "m-mwb",
         minutes: 10,
         participant: "MW",
@@ -40,7 +40,7 @@ const source = [
         name: "Bible Reading",
         class: "m-mwb",
         minutes: 4,
-        participant: "RC",
+        participant: "ER",
         hasParticipation: false
 
     },
@@ -48,7 +48,7 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
 
     },
@@ -56,7 +56,7 @@ const source = [
         name: "First Conversation",
         class: "m-mwb",
         minutes: 3,
-        participant: "JC/Jane",
+        participant: "RB/NB",
         hasParticipation: false
 
     },
@@ -64,7 +64,7 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
         
     },
@@ -72,49 +72,56 @@ const source = [
         name: "Return Visit",
         class: "m-mwb",
         minutes: 4,
-        participant: "KB/GC",
+        participant: "MD/NE",
         hasParticipation: false
     },
     {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
     },
     {
-        name: "BS: lff 9:4",
+        name: "Talk: w16.03-ASL 2:10-15",
         class: "m-mwb",
         minutes: 5,
-        participant: "CH/Ji",
+        participant: "AB",
         hasParticipation: false
     },
     {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
     },
     {
-        name: "Annual Service Report",
+        name: "Use Bible Principles Help Your Childred Succeed",
         class: "m-mwb",
-        minutes: 15,
+        minutes: 10,
         participant: "JT",
         hasParticipation: true
     },
     {
-        name: "CBS: lff 23",
+        name: "Local Needs",
+        class: "m-mwb",
+        minutes: 5,
+        participant: "JD",
+        hasParticipation: false
+    },
+    {
+        name: "CBS: lff 24",
         class: "m-mwb",
         minutes: 20,
-        participant: "JD",
+        participant: "MW",
         hasParticipation: true
     },
     {
         name: "Concluding Comments",
         class: "m-mwb",
         minutes: 3,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
     }
 ]
