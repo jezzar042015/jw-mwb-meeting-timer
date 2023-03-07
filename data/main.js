@@ -1,4 +1,4 @@
-const meetingSchedule = "Meetings | Feb 13 - 19"
+const meetingSchedule = "Meetings | Mar 6 - 12"
 
 const source = [
     {
@@ -19,18 +19,18 @@ const source = [
         name: "Opening Comments",
         class: "m-mwb",
         minutes: 1,
+        participant: "MW",
+        hasParticipation: false
+    },
+    {
+        name: '"Temple Worship Becomes Highly Organized"',
+        class: "m-mwb",
+        minutes: 10,
         participant: "JD",
         hasParticipation: false
     },
     {
-        name: '"Help Younger Ones to Succeed"',
-        class: "m-mwb",
-        minutes: 10,
-        participant: "JT",
-        hasParticipation: false
-    },
-    {
-        name: "Spiritual Gems: 1 Chronicles 20-22",
+        name: "Spiritual Gems: 1 Chronicles 23-26",
         class: "m-mwb",
         minutes: 10,
         participant: "MW",
@@ -40,7 +40,7 @@ const source = [
         name: "Bible Reading",
         class: "m-mwb",
         minutes: 4,
-        participant: "ER",
+        participant: "3D",
         hasParticipation: false
 
     },
@@ -48,42 +48,34 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JD",
+        participant: "MW",
         hasParticipation: false
 
     },
     {
-        name: "First Conversation",
+        name: "Memorial Invitation Video",
+        class: "m-mwb",
+        minutes: 5,
+        participant: "MW",
+        hasParticipation: true
+
+    },
+    {
+        name: "Memorial Invitation",
         class: "m-mwb",
         minutes: 3,
-        participant: "RB/NB",
-        hasParticipation: false
-
-    },
-    {
-        name: "Chairman's Comments",
-        class: "m-mwb",
-        minutes: 1,
-        participant: "JD",
-        hasParticipation: false
-        
-    },
-    {
-        name: "Return Visit",
-        class: "m-mwb",
-        minutes: 4,
-        participant: "MD/NE",
+        participant: "Z/MG",
         hasParticipation: false
     },
     {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JD",
+        participant: "MW",
         hasParticipation: false
     },
     {
-        name: "Talk: w16.03-ASL 2:10-15",
+        name: "Talk: fg 14:2-4",
         class: "m-mwb",
         minutes: 5,
         participant: "AB",
@@ -93,35 +85,35 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JD",
+        participant: "MW",
         hasParticipation: false
     },
     {
-        name: "Use Bible Principles Help Your Childred Succeed",
+        name: "How to Help After a Disaster",
         class: "m-mwb",
         minutes: 10,
         participant: "JT",
         hasParticipation: true
     },
     {
-        name: "Local Needs",
+        name: "Memorial Campaign...Saturday, March 11",
         class: "m-mwb",
         minutes: 5,
         participant: "JD",
-        hasParticipation: false
+        hasParticipation: true
     },
     {
-        name: "CBS: lff 24",
+        name: "CBS: lff 25",
         class: "m-mwb",
         minutes: 20,
-        participant: "MW",
+        participant: "JT",
         hasParticipation: true
     },
     {
         name: "Concluding Comments",
         class: "m-mwb",
         minutes: 3,
-        participant: "JD",
+        participant: "MW",
         hasParticipation: false
     }
 ]
