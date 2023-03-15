@@ -1,4 +1,4 @@
-const meetingSchedule = "Meetings | Mar 6 - 12"
+const meetingSchedule = "Meetings | Mar 13 - 19"
 
 const source = [
     {
@@ -19,18 +19,18 @@ const source = [
         name: "Opening Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
-        hasParticipation: false
-    },
-    {
-        name: '"Temple Worship Becomes Highly Organized"',
-        class: "m-mwb",
-        minutes: 10,
         participant: "JD",
         hasParticipation: false
     },
     {
-        name: "Spiritual Gems: 1 Chronicles 23-26",
+        name: '"A Fathers Loving Admonition to His Son"',
+        class: "m-mwb",
+        minutes: 10,
+        participant: "JT",
+        hasParticipation: false
+    },
+    {
+        name: "Spiritual Gems: 1 Chronicles 27-29",
         class: "m-mwb",
         minutes: 10,
         participant: "MW",
@@ -40,7 +40,7 @@ const source = [
         name: "Bible Reading",
         class: "m-mwb",
         minutes: 4,
-        participant: "3D",
+        participant: "AN",
         hasParticipation: false
 
     },
@@ -48,72 +48,72 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
 
     },
     {
-        name: "Memorial Invitation Video",
-        class: "m-mwb",
-        minutes: 5,
-        participant: "MW",
-        hasParticipation: true
-
-    },
-    {
-        name: "Memorial Invitation",
-        class: "m-mwb",
-        minutes: 3,
-        participant: "Z/MG",
-        hasParticipation: false
-    },
-    {
-        name: "Chairman's Comments",
-        class: "m-mwb",
-        minutes: 1,
-        participant: "MW",
-        hasParticipation: false
-    },
-    {
-        name: "Talk: fg 14:2-4",
-        class: "m-mwb",
-        minutes: 5,
-        participant: "AB",
-        hasParticipation: false
-    },
-    {
-        name: "Chairman's Comments",
-        class: "m-mwb",
-        minutes: 1,
-        participant: "MW",
-        hasParticipation: false
-    },
-    {
-        name: "How to Help After a Disaster",
-        class: "m-mwb",
-        minutes: 10,
-        participant: "JT",
-        hasParticipation: true
-    },
-    {
-        name: "Memorial Campaign...Saturday, March 11",
+        name: "Return Visit Video",
         class: "m-mwb",
         minutes: 5,
         participant: "JD",
         hasParticipation: true
+
     },
     {
-        name: "CBS: lff 25",
+        name: "Return Visit",
+        class: "m-mwb",
+        minutes: 4,
+        participant: "CW/K",
+        hasParticipation: false
+    },
+    {
+        name: "Chairman's Comments",
+        class: "m-mwb",
+        minutes: 1,
+        participant: "JD",
+        hasParticipation: false
+    },
+    {
+        name: "Return Visit",
+        class: "m-mwb",
+        minutes: 4,
+        participant: "GC/Jane",
+        hasParticipation: false
+    },
+    {
+        name: "Chairman's Comments",
+        class: "m-mwb",
+        minutes: 1,
+        participant: "JD",
+        hasParticipation: false
+    },
+    {
+        name: "Local Needs",
+        class: "m-mwb",
+        minutes: 5,
+        participant: "JT",
+        hasParticipation: false
+    },
+    {
+        name: "Organizational Accomplishments",
+        class: "m-mwb",
+        minutes: 10,
+        participant: "JD",
+        hasParticipation: false
+    },
+    {
+        name: "CBS: lff 26",
         class: "m-mwb",
         minutes: 20,
-        participant: "JT",
+        participant: "MW",
         hasParticipation: true
     },
     {
         name: "Concluding Comments",
         class: "m-mwb",
         minutes: 3,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
     }
 ]
