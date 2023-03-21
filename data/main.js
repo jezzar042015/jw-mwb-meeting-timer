@@ -1,4 +1,4 @@
-const meetingSchedule = "Meetings | Mar 13 - 19"
+const meetingSchedule = "Meetings | Mar 20 - 26"
 
 const source = [
     {
@@ -19,18 +19,18 @@ const source = [
         name: "Opening Comments",
         class: "m-mwb",
         minutes: 1,
+        participant: "MW",
+        hasParticipation: false
+    },
+    {
+        name: '"King Solomon Makes an Unwise Decision"',
+        class: "m-mwb",
+        minutes: 10,
         participant: "JD",
         hasParticipation: false
     },
     {
-        name: '"A Fathers Loving Admonition to His Son"',
-        class: "m-mwb",
-        minutes: 10,
-        participant: "JT",
-        hasParticipation: false
-    },
-    {
-        name: "Spiritual Gems: 1 Chronicles 27-29",
+        name: "Spiritual Gems: 2 Chronicles 1-4",
         class: "m-mwb",
         minutes: 10,
         participant: "MW",
@@ -40,7 +40,7 @@ const source = [
         name: "Bible Reading",
         class: "m-mwb",
         minutes: 4,
-        participant: "AN",
+        participant: "RC",
         hasParticipation: false
 
     },
@@ -48,72 +48,73 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JD",
+        participant: "MW",
         hasParticipation: false
 
     },
     {
-        name: "Return Visit Video",
+        name: "Memorial Invitation",
+        class: "m-mwb",
+        minutes: 3,
+        participant: "Ji/RB",
+        hasParticipation: false
+
+    }, 
+    {
+        name: "Chairman's Comments",
+        class: "m-mwb",
+        minutes: 1,
+        participant: "MW",
+        hasParticipation: false
+
+    },
+    {
+        name: "Return Visit",
+        class: "m-mwb",
+        minutes: 4,
+        participant: "MD/CH",
+        hasParticipation: false
+    },
+    {
+        name: "Chairman's Comments",
+        class: "m-mwb",
+        minutes: 1,
+        participant: "MW",
+        hasParticipation: false
+    },
+    {
+        name: "BS: LFF 9:5",
         class: "m-mwb",
         minutes: 5,
+        participant: "JC/Z",
+        hasParticipation: false
+    },
+    {
+        name: "Chairman's Comments",
+        class: "m-mwb",
+        minutes: 1,
+        participant: "MW",
+        hasParticipation: false
+    },
+    {
+        name: "Will You Be Prepared...Day of the Year?",
+        class: "m-mwb",
+        minutes: 15,
         participant: "JD",
         hasParticipation: true
-
     },
     {
-        name: "Return Visit",
-        class: "m-mwb",
-        minutes: 4,
-        participant: "CW/K",
-        hasParticipation: false
-    },
-    {
-        name: "Chairman's Comments",
-        class: "m-mwb",
-        minutes: 1,
-        participant: "JD",
-        hasParticipation: false
-    },
-    {
-        name: "Return Visit",
-        class: "m-mwb",
-        minutes: 4,
-        participant: "GC/Jane",
-        hasParticipation: false
-    },
-    {
-        name: "Chairman's Comments",
-        class: "m-mwb",
-        minutes: 1,
-        participant: "JD",
-        hasParticipation: false
-    },
-    {
-        name: "Local Needs",
-        class: "m-mwb",
-        minutes: 5,
-        participant: "JT",
-        hasParticipation: false
-    },
-    {
-        name: "Organizational Accomplishments",
-        class: "m-mwb",
-        minutes: 10,
-        participant: "JD",
-        hasParticipation: false
-    },
-    {
-        name: "CBS: lff 26",
+        name: "CBS: lff 27",
         class: "m-mwb",
         minutes: 20,
-        participant: "MW",
+        participant: "JT",
         hasParticipation: true
     },
     {
         name: "Concluding Comments",
         class: "m-mwb",
         minutes: 3,
-        participant: "JD",
+        participant: "MW",
         hasParticipation: false
     }
 ]
