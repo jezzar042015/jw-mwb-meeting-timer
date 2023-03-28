@@ -1,4 +1,4 @@
-const meetingSchedule = "Meetings | Mar 20 - 26"
+const meetingSchedule = "Meetings | Mar 27 - Apr 2"
 
 const source = [
     {
@@ -19,28 +19,28 @@ const source = [
         name: "Opening Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
-        hasParticipation: false
-    },
-    {
-        name: '"King Solomon Makes an Unwise Decision"',
-        class: "m-mwb",
-        minutes: 10,
         participant: "JD",
         hasParticipation: false
     },
     {
-        name: "Spiritual Gems: 2 Chronicles 1-4",
+        name: '"My Heart Will Always Be There"',
         class: "m-mwb",
         minutes: 10,
-        participant: "MW",
+        participant: "JT",
+        hasParticipation: false
+    },
+    {
+        name: "Spiritual Gems: 2 Chronicles 5-7",
+        class: "m-mwb",
+        minutes: 10,
+        participant: "JD",
         hasParticipation: true
     },
     {
         name: "Bible Reading",
         class: "m-mwb",
         minutes: 4,
-        participant: "RC",
+        participant: "AB",
         hasParticipation: false
 
     },
@@ -48,7 +48,7 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
 
     },
@@ -56,7 +56,7 @@ const source = [
         name: "Memorial Invitation",
         class: "m-mwb",
         minutes: 3,
-        participant: "Ji/RB",
+        participant: "NE/NB",
         hasParticipation: false
 
     }, 
@@ -64,7 +64,7 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
 
     },
@@ -72,49 +72,56 @@ const source = [
         name: "Return Visit",
         class: "m-mwb",
         minutes: 4,
-        participant: "MD/CH",
+        participant: "BD/MO",
         hasParticipation: false
     },
     {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
     },
     {
-        name: "BS: LFF 9:5",
+        name: "Talk: jjwg 45",
         class: "m-mwb",
         minutes: 5,
-        participant: "JC/Z",
+        participant: "GA",
         hasParticipation: false
     },
     {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
     },
     {
-        name: "Will You Be Prepared...Day of the Year?",
+        name: "Safeguard Your Heart",
         class: "m-mwb",
-        minutes: 15,
-        participant: "JD",
+        minutes: 10,
+        participant: "MW",
+        hasParticipation: true
+    },
+     {
+        name: "Local Needs",
+        class: "m-mwb",
+        minutes: 5,
+        participant: "JT",
         hasParticipation: true
     },
     {
-        name: "CBS: lff 27",
+        name: "CBS: lff 28",
         class: "m-mwb",
         minutes: 20,
-        participant: "JT",
+        participant: "MW",
         hasParticipation: true
     },
     {
         name: "Concluding Comments",
         class: "m-mwb",
         minutes: 3,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
     }
 ]
