@@ -2,15 +2,15 @@ const meetingSchedule = "Meetings | Mar 27 - Apr 2"
 
 const source = [
     {
-        name: "Public Talk",
+        name: "Memorial Talk",
         class: "m-public",
-        minutes: 30,
+        minutes: 45,
         participant: "",
         hasParticipation: false
     },
     {
         name: "Watchtower Study",
-        class: "m-public",
+        class: "m-publicly",
         minutes: 50,
         participant: "",
         hasParticipation: true
