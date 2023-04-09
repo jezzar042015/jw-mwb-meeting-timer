@@ -314,11 +314,11 @@ const auxies = {
       }
     },
     init: () => {
-      $('#add30s').on('click', () => {
+      $('#add30s').dblclick(() => {
         auxies.controls.add30s()
       })
 
-      $('#sub15s').on('click', () => {
+      $('#sub15s').dblclick(() => {
         auxies.controls.sub15s()
       })
     }
