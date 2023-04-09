@@ -300,22 +300,26 @@ const auxies = {
   controls: {
     setJumpers: (val) => {
       $('#add30s').toggle(val)
-      $('#sub30s').toggle(val)
+      $('#sub15s').toggle(val)
     },
     add30s: () => {
-      console.log('Add 30s');
+      timerui.timer.overallTime += 30000;
 
     },
-    sub30s: () => {
-      console.log('Subtract 30s');
+    sub15s: () => {
+      if (timerui.timer.overallTime <= 15000) {
+        timerui.timer.reset()
+      } else {
+        timerui.timer.overallTime -= 15000;
+      }
     },
     init: () => {
       $('#add30s').on('click', () => {
         auxies.controls.add30s()
       })
 
-      $('#sub30s').on('click', () => {
-        auxies.controls.sub30s()
+      $('#sub15s').on('click', () => {
+        auxies.controls.sub15s()
       })
     }
   }
