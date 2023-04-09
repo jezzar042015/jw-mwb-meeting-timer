@@ -1,21 +1,21 @@
-// const meetingSchedule = "Meetings | Mar 27 - Apr 2"
-const meetingSchedule = "Memorial 2023"
+const meetingSchedule = "Meetings | Apr 10"
+// const meetingSchedule = "Memorial 2023"
 
 const source = [
     {
-        name: "Memorial Talk",
+        name: "Public Talk",
         class: "m-public",
-        minutes: 45,
+        minutes: 30,
         participant: "",
         hasParticipation: false
     },
-//     {
-//         name: "Watchtower Study",
-//         class: "m-publicly",
-//         minutes: 50,
-//         participant: "",
-//         hasParticipation: true
-//     },
+    {
+        name: "Watchtower Study",
+        class: "m-publicly",
+        minutes: 50,
+        participant: "",
+        hasParticipation: true
+    },
     {
         name: "Opening Comments",
         class: "m-mwb",
