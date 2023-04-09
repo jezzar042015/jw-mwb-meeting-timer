@@ -262,9 +262,14 @@ button:focus {
 #zoom {
   display: none;
 }
+#add30s,
+#sub30s {
+  display: none;
+}
 #countdown {
   display: none;
 }
+
 /* width */
 ::-webkit-scrollbar {
   width: 5px;

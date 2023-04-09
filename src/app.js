@@ -3,6 +3,7 @@ $(document).ready(function () {
   timerui.init()
   timerui.setActiveName()
   overall.init()
+  auxies.controls.init()
 });
 
 const timerui = {
@@ -210,6 +211,7 @@ const timerui = {
         // stops the timer
         $(this).html("START");
         timerui.stop();
+        auxies.controls.setJumpers(false)
         timerui.storeRunningSeconds();
         timerui.enableOptions();
         timerui.removeAlerts();
@@ -219,6 +221,7 @@ const timerui = {
         // starts the timer
         $(this).html("STOP");
         timerui.start();
+        auxies.controls.setJumpers(true)
         timerui.disableRestrictedOptions();
         $(".sidebar").animate({ width: 'toggle' }, 0);
         $(".display").width(window.outerWidth + 'px')
@@ -292,3 +295,28 @@ const timerui = {
     }
   }
 };
+
+const auxies = {
+  controls: {
+    setJumpers: (val) => {
+      $('#add30s').toggle(val)
+      $('#sub30s').toggle(val)
+    },
+    add30s: () => {
+      console.log('Add 30s');
+
+    },
+    sub30s: () => {
+      console.log('Subtract 30s');
+    },
+    init: () => {
+      $('#add30s').on('click', () => {
+        auxies.controls.add30s()
+      })
+
+      $('#sub30s').on('click', () => {
+        auxies.controls.sub30s()
+      })
+    }
+  }
+}

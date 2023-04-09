@@ -11,7 +11,7 @@ const source = [
     },
     {
         name: "Watchtower Study",
-        class: "m-publicly",
+        class: "m-public",
         minutes: 50,
         participant: "",
         hasParticipation: true
