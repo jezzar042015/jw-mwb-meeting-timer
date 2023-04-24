@@ -1,4 +1,4 @@
-const meetingSchedule = "Meetings | Apr 17 - 23"
+const meetingSchedule = "Meetings | Apr 24 - 30"
 // const meetingSchedule = ""
 
 const source = [
@@ -20,28 +20,28 @@ const source = [
         name: "Opening Comments",
         class: "m-mwb",
         minutes: 1,
+        participant: "JD",
+        hasParticipation: false
+    },
+    {
+        name: '"Rely On Jehovah--When?"',
+        class: "m-mwb",
+        minutes: 10,
         participant: "MW",
         hasParticipation: false
     },
     {
-        name: '"Benefit From Wise Advice"',
+        name: "Spiritual Gems: 2 Chronicles 13-16",
         class: "m-mwb",
         minutes: 10,
-        participant: "JT",
-        hasParticipation: false
-    },
-    {
-        name: "Spiritual Gems: 2 Chronicles 10-12",
-        class: "m-mwb",
-        minutes: 10,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: true
     },
     {
         name: "Bible Reading",
         class: "m-mwb",
         minutes: 4,
-        participant: "ER",
+        participant: "3D",
         hasParticipation: false
 
     },
@@ -49,7 +49,7 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
 
     },
@@ -57,7 +57,7 @@ const source = [
         name: "First Conversation",
         class: "m-mwb",
         minutes: 3,
-        participant: "CH/Ji",
+        participant: "NE/MG",
         hasParticipation: false
 
     }, 
@@ -65,7 +65,7 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
 
     },
@@ -73,56 +73,49 @@ const source = [
         name: "Return Visit",
         class: "m-mwb",
         minutes: 4,
-        participant: "GC/CW",
+        participant: "KB/MO",
         hasParticipation: false
     },
     {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
-        hasParticipation: false
-    },
-    {
-        name: "Talk: km-ASL 11/13 5:4,5",
-        class: "m-mwb",
-        minutes: 5,
-        participant: "AB",
-        hasParticipation: false
-    },
-    {
-        name: "Chairman's Comments",
-        class: "m-mwb",
-        minutes: 1,
-        participant: "MW",
-        hasParticipation: false
-    },
-    {
-        name: "How to Use the Bible Study Videos",
-        class: "m-mwb",
-        minutes: 5,
         participant: "JD",
-        hasParticipation: true
-    },
-     {
-        name: "2023 Update...Local Design/Construction",
-        class: "m-mwb",
-        minutes: 10,
-        participant: "JT",
-        hasParticipation: true
+        hasParticipation: false
     },
     {
-        name: "CBS: lff 30",
+        name: "BS: lff9:7; Some People Say",
+        class: "m-mwb",
+        minutes: 5,
+        participant: "Jane/Z",
+        hasParticipation: false
+    },
+    {
+        name: "Chairman's Comments",
+        class: "m-mwb",
+        minutes: 1,
+        participant: "JD",
+        hasParticipation: false
+    },
+    {
+        name: "2023 Governing Body Update #2",
+        class: "m-mwb",
+        minutes: 15,
+        participant: "JD",
+        hasParticipation: false
+    },
+    {
+        name: "CBS: lff 31",
         class: "m-mwb",
         minutes: 20,
-        participant: "JD",
+        participant: "JT",
         hasParticipation: true
     },
     {
         name: "Concluding Comments",
         class: "m-mwb",
         minutes: 3,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
     }
 ]
