@@ -1,4 +1,4 @@
-const meetingSchedule = "Meetings | Apr 24 - 30"
+const meetingSchedule = "Meetings | May 1 - 7"
 // const meetingSchedule = ""
 
 const source = [
@@ -20,28 +20,28 @@ const source = [
         name: "Opening Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JD",
-        hasParticipation: false
-    },
-    {
-        name: '"Rely On Jehovah--When?"',
-        class: "m-mwb",
-        minutes: 10,
         participant: "MW",
         hasParticipation: false
     },
     {
-        name: "Spiritual Gems: 2 Chronicles 13-16",
+        name: '"See Others as Jehovah Does"',
         class: "m-mwb",
         minutes: 10,
-        participant: "JD",
+        participant: "JT",
+        hasParticipation: false
+    },
+    {
+        name: "Spiritual Gems: 2 Chronicles 17-19",
+        class: "m-mwb",
+        minutes: 10,
+        participant: "MW",
         hasParticipation: true
     },
     {
         name: "Bible Reading",
         class: "m-mwb",
         minutes: 4,
-        participant: "3D",
+        participant: "AN",
         hasParticipation: false
 
     },
@@ -49,73 +49,66 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JD",
+        participant: "MW",
         hasParticipation: false
 
     },
     {
-        name: "First Conversation",
+        name: "First Conversation-Ro 15:4",
         class: "m-mwb",
-        minutes: 3,
-        participant: "NE/MG",
+        minutes: 5,
+        participant: "MW",
         hasParticipation: false
 
     }, 
     {
-        name: "Chairman's Comments",
+        name: "First Conversation",
         class: "m-mwb",
-        minutes: 1,
-        participant: "JD",
+        minutes: 3,
+        participant: "RB/NB",
         hasParticipation: false
 
     },
     {
-        name: "Return Visit",
-        class: "m-mwb",
-        minutes: 4,
-        participant: "KB/MO",
-        hasParticipation: false
-    },
-    {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JD",
+        participant: "MW",
         hasParticipation: false
     },
     {
-        name: "BS: lff9:7; Some People Say",
+        name: "Talk: w21.05 20:11-15",
         class: "m-mwb",
         minutes: 5,
-        participant: "Jane/Z",
+        participant: "GA",
         hasParticipation: false
     },
     {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JD",
+        participant: "MW",
         hasParticipation: false
     },
     {
-        name: "2023 Governing Body Update #2",
+        name: "See Yourself as Jehovah Does",
         class: "m-mwb",
         minutes: 15,
-        participant: "JD",
+        participant: "JT",
         hasParticipation: false
     },
     {
-        name: "CBS: lff 31",
+        name: "CBS: lff 32:1-4; Chart",
         class: "m-mwb",
         minutes: 20,
-        participant: "JT",
+        participant: "JD",
         hasParticipation: true
     },
     {
         name: "Concluding Comments",
         class: "m-mwb",
         minutes: 3,
-        participant: "JD",
+        participant: "MW",
         hasParticipation: false
     }
 ]
