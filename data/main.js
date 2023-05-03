@@ -98,7 +98,7 @@ const source = [
         hasParticipation: false
     },
     {
-        name: "CBS: lff 32:1-4; Chart",
+        name: "CBS: lff 32:1-4;Chart",
         class: "m-mwb",
         minutes: 20,
         participant: "JD",
