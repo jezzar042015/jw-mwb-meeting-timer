@@ -1,4 +1,4 @@
-const meetingSchedule = "Meetings | May 1 - 7"
+const meetingSchedule = "Meetings | May 8 - 14"
 // const meetingSchedule = ""
 
 const source = [
@@ -20,18 +20,18 @@ const source = [
         name: "Opening Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
     },
     {
-        name: '"See Others as Jehovah Does"',
+        name: '"Put Faith in Jehovah Your God"',
         class: "m-mwb",
         minutes: 10,
         participant: "JT",
         hasParticipation: false
     },
     {
-        name: "Spiritual Gems: 2 Chronicles 17-19",
+        name: "Spiritual Gems: 2 Chronicles 20-21",
         class: "m-mwb",
         minutes: 10,
         participant: "MW",
@@ -41,7 +41,7 @@ const source = [
         name: "Bible Reading",
         class: "m-mwb",
         minutes: 4,
-        participant: "AN",
+        participant: "AB",
         hasParticipation: false
 
     },
@@ -49,23 +49,23 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
 
     },
     {
-        name: "First Conversation-Ro 15:4",
+        name: "Return Visit Video",
         class: "m-mwb",
         minutes: 5,
-        participant: "MW",
-        hasParticipation: false
+        participant: "JD",
+        hasParticipation: true
 
     }, 
     {
-        name: "First Conversation",
+        name: "Return Visit",
         class: "m-mwb",
         minutes: 3,
-        participant: "RB/NB",
+        participant: "CW/CH",
         hasParticipation: false
 
     },
@@ -73,42 +73,42 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
     },
     {
-        name: "Talk: w21.05 20:11-15",
+        name: "BS: lff 09 Summary; Review; Goal",
         class: "m-mwb",
         minutes: 5,
-        participant: "GA",
+        participant: "JC/MO",
         hasParticipation: false
     },
     {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
     },
     {
-        name: "See Yourself as Jehovah Does",
+        name: "Are You Prepared for an Economic Crisis?",
         class: "m-mwb",
-        minutes: 15,
+        minutes: 10,
         participant: "JT",
-        hasParticipation: false
+        hasParticipation: true
     },
     {
-        name: "CBS: lff 32:1-4;Chart",
+        name: "CBS: lff 32:5-6; SUmmary; Review; Goal",
         class: "m-mwb",
         minutes: 20,
-        participant: "JD",
+        participant: "MW",
         hasParticipation: true
     },
     {
         name: "Concluding Comments",
         class: "m-mwb",
         minutes: 3,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
     }
 ]
