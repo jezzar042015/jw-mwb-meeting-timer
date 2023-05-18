@@ -1,4 +1,4 @@
-const meetingSchedule = "Meetings | May 8 - 14"
+const meetingSchedule = "Meetings | May 15 - 21"
 // const meetingSchedule = ""
 
 const source = [
@@ -20,28 +20,28 @@ const source = [
         name: "Opening Comments",
         class: "m-mwb",
         minutes: 1,
+        participant: "MW",
+        hasParticipation: false
+    },
+    {
+        name: '"Jehovah Rewards Courageous Acts"',
+        class: "m-mwb",
+        minutes: 10,
         participant: "JD",
         hasParticipation: false
     },
     {
-        name: '"Put Faith in Jehovah Your God"',
+        name: "Spiritual Gems: 2 Chronicles 22-24",
         class: "m-mwb",
         minutes: 10,
-        participant: "JT",
-        hasParticipation: false
-    },
-    {
-        name: "Spiritual Gems: 2 Chronicles 20-21",
-        class: "m-mwb",
-        minutes: 10,
-        participant: "MW",
+        participant: "KD",
         hasParticipation: true
     },
     {
         name: "Bible Reading",
         class: "m-mwb",
         minutes: 4,
-        participant: "AB",
+        participant: "RC",
         hasParticipation: false
 
     },
@@ -49,23 +49,23 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JD",
+        participant: "MW",
         hasParticipation: false
 
     },
     {
-        name: "Return Visit Video",
+        name: "First Conversation",
         class: "m-mwb",
-        minutes: 5,
-        participant: "JD",
+        minutes: 3,
+        participant: "EJ/GC",
         hasParticipation: true
 
     }, 
     {
         name: "Return Visit",
         class: "m-mwb",
-        minutes: 3,
-        participant: "CW/CH",
+        minutes: 4,
+        participant: "BD/Ji",
         hasParticipation: false
 
     },
@@ -77,38 +77,38 @@ const source = [
         hasParticipation: false
     },
     {
-        name: "BS: lff 09 Summary; Review; Goal",
+        name: "Talk: w10-ASL 2/15 1:6-10",
         class: "m-mwb",
         minutes: 5,
-        participant: "JC/MO",
+        participant: "3D",
         hasParticipation: false
     },
     {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JD",
+        participant: "MW",
         hasParticipation: false
     },
     {
-        name: "Are You Prepared for an Economic Crisis?",
+        name: "Governing Body Update #3",
         class: "m-mwb",
-        minutes: 10,
-        participant: "JT",
-        hasParticipation: true
+        minutes: 15,
+        participant: "MW",
+        hasParticipation: false
     },
     {
-        name: "CBS: lff 32:5-6; SUmmary; Review; Goal",
+        name: "CBS: lff 33",
         class: "m-mwb",
         minutes: 20,
-        participant: "MW",
+        participant: "JT",
         hasParticipation: true
     },
     {
         name: "Concluding Comments",
         class: "m-mwb",
         minutes: 3,
-        participant: "JD",
+        participant: "MW",
         hasParticipation: false
     }
 ]
