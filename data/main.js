@@ -1,4 +1,4 @@
-const meetingSchedule = "Meetings | May 15 - 21"
+const meetingSchedule = "Meetings | May 22 - 28"
 // const meetingSchedule = ""
 
 const source = [
@@ -20,28 +20,28 @@ const source = [
         name: "Opening Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
-        hasParticipation: false
-    },
-    {
-        name: '"Jehovah Rewards Courageous Acts"',
-        class: "m-mwb",
-        minutes: 10,
         participant: "JD",
         hasParticipation: false
     },
     {
-        name: "Spiritual Gems: 2 Chronicles 22-24",
+        name: '"Jehovah Has the Means ... Much More Than That"',
         class: "m-mwb",
         minutes: 10,
         participant: "KD",
+        hasParticipation: false
+    },
+    {
+        name: "Spiritual Gems: 2 Chronicles 25-27",
+        class: "m-mwb",
+        minutes: 10,
+        participant: "JT",
         hasParticipation: true
     },
     {
         name: "Bible Reading",
         class: "m-mwb",
         minutes: 4,
-        participant: "RC",
+        participant: "AB",
         hasParticipation: false
 
     },
@@ -49,7 +49,7 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
 
     },
@@ -57,15 +57,22 @@ const source = [
         name: "First Conversation",
         class: "m-mwb",
         minutes: 3,
-        participant: "EJ/GC",
-        hasParticipation: true
+        participant: "RB/NB",
+        hasParticipation: false
 
-    }, 
+    },   
+    {
+        name: "Chairman's Comments",
+        class: "m-mwb",
+        minutes: 1,
+        participant: "JD",
+        hasParticipation: false
+    },
     {
         name: "Return Visit",
         class: "m-mwb",
         minutes: 4,
-        participant: "BD/Ji",
+        participant: "NE/Z",
         hasParticipation: false
 
     },
@@ -77,38 +84,38 @@ const source = [
         hasParticipation: false
     },
     {
-        name: "Talk: w10-ASL 2/15 1:6-10",
+        name: "BS: lff 10:Intro; 1-3",
         class: "m-mwb",
         minutes: 5,
-        participant: "3D",
+        participant: "MG/KB",
         hasParticipation: false
     },
     {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
     },
     {
-        name: "Governing Body Update #3",
+        name: "Everlasting Life Is Worthy Any Sacrifice",
         class: "m-mwb",
         minutes: 15,
-        participant: "MW",
+        participant: "JT",
         hasParticipation: false
     },
     {
-        name: "CBS: lff 33",
+        name: "CBS: lff section 2 Review",
         class: "m-mwb",
         minutes: 20,
-        participant: "JT",
+        participant: "MW",
         hasParticipation: true
     },
     {
         name: "Concluding Comments",
         class: "m-mwb",
         minutes: 3,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
     }
 ]
