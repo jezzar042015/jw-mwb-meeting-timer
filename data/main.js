@@ -1,4 +1,4 @@
-const meetingSchedule = "Meetings | May 22 - 28"
+const meetingSchedule = "Meetings | May 29 - June 4"
 // const meetingSchedule = ""
 
 const source = [
@@ -20,28 +20,28 @@ const source = [
         name: "Opening Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JD",
+        participant: "MW",
         hasParticipation: false
     },
     {
-        name: '"Jehovah Has the Means ... Much More Than That"',
-        class: "m-mwb",
-        minutes: 10,
-        participant: "KD",
-        hasParticipation: false
-    },
-    {
-        name: "Spiritual Gems: 2 Chronicles 25-27",
+        name: '"You CAn Serve Jehovah Despite a Difficult Upbringing"',
         class: "m-mwb",
         minutes: 10,
         participant: "JT",
+        hasParticipation: false
+    },
+    {
+        name: "Spiritual Gems: 2 Chronicles 28-30",
+        class: "m-mwb",
+        minutes: 10,
+        participant: "MW",
         hasParticipation: true
     },
     {
         name: "Bible Reading",
         class: "m-mwb",
         minutes: 4,
-        participant: "AB",
+        participant: "ER",
         hasParticipation: false
 
     },
@@ -49,7 +49,7 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JD",
+        participant: "MW",
         hasParticipation: false
 
     },
@@ -57,7 +57,7 @@ const source = [
         name: "First Conversation",
         class: "m-mwb",
         minutes: 3,
-        participant: "RB/NB",
+        participant: "JC/EJ",
         hasParticipation: false
 
     },   
@@ -65,14 +65,14 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JD",
+        participant: "MW",
         hasParticipation: false
     },
     {
         name: "Return Visit",
         class: "m-mwb",
         minutes: 4,
-        participant: "NE/Z",
+        participant: "CH/Ji",
         hasParticipation: false
 
     },
@@ -80,42 +80,48 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JD",
+        participant: "MW",
         hasParticipation: false
     },
     {
-        name: "BS: lff 10:Intro; 1-3",
+        name: "BS: lff 10:4",
         class: "m-mwb",
         minutes: 5,
-        participant: "MG/KB",
+        participant: "MO/CW",
         hasParticipation: false
     },
     {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JD",
+        participant: "MW",
         hasParticipation: false
     },
     {
-        name: "Everlasting Life Is Worthy Any Sacrifice",
+        name: "Jehovah is the 'Father of the Fatherless'",
         class: "m-mwb",
-        minutes: 15,
+        minutes: 8,
         participant: "JT",
+        hasParticipation: true
+    }, {
+        name: "Local Needs",
+        class: "m-mwb",
+        minutes: 7,
+        participant: "KD",
         hasParticipation: false
     },
     {
-        name: "CBS: lff section 2 Review",
+        name: "CBS: lff 34",
         class: "m-mwb",
         minutes: 20,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: true
     },
     {
         name: "Concluding Comments",
         class: "m-mwb",
         minutes: 3,
-        participant: "JD",
+        participant: "MW",
         hasParticipation: false
     }
 ]
