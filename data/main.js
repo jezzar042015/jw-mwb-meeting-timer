@@ -20,28 +20,28 @@ const source = [
         name: "Opening Comments",
         class: "m-mwb",
         minutes: 1,
+        participant: "MW",
+        hasParticipation: false
+    },
+    {
+        name: '"Be A Source of Strength During Times of Distress"',
+        class: "m-mwb",
+        minutes: 10,
         participant: "JD",
         hasParticipation: false
     },
     {
-        name: '"Gathering Together Is Good for Us"',
+        name: "Spiritual Gems: 2 Chronicles 32-33",
         class: "m-mwb",
         minutes: 10,
         participant: "KD",
-        hasParticipation: false
-    },
-    {
-        name: "Spiritual Gems: 2 Chronicles 30-31",
-        class: "m-mwb",
-        minutes: 10,
-        participant: "JT",
         hasParticipation: true
     },
     {
         name: "Bible Reading",
         class: "m-mwb",
         minutes: 4,
-        participant: "AN",
+        participant: "3D",
         hasParticipation: false
 
     },
@@ -49,15 +49,15 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JD",
+        participant: "MW",
         hasParticipation: false
 
     },
     {
         name: "First Conversation",
         class: "m-mwb",
-        minutes: 3,
-        participant: "NB/NE",
+        minutes: 4,
+        participant: "RR/JT",
         hasParticipation: false
 
     },   
@@ -65,14 +65,14 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JD",
+        participant: "MW",
         hasParticipation: false
     },
     {
         name: "Return Visit",
         class: "m-mwb",
-        minutes: 4,
-        participant: "GC/RB",
+        minutes: 3,
+        participant: "MG/CW",
         hasParticipation: false
 
     },
@@ -80,48 +80,42 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JD",
+        participant: "MW",
         hasParticipation: false
     },
     {
-        name: "Talk: w19.01 2:13-14",
+        name: "BS: lff 10:5",
         class: "m-mwb",
         minutes: 5,
-        participant: "AB",
+        participant: "Z/JC",
         hasParticipation: false
     },
     {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JD",
+        participant: "MW",
         hasParticipation: false
     },
     {
-        name: "--Prepare Your Comment'",
+        name: "Governing Body Update #4",
         class: "m-mwb",
-        minutes: 5,
-        participant: "JT",
-        hasParticipation: true
-    }, {
-        name: "Organizational Accomplishments",
-        class: "m-mwb",
-        minutes: 10,
-        participant: "JD",
+        minutes: 15,
+        participant: "MW",
         hasParticipation: true
     },
     {
-        name: "CBS: lff 35",
+        name: "1st Service Talk",
         class: "m-mwb",
-        minutes: 20,
-        participant: "MW",
-        hasParticipation: true
+        minutes: 30,
+        participant: "JS",
+        hasParticipation: false
     },
     {
         name: "Concluding Comments",
         class: "m-mwb",
         minutes: 3,
-        participant: "JD",
+        participant: "MW",
         hasParticipation: false
     }
 ]
