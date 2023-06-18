@@ -12,9 +12,16 @@ const source = [
     {
         name: "Watchtower Study",
         class: "m-public",
-        minutes: 50,
+        minutes: 30,
         participant: "",
         hasParticipation: true
+    },
+    {
+        name: "Last Service Talk",
+        class: "m-public",
+        minutes: 30,
+        participant: "",
+        hasParticipation: false
     },
     {
         name: "Opening Comments",
