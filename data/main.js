@@ -1,4 +1,4 @@
-const meetingSchedule = "Meetings | June 12 - 18"
+const meetingSchedule = "Meetings | June 19 - 25"
 // const meetingSchedule = ""
 
 const source = [
@@ -12,43 +12,36 @@ const source = [
     {
         name: "Watchtower Study",
         class: "m-public",
-        minutes: 30,
+        minutes: 60,
         participant: "",
         hasParticipation: true
-    },
-    {
-        name: "Last Service Talk",
-        class: "m-public",
-        minutes: 30,
-        participant: "",
-        hasParticipation: false
     },
     {
         name: "Opening Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
-        hasParticipation: false
-    },
-    {
-        name: '"Be A Source of Strength During Times of Distress"',
-        class: "m-mwb",
-        minutes: 10,
         participant: "JD",
         hasParticipation: false
     },
     {
-        name: "Spiritual Gems: 2 Chronicles 32-33",
+        name: '"Are You Benefiting Fully From God's Word?"',
         class: "m-mwb",
         minutes: 10,
-        participant: "KD",
+        participant: "MW",
+        hasParticipation: false
+    },
+    {
+        name: "Spiritual Gems: 2 Chronicles 34-36",
+        class: "m-mwb",
+        minutes: 10,
+        participant: "JD",
         hasParticipation: true
     },
     {
         name: "Bible Reading",
         class: "m-mwb",
         minutes: 4,
-        participant: "3D",
+        participant: "RC",
         hasParticipation: false
 
     },
@@ -56,7 +49,7 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
 
     },
@@ -64,7 +57,7 @@ const source = [
         name: "First Conversation",
         class: "m-mwb",
         minutes: 4,
-        participant: "RR/JT",
+        participant: "JP/KB",
         hasParticipation: false
 
     },   
@@ -72,14 +65,14 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
     },
     {
         name: "Return Visit",
         class: "m-mwb",
         minutes: 3,
-        participant: "MG/CW",
+        participant: "BD/Jane",
         hasParticipation: false
 
     },
@@ -87,42 +80,42 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
     },
     {
-        name: "BS: lff 10:5",
+        name: "Talk: w17.09 4:7-10",
         class: "m-mwb",
         minutes: 5,
-        participant: "Z/JC",
+        participant: "GA",
         hasParticipation: false
     },
     {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
     },
     {
-        name: "Governing Body Update #4",
+        name: "Are You Making Good Use...Sign-Language",
         class: "m-mwb",
         minutes: 15,
-        participant: "MW",
+        participant: "KD",
         hasParticipation: true
     },
     {
-        name: "1st Service Talk",
+        name: "CBS: lff 37:1-5",
         class: "m-mwb",
         minutes: 30,
-        participant: "JS",
+        participant: "JT",
         hasParticipation: false
     },
     {
         name: "Concluding Comments",
         class: "m-mwb",
         minutes: 3,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
     }
 ]
