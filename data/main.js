@@ -12,7 +12,7 @@ const source = [
     {
         name: "Watchtower Study",
         class: "m-public",
-        minutes: 60,
+        minutes: 50,
         participant: "",
         hasParticipation: true
     },
@@ -24,7 +24,7 @@ const source = [
         hasParticipation: false
     },
     {
-        name: '"Are You Benefiting Fully From God's Word?"',
+        name: `"Are You Benefiting Fully From God's Word?"`,
         class: "m-mwb",
         minutes: 10,
         participant: "MW",
@@ -60,7 +60,7 @@ const source = [
         participant: "JP/KB",
         hasParticipation: false
 
-    },   
+    },
     {
         name: "Chairman's Comments",
         class: "m-mwb",
@@ -107,7 +107,7 @@ const source = [
     {
         name: "CBS: lff 37:1-5",
         class: "m-mwb",
-        minutes: 30,
+        minutes: 20,
         participant: "JT",
         hasParticipation: false
     },
