@@ -1,4 +1,4 @@
-const meetingSchedule = "Meetings | June 19 - 25"
+const meetingSchedule = "Meetings | June 26 - July 2"
 // const meetingSchedule = ""
 
 const source = [
@@ -20,28 +20,28 @@ const source = [
         name: "Opening Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JD",
-        hasParticipation: false
-    },
-    {
-        name: `"Are You Benefiting Fully From God's Word?"`,
-        class: "m-mwb",
-        minutes: 10,
         participant: "MW",
         hasParticipation: false
     },
     {
-        name: "Spiritual Gems: 2 Chronicles 34-36",
+        name: `"Allow Jehovah to Use You"`,
         class: "m-mwb",
         minutes: 10,
-        participant: "JD",
+        participant: "KD",
+        hasParticipation: false
+    },
+    {
+        name: "Spiritual Gems: Ezra 1-3",
+        class: "m-mwb",
+        minutes: 10,
+        participant: "MW",
         hasParticipation: true
     },
     {
         name: "Bible Reading",
         class: "m-mwb",
         minutes: 4,
-        participant: "RC",
+        participant: "AB",
         hasParticipation: false
 
     },
@@ -49,15 +49,15 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JD",
+        participant: "MW",
         hasParticipation: false
 
     },
     {
         name: "First Conversation",
         class: "m-mwb",
-        minutes: 4,
-        participant: "JP/KB",
+        minutes: 3,
+        participant: "MO/RB",
         hasParticipation: false
 
     },
@@ -65,14 +65,14 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JD",
+        participant: "MW",
         hasParticipation: false
     },
     {
         name: "Return Visit",
         class: "m-mwb",
-        minutes: 3,
-        participant: "BD/Jane",
+        minutes: 4,
+        participant: "Ji/NB",
         hasParticipation: false
 
     },
@@ -80,42 +80,42 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JD",
+        participant: "MW",
         hasParticipation: false
     },
     {
-        name: "Talk: w17.09 4:7-10",
+        name: "BS: lff 10; Summary; Review; Goal",
         class: "m-mwb",
         minutes: 5,
-        participant: "GA",
+        participant: "CH/GC",
         hasParticipation: false
     },
     {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "JD",
+        participant: "MW",
         hasParticipation: false
     },
     {
-        name: "Are You Making Good Use...Sign-Language",
+        name: "Find Joy in Starting Conversations",
         class: "m-mwb",
         minutes: 15,
-        participant: "KD",
+        participant: "JT",
         hasParticipation: true
     },
     {
-        name: "CBS: lff 37:1-5",
+        name: "CBS: lff 37:6; Summary; Review; Goal",
         class: "m-mwb",
         minutes: 20,
-        participant: "JT",
+        participant: "JD",
         hasParticipation: false
     },
     {
         name: "Concluding Comments",
         class: "m-mwb",
         minutes: 3,
-        participant: "JD",
+        participant: "MW",
         hasParticipation: false
     }
 ]
