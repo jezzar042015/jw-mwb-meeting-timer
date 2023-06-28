@@ -100,14 +100,14 @@ const source = [
     {
         name: "Find Joy in Starting Conversations",
         class: "m-mwb",
-        minutes: 15,
+        minutes: 20,
         participant: "JT",
         hasParticipation: true
     },
     {
         name: "CBS: lff 37:6; Summary; Review; Goal",
         class: "m-mwb",
-        minutes: 20,
+        minutes: 15,
         participant: "JD",
         hasParticipation: false
     },
