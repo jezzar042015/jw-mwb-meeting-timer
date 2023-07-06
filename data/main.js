@@ -20,18 +20,18 @@ const source = [
         name: "Opening Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
     },
     {
-        name: `"Allow Jehovah to Use You"`,
+        name: `"Do Not Interfere With the Work"`,
         class: "m-mwb",
         minutes: 10,
         participant: "KD",
         hasParticipation: false
     },
     {
-        name: "Spiritual Gems: Ezra 1-3",
+        name: "Spiritual Gems: Ezra 4-6",
         class: "m-mwb",
         minutes: 10,
         participant: "MW",
@@ -41,7 +41,7 @@ const source = [
         name: "Bible Reading",
         class: "m-mwb",
         minutes: 4,
-        participant: "AB",
+        participant: "ER",
         hasParticipation: false
 
     },
@@ -49,15 +49,23 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
+        participant: "JD",
+        hasParticipation: false
+
+    },
+    {
+        name: "Video: First Conversation",
+        class: "m-mwb",
+        minutes: 5,
+        participant: "JD",
         hasParticipation: false
 
     },
     {
         name: "First Conversation",
         class: "m-mwb",
-        minutes: 3,
-        participant: "MO/RB",
+        minutes: 4,
+        participant: "NE/Z",
         hasParticipation: false
 
     },
@@ -65,49 +73,34 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
     },
     {
-        name: "Return Visit",
+        name: "First Conversation",
         class: "m-mwb",
         minutes: 4,
-        participant: "Ji/NB",
-        hasParticipation: false
-
-    },
-    {
-        name: "Chairman's Comments",
-        class: "m-mwb",
-        minutes: 1,
-        participant: "MW",
-        hasParticipation: false
-    },
-    {
-        name: "BS: lff 10; Summary; Review; Goal",
-        class: "m-mwb",
-        minutes: 5,
-        participant: "CH/GC",
+        participant: "JC/CW",
         hasParticipation: false
     },
     {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
     },
     {
-        name: "Find Joy in Starting Conversations",
+        name: `"Defending and Legally Establishing’ the Good News"`,
         class: "m-mwb",
-        minutes: 20,
-        participant: "JT",
+        minutes: 15,
+        participant: "KD",
         hasParticipation: true
     },
     {
-        name: "CBS: lff 37:6; Summary; Review; Goal",
+        name: "CBS: lff 38:1-4",
         class: "m-mwb",
-        minutes: 15,
+        minutes: 20,
         participant: "JD",
         hasParticipation: false
     },
@@ -115,7 +108,7 @@ const source = [
         name: "Concluding Comments",
         class: "m-mwb",
         minutes: 3,
-        participant: "MW",
+        participant: "JD",
         hasParticipation: false
     }
 ]
