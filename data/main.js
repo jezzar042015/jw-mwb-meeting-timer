@@ -14,7 +14,7 @@ const source = [
         class: "m-public",
         minutes: 50,
         participant: "",
-        hasParticipation: true
+        hasParticipation: false
     },
     {
         name: "Opening Comments",
@@ -35,7 +35,7 @@ const source = [
         class: "m-mwb",
         minutes: 10,
         participant: "MW",
-        hasParticipation: true
+        hasParticipation: false
     },
     {
         name: "Bible Reading",
@@ -95,7 +95,7 @@ const source = [
         class: "m-mwb",
         minutes: 15,
         participant: "KD",
-        hasParticipation: true
+        hasParticipation: false
     },
     {
         name: "CBS: lff 38:1-4",
