@@ -1,4 +1,4 @@
-const meetingSchedule = "Meetings | June 26 - July 2"
+const meetingSchedule = "Meetings | July 3 - 9"
 // const meetingSchedule = ""
 
 const source = [
