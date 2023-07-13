@@ -77,7 +77,7 @@ const source = [
         hasParticipation: false
     },
     {
-        name: "First Conversation",
+        name: "Return Visit",
         class: "m-mwb",
         minutes: 5,
         participant: "MG/EJ",
