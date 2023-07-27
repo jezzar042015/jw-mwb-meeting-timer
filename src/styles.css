@@ -18,7 +18,7 @@ body {
 
 .wrapper {
   display: grid;
-  grid-template-columns: [options] 180px [display] auto;
+  grid-template-columns: [options] 512px [display] auto;
   grid-template-rows: 100vh;
 }
 
@@ -87,6 +87,7 @@ button:focus {
 .options ul {
   padding-top: 8px;
   padding-bottom: 8px;
+  position: sticky;
 }
 
 .options li {
@@ -96,7 +97,7 @@ button:focus {
   padding: 8px 15px;
   font-weight: 300;
   font-size: 15px;
-  height: 60px;
+  height: auto;
   border-bottom: dotted 1px #424242;
 }
 
@@ -106,27 +107,28 @@ button:focus {
 }
 
 .options small {
-  color: rgb(194, 194, 194);
+  display: block;
 }
 
 .participant {
-  position: absolute;
+  /* position: absolute; */
   right: 15px;
   bottom: 12.5px;
   font-size: 11px;
+  color: #e07b07
 }
 
-.options li:hover {
-  background-color: #6550c0;
+.options li:not(.selected):hover {
+  background-color: #327262;
 }
 
 .options .selected {
-  background-color: #6550c0;
-  height: 100px;
+  background-color: #2a5d50;
+  height: auto;
 }
 
 .options .disabled {
-  color: rgb(66, 66, 66);
+  color: #424242;
 }
 
 .options .disabled:hover {

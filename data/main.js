@@ -1,4 +1,4 @@
-const meetingSchedule = "Meetings | July 10 - 16"
+const meetingSchedule = "Meetings | July 24 - 30"
 // const meetingSchedule = ""
 
 const source = [
@@ -20,28 +20,28 @@ const source = [
         name: "Opening Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
+        participant: "J. Dy",
         hasParticipation: false
     },
     {
-        name: `"Ezra’s Conduct Brought Honor to Jehovah"`,
+        name: `“At Once I Prayed”`,
         class: "m-mwb",
         minutes: 10,
-        participant: "KD",
+        participant: "J. Tan",
         hasParticipation: false
     },
     {
-        name: "Spiritual Gems: Ezra 7-8",
+        name: "Spiritual Gems: Nehemiah 1-2",
         class: "m-mwb",
         minutes: 10,
-        participant: "JT",
+        participant: "J. Dy",
         hasParticipation: false
     },
     {
-        name: "Bible Reading",
+        name: "Bible Reading (Ne 2:11-18)",
         class: "m-mwb",
         minutes: 4,
-        participant: "AN",
+        participant: "R. Calutan",
         hasParticipation: false
 
     },
@@ -49,23 +49,15 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
+        participant: "J. Dy",
         hasParticipation: false
 
     },
     {
-        name: "Video: Return Visit",
-        class: "m-mwb",
-        minutes: 5,
-        participant: "MW",
-        hasParticipation: false
-
-    },
-    {
-        name: "Return Visit",
+        name: "First Conversation",
         class: "m-mwb",
         minutes: 3,
-        participant: "AB/ER",
+        participant: "N. Regala III | A. Balleres",
         hasParticipation: false
 
     },
@@ -73,42 +65,58 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
+        participant: "J. Dy",
         hasParticipation: false
+
     },
     {
         name: "Return Visit",
         class: "m-mwb",
+        minutes: 4,
+        participant: "R. Balleres | Z. Tan",
+        hasParticipation: false
+
+    },
+    {
+        name: "Chairman's Comments",
+        class: "m-mwb",
+        minutes: 1,
+        participant: "J. Dy",
+        hasParticipation: false
+    },
+    {
+        name: "Bible Study",
+        class: "m-mwb",
         minutes: 5,
-        participant: "MG/EJ",
+        participant: "B. Dagalea | C. Cuizon",
         hasParticipation: false
     },
     {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "MW",
+        participant: "J. Dy",
         hasParticipation: false
     },
     {
-        name: "Local Needs",
+        name: "Become Jehovah’s Friend​—Does Jehovah Answer Prayers?",
         class: "m-mwb",
         minutes: 15,
-        participant: "JD",
+        participant: "K. Dagalea",
         hasParticipation: false
     },
     {
-        name: "CBS: lff 38:5 Summary; Review; Goal",
+        name: "Congregation Bible Study: lff 40",
         class: "m-mwb",
         minutes: 20,
-        participant: "JT",
+        participant: "M. Waniwan",
         hasParticipation: false
     },
     {
         name: "Concluding Comments",
         class: "m-mwb",
         minutes: 3,
-        participant: "MW",
+        participant: "J. Dy",
         hasParticipation: false
     }
 ]

@@ -278,7 +278,7 @@ const timerui = {
         '  <div>' +
         '    <span class="timer-name">::meeting-name::</span>' +
         '    <div>' +
-        '      <small class="part-minutes">::minutes::min</small>' +
+        '      <small class="part-minutes">::minutes:: min</small>' +
         '      <small class="participant">::participant::</small>' +
         '    </div>' +
         '  </div>' +
