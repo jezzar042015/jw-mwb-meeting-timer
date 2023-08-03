@@ -102,7 +102,7 @@ const source = [
         name: "2023 Governing Body Update #5",
         class: "m-mwb",
         minutes: 15,
-        participant: "K. Dagalea",
+        participant: "",
         hasParticipation: false
     },
     {
