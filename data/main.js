@@ -20,28 +20,28 @@ const source = [
         name: "Opening Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "J. Dy",
+        participant: "M. Waniwan",
         hasParticipation: false
     },
     {
-        name: `“At Once I Prayed”`,
+        name: `“Is Manual Work Beneath You?”`,
         class: "m-mwb",
         minutes: 10,
         participant: "J. Tan",
         hasParticipation: false
     },
     {
-        name: "Spiritual Gems: Nehemiah 1-2",
+        name: "Spiritual Gems: Nehemiah 3-4",
         class: "m-mwb",
         minutes: 10,
-        participant: "J. Dy",
+        participant: "M. Waniwan",
         hasParticipation: false
     },
     {
-        name: "Bible Reading (Ne 2:11-18)",
+        name: "Bible Reading (Ne 3:15-21)",
         class: "m-mwb",
         minutes: 4,
-        participant: "R. Calutan",
+        participant: "E. Redoña",
         hasParticipation: false
 
     },
@@ -49,7 +49,7 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "J. Dy",
+        participant: "M. Waniwan",
         hasParticipation: false
 
     },
@@ -57,7 +57,7 @@ const source = [
         name: "First Conversation",
         class: "m-mwb",
         minutes: 3,
-        participant: "N. Regala III | A. Balleres",
+        participant: "M. Regala | J. Cuizon",
         hasParticipation: false
 
     },
@@ -65,7 +65,7 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "J. Dy",
+        participant: "M. Waniwan",
         hasParticipation: false
 
     },
@@ -73,7 +73,7 @@ const source = [
         name: "Return Visit",
         class: "m-mwb",
         minutes: 4,
-        participant: "R. Balleres | Z. Tan",
+        participant: "N. Baldesco | N. Escala",
         hasParticipation: false
 
     },
@@ -81,42 +81,42 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "J. Dy",
+        participant: "M. Waniwan",
         hasParticipation: false
     },
     {
-        name: "Bible Study",
+        name: "Talk",
         class: "m-mwb",
         minutes: 5,
-        participant: "B. Dagalea | C. Cuizon",
+        participant: "G. Alibadbad",
         hasParticipation: false
     },
     {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "J. Dy",
+        participant: "M. Waniwan",
         hasParticipation: false
     },
     {
-        name: "Become Jehovah’s Friend​—Does Jehovah Answer Prayers?",
+        name: "2023 Governing Body Update #5",
         class: "m-mwb",
         minutes: 15,
         participant: "K. Dagalea",
         hasParticipation: false
     },
     {
-        name: "Congregation Bible Study: lff 40",
+        name: "Congregation Bible Study: lff 41:1-4",
         class: "m-mwb",
         minutes: 20,
-        participant: "M. Waniwan",
+        participant: "J. Dy",
         hasParticipation: false
     },
     {
         name: "Concluding Comments",
         class: "m-mwb",
         minutes: 3,
-        participant: "J. Dy",
+        participant: "M. Waniwan",
         hasParticipation: false
     }
 ]
