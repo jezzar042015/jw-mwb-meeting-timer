@@ -1,4 +1,4 @@
-const meetingSchedule = "Meetings | Aug 3 & 6"
+const meetingSchedule = "Meetings | Aug 10 & 13"
 // const meetingSchedule = ""
 
 const source = [
@@ -20,7 +20,7 @@ const source = [
         name: "Opening Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "M. Waniwan",
+        participant: "J. Dy",
         hasParticipation: false
     },
     {
@@ -31,17 +31,17 @@ const source = [
         hasParticipation: false
     },
     {
-        name: "Spiritual Gems: Nehemiah 3-4",
+        name: "Spiritual Gems: Nehemiah 5-7",
         class: "m-mwb",
         minutes: 10,
         participant: "M. Waniwan",
         hasParticipation: false
     },
     {
-        name: "Bible Reading (Ne 3:15-21)",
+        name: "Bible Reading (Ne 5:1-11)",
         class: "m-mwb",
         minutes: 4,
-        participant: "E. Redoña",
+        participant: "A. Danco",
         hasParticipation: false
 
     },
@@ -49,7 +49,7 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "M. Waniwan",
+        participant: "J. Dy",
         hasParticipation: false
 
     },
@@ -57,7 +57,7 @@ const source = [
         name: "First Conversation",
         class: "m-mwb",
         minutes: 3,
-        participant: "M. Regala | J. Cuizon",
+        participant: "C. Waniwan | R. Balleres",
         hasParticipation: false
 
     },
@@ -65,7 +65,7 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "M. Waniwan",
+        participant: "J. Dy",
         hasParticipation: false
 
     },
@@ -73,7 +73,7 @@ const source = [
         name: "Return Visit",
         class: "m-mwb",
         minutes: 4,
-        participant: "N. Baldesco | N. Escala",
+        participant: "JI Cuizon | M. Alibadbad",
         hasParticipation: false
 
     },
@@ -81,42 +81,42 @@ const source = [
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "M. Waniwan",
+        participant: "J. Dy",
         hasParticipation: false
     },
     {
         name: "Talk",
         class: "m-mwb",
         minutes: 5,
-        participant: "G. Alibadbad",
+        participant: "A. Balleres",
         hasParticipation: false
     },
     {
         name: "Chairman's Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "M. Waniwan",
+        participant: "J. Dy",
         hasParticipation: false
     },
     {
-        name: "2023 Governing Body Update #5",
+        name: `“They Work Hard to Serve Us”`,
         class: "m-mwb",
         minutes: 15,
         participant: "",
         hasParticipation: false
     },
     {
-        name: "Congregation Bible Study: lff 41:1-4",
+        name: "Congregation Bible Study: lff 41:5; Summary; Review; Goal",
         class: "m-mwb",
         minutes: 20,
-        participant: "J. Dy",
+        participant: "J. Tan",
         hasParticipation: false
     },
     {
         name: "Concluding Comments",
         class: "m-mwb",
         minutes: 3,
-        participant: "M. Waniwan",
+        participant: "J. Dy",
         hasParticipation: false
     }
 ]
