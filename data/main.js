@@ -27,7 +27,7 @@ const source = [
         name: `“Is Manual Work Beneath You?”`,
         class: "m-mwb",
         minutes: 10,
-        participant: "J. Tan",
+        participant: "K. Dagalea",
         hasParticipation: false
     },
     {
