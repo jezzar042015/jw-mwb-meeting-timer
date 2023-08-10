@@ -1,3 +1,53 @@
+import alerts from "./alerts.js";
+import { source } from "./data.js";
+import { render } from "./render.js";
+import { watchers } from "./watchers.js";
+
+const timer = {
+  instance: {},
+  consumed: 0,
+  init() {
+    timer.instance = new Timer();
+  },
+  store() {
+    let id = watchers.getActiveId()
+    source[id].usedTime = timer.consumed;
+    console.log(source[id].usedTime);    
+  },
+  start() {
+    this.instance.start();
+    this.runInterval();
+    $("#start").addClass("running");
+  },
+  stop() {
+    this.instance.stop();
+    $("#start").removeClass("running");
+  },
+  restart: function () {
+    let id = watchers.getActiveId();
+    timer.instance.reset();
+    source[id].usedTime = 0;
+    timer.loadConsumedTime();
+    watchers.setTimerControls();
+    render.runningTime();
+  },
+  runInterval() {
+    setInterval(() => {
+      if (timer.instance.isRunning) {
+        timer.consumed = Math.round(timer.instance.getTime() / 1000);
+        render.runningTime();
+        alerts.watch();
+      }
+    }, 100);
+  },
+  loadConsumedTime() {
+    let id = watchers.getActiveId()
+    let seconds = source[id].usedTime;
+    if (typeof seconds == 'undefined') seconds = 0;
+    timer.consumed = seconds; 
+    timer.instance.overallTime = seconds * 1000
+  },
+}; 
 
 class Timer {
     constructor() {
@@ -58,4 +108,4 @@ class Timer {
     }
   }
 
-  
+export default timer;

@@ -20,7 +20,7 @@ export const events = {
         $("#restart").on("click", handlers.resetItemTimer);
     },
     switchMeeting() {
-        $("#meeting-selector").on("click", handlers.loadMeetingItems);
+        $("#meeting-selector").on("change", handlers.loadMeetingItems);
     },
     manageCountDown() {
         $("#countdown").on("click", handlers.manageCountDown);

@@ -1,14 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 
-* {
+*
+{
   box-sizing: border-box;
   font-family: "Noto Sans", sans-serif;
   margin: 0px;
   padding: 0px;
 }
 
-body {
+body
+{
   position: relative;
   background-color: #222222;
   height: 100vh;
@@ -16,13 +18,15 @@ body {
   color: white;
 }
 
-.wrapper {
+.wrapper
+{
   display: grid;
   grid-template-columns: [options] 512px [display] auto;
   grid-template-rows: 100vh;
 }
 
-#zoom-alert {
+#zoom-alert
+{
   display: none;
   background-color: #031341;
   height: 100%;
@@ -33,13 +37,15 @@ body {
   cursor: pointer;
 }
 
-#zoom-close {
+#zoom-close
+{
   position: absolute;
   bottom: 20px;
 
 }
 
-#zoom-label {
+#zoom-label
+{
   margin-top: 80px;
   text-align: center;
   font-weight: 800;
@@ -48,16 +54,19 @@ body {
   color: white;
 }
 
-.sidebar {
+.sidebar
+{
   background-color: #313131;
   overflow-x: auto;
 }
 
-.target-meeting {
+.target-meeting
+{
   background-color: #313131;
 }
 
-.target-meeting select {
+.target-meeting select
+{
   background-color: none;
   height: 60px;
   width: 100%;
@@ -68,29 +77,34 @@ body {
 }
 
 .target-meeting select:focus,
-button:focus {
+button:focus
+{
   outline: none;
 }
 
-.target-meeting option {
+.target-meeting option
+{
   padding-top: 8px;
   padding-bottom: 8px;
   text-transform: capitalize;
 
 }
 
-.options {
+.options
+{
   background-color: #313131;
   overflow-x: auto;
 }
 
-.options ul {
+.options ul
+{
   padding-top: 8px;
   padding-bottom: 8px;
   position: sticky;
 }
 
-.options li {
+.options li
+{
   display: block;
   position: relative;
   cursor: pointer;
@@ -101,16 +115,19 @@ button:focus {
   border-bottom: dotted 1px #424242;
 }
 
-.options span {
+.options span
+{
   display: inline-block;
   color: #ffff;
 }
 
-.options small {
+.options small
+{
   display: block;
 }
 
-.participant {
+.participant
+{
   /* position: absolute; */
   right: 15px;
   bottom: 12.5px;
@@ -118,31 +135,37 @@ button:focus {
   color: #e07b07
 }
 
-.options li:not(.selected):hover {
+.options li:not(.selected):hover
+{
   background-color: #327262;
 }
 
-.options .selected {
+.options .selected
+{
   background-color: #2a5d50;
   height: auto;
 }
 
-.options .disabled {
+.options .disabled
+{
   color: #424242;
 }
 
-.options .disabled:hover {
+.options .disabled:hover
+{
   background-color: #313131;
   cursor: not-allowed;
 }
 
-.display {
+.display
+{
   position: relative;
   display: grid;
   grid-template-rows: [timer] 60% [controls] 20% [notice] auto;
 }
 
-#active-part {
+#active-part
+{
   position: absolute;
   top: 0px;
   left: 0px;
@@ -150,7 +173,8 @@ button:focus {
   /* display: none; */
 }
 
-#alerts {
+#alerts
+{
   display: none;
   position: absolute;
   background-color: #000000ce;
@@ -160,14 +184,16 @@ button:focus {
   left: 0px;
 }
 
-.timer-name {
+.timer-name
+{
   width: 100%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-.timer {
+.timer
+{
   padding: 0px;
   margin: 0px 0px 0px 0px;
   display: flex;
@@ -177,37 +203,43 @@ button:focus {
 
 }
 
-.timer-overtime {
+.timer-overtime
+{
   background-color: red;
 }
 
-.timer-warning {
+.timer-warning
+{
   background-color: orange;
 }
 
-.digits {
+.digits
+{
   width: 175px;
-    text-align: center;
-    font-weight: 800;
-    font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
   font-size: 265px;
 
 }
 
-.colons {
+.colons
+{
   font-weight: 800;
   font-family: 'Montserrat', sans-serif;
   font-size: 130px;
   margin-top: 35px;
   width: 45px;
-    text-align: center;
-}
-
-.controls {
   text-align: center;
 }
 
-.controls button {
+.controls
+{
+  text-align: center;
+}
+
+.controls button
+{
   width: 100px;
   height: 100px;
   border-radius: 100%;
@@ -217,28 +249,33 @@ button:focus {
   font-weight: 600;
 }
 
-#restart:hover:enabled {
+#restart:hover:enabled
+{
   color: #ffff;
   background-color: rgb(128, 3, 3);
 }
 
-#start.running {
+#start.running
+{
   color: #ffff;
   background-color: rgb(7, 142, 231);
 }
 
-#start:hover {
+#start:hover
+{
   color: #ffff;
   background-color: rgb(7, 142, 231);
 }
 
-.store-controls {
+.store-controls
+{
   position: absolute;
   right: 15px;
   bottom: 35px;
 }
 
-.store-controls button {
+.store-controls button
+{
   padding: 5px 15px;
   cursor: pointer;
   background-color: rgb(88, 88, 219);
@@ -247,37 +284,47 @@ button:focus {
   color: #ffff;
 }
 
-.material-symbols-outlined {
+.material-symbols-outlined
+{
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
 }
 
-#start span {
+#start span
+{
   font-size: 80px;
   font-variation-settings: "OPSZ" 48;
 }
 
-#restart span {
+#restart span
+{
   font-size: 60px;
   font-variation-settings: "OPSZ" 48;
 }
 
-#zoom {
+#zoom
+{
   display: none;
 }
+
 #add30s,
-#sub15s {
+#sub15s
+{
   display: none;
 }
-#countdown {
+
+#countdown
+{
   display: none;
 }
 
 /* width */
-::-webkit-scrollbar {
+::-webkit-scrollbar
+{
   width: 5px;
 }
 
-#progress {
+#progress
+{
   position: absolute;
   bottom: 10px;
   /* background-color: white; */
@@ -286,7 +333,8 @@ button:focus {
   padding: 0px 10px;
 }
 
-#progress-bar-base {
+#progress-bar-base
+{
   background-color: #383838;
   width: auto;
   height: 8px;
@@ -294,7 +342,8 @@ button:focus {
   border-radius: 8px;
 }
 
-#progress-bar-runtime {
+#progress-bar-runtime
+{
   position: absolute;
   left: 0;
   height: 8px;
@@ -302,19 +351,23 @@ button:focus {
   width: 0%;
   background-color: #f03800;
 }
+
 /* Track */
-::-webkit-scrollbar-track {
+::-webkit-scrollbar-track
+{
   box-shadow: inset 0 0 5px grey;
   border-radius: 2.5px;
 }
 
 /* Handle */
-::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb
+{
   background: #7a7a7a;
   border-radius: 2.5px;
 }
 
-.blinking-overtime {
+.blinking-overtime
+{
   color: #fff;
   /* padding: 10px; */
   /* display: inline-block; */
@@ -322,15 +375,18 @@ button:focus {
   animation: blinkingBackground 1s infinite;
 }
 
-@keyframes blinkingBackground {
+@keyframes blinkingBackground
+{
 
-  50% {
+  50%
+  {
     background-color: #ef0a1a;
   }
 
 }
 
-.blinking-zoom {
+.blinking-zoom
+{
   color: #0a47ef;
   /* padding: 10px; */
   /* display: inline-block; */
@@ -338,10 +394,12 @@ button:focus {
   animation: blinkingZoom 1s infinite;
 }
 
-@keyframes blinkingZoom {
+@keyframes blinkingZoom
+{
 
 
-  50% {
+  50%
+  {
     color: #fff;
     background-color: #4274ff;
   }
