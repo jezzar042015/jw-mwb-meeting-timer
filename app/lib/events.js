@@ -3,7 +3,9 @@ import { handlers } from "./handlers.js";
 export const events = {
     async load() {
         this.selectItem();
-        this.setItemTimer();
+        this.startItemTimer();
+        this.stopItemTimer();
+
         this.resetItemTimer();
         this.switchMeeting();
         this.manageCountDown();
@@ -13,8 +15,11 @@ export const events = {
     selectItem() {
         $("#timers li").on("click", handlers.loadItem);
     },
-    setItemTimer() {
-        $("#start").on("click", handlers.setItemTimer);
+    startItemTimer() {
+        $("#start").on("click", handlers.startItemTimer);
+    },
+    stopItemTimer() {
+        $("#stop").on("click", handlers.stopItemTimer);
     },
     resetItemTimer() {
         $("#restart").on("click", handlers.resetItemTimer);

@@ -233,6 +233,44 @@ button:focus
   text-align: center;
 }
 
+
+#timer-details {
+  padding: 20px;
+  display: flex;
+  flex-flow: column;
+  gap: 2em;
+}
+
+#timer-details span {
+  display: block;
+}
+
+.td-label{
+  color: #bebebe;
+  font-size: .85em;
+}
+
+.td-value{
+  color: #54c4a8;
+  font-size: 1.25em;
+  font-weight: 800;
+}
+
+.td-controls {
+  display: flex;
+  flex-flow: row;
+  gap: .5em;
+}
+
+.td-controls button{
+  width: 200px;
+  cursor: pointer;
+  border: none;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+
 .controls
 {
   text-align: center;

@@ -1,5 +1,6 @@
 import { meetingSchedule, source } from "./data.js";
 import timer from "./timer.js";
+import { watchers } from "./watchers.js";
 
 export const render = {
     async meetingItems() {
@@ -28,6 +29,20 @@ export const render = {
         let id = $('.selected').data('id');
         $('#active-part').children('span').text(`${source[id].name} (${source[id].minutes} min)`);
     },
+    loadItemDetails() {
+        let meetingCode = $('#meeting-selector').val();
+        let meetingName = $(`#meeting-selector option[value='${meetingCode}']`).text();
+        $('#tdf-meeting').text(meetingName);
+
+        const s = watchers.getActiveSource()
+        $('#tdf-name').html(s.name == '' ? '&dash;' : s.name);
+        $('#tdf-participant').html(s.participant == '' ? '&dash;' : s.participant);
+        $('#tdf-time').text(`${s.minutes} min`);
+
+        let actual = typeof s.usedTime == 'undefined' || s.usedTime ==0 ? '&dash;' : s.usedTime + ' sec'
+        $('#tdf-consumed').html(actual);
+
+    },
     setDocumentTitle() {
         document.title = meetingSchedule
     },
@@ -53,11 +68,15 @@ export const render = {
         $(".sidebar").animate({ width: 'toggle' }, 0);
     },
     hideTimer() {
-        $('.digits').hide()
-        $('.colons').hide()
+        $('.timer').hide()
+        $('.controls').hide()
+        $('#active-part').hide()
+        $('#timer-details').show()
     },
     showTimer() {
-        $('.digits').show()
-        $('.colons').show()
+        $('.timer').show()
+        $('.controls').show()
+        $('#active-part').show()
+        $('#timer-details').hide()
     }
 }

@@ -39,8 +39,8 @@
       <!-- Timer Controls -->
       <div class="controls">
         <button id="sub15s">-15s</button>
-        <button id="start">START</button>
-        <button id="restart">RESET</button>
+        <button id="stop">STOP</button>
+        <!-- <button id="restart">RESET</button> -->
         <button id="zoom">ZOOM</button>
         <button id="add30s">+30s</button>
       </div>
@@ -48,7 +48,7 @@
       <div class="store-controls">
         <button id="store-data" style="display: none;">Save Meeting</button>
         <button id="store-download" style="display: none;">Download</button>
-        <button id="countdown">Show Count Down</button>
+        
       </div>
       <!-- Timer Descriptions (Top)-->
       <div id="active-part">
@@ -62,6 +62,38 @@
       </div>
       <!-- Background Alert Flicker -->
       <div id="alerts"></div>
+      <!-- Timer Details -->
+      <div id="timer-details">
+        <div>
+          <span class="td-label">Meeting</span>
+          <span class="td-value" id="tdf-meeting">&dash;</span>
+        </div>
+        <div>
+          <span class="td-label">Title</span>
+          <span class="td-value" id="tdf-name">&dash;</span>
+        </div>
+        <div>
+          <span class="td-label">Participant</span>
+          <span class="td-value" id="tdf-participant">&dash;</span>
+        </div>
+        <div>
+          <span class="td-label">Time</span>
+          <span class="td-value" id="tdf-time">&dash;</span>
+        </div>
+        <div>
+          <span class="td-label">Actual Time</span>
+          <span class="td-value" id="tdf-consumed">&dash;</span>
+        </div>
+        <div>
+          <span class="td-label">Remarks</span>
+          <span class="td-value" id="tdf-remarks">&dash;</span>
+        </div>
+        <div class="td-controls">
+          <button id="start">Start</button>
+          <button id="restart">Restart</button>
+          <button id="countdown">Show Count Down</button>
+        </div>
+      </div>
     </div>
     <!-- zoom alert -->
     <div id="zoom-alert" class="blinking-zoom">

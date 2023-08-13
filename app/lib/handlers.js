@@ -10,29 +10,29 @@ export const handlers = {
             watchers.setTimerControls();
             timer.loadConsumedTime();
             render.setActiveTitle();
+            render.loadItemDetails();
             render.runningTime();
             render.hideTimer();
         }
     },
-    setItemTimer() {
-        // starts or stop timer
-        if (timer.instance.isRunning) {
-            $(this).html("START");
-            timer.instance.stop();
-            timer.store();
-            watchers.dropRestrictions();
-            alerts.drop();
-            render.showSidebar();
-            render.hideTimer()
-        } else {
-            $(this).html("STOP");
-            timer.start();
-            watchers.imposeRestrictions();
-            render.hideSidebar();
-            render.showTimer();
-        }
-
+    startItemTimer() {
+        timer.start();
+        watchers.imposeRestrictions();
+        render.hideSidebar();
+        render.showTimer();
         watchers.setJumpers(timer.instance.isRunning);
+    },
+    stopItemTimer() {
+        $(this).html("START");
+        timer.instance.stop();
+        timer.store();
+        watchers.dropRestrictions();
+        alerts.drop();
+        render.showSidebar();
+        render.hideTimer();
+        watchers.setJumpers(timer.instance.isRunning);
+        render.loadItemDetails();
+
     },
     setActiveTimer(i) {
         handlers.unsetSelection();
@@ -44,6 +44,7 @@ export const handlers = {
     },
     resetItemTimer() {
         timer.restart()
+        render.loadItemDetails();
     },
     async loadMeetingItems() {
         const toggle = async () => {
@@ -51,7 +52,7 @@ export const handlers = {
             let meeting = $("#meeting-selector").val();
             let mwb_parts = $(".m-mwb");
             let public_parts = $(".m-public");
-            
+
             if (meeting === "mwb") {
                 mwb_parts.show();
                 public_parts.hide();

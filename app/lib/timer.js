@@ -17,7 +17,7 @@ const timer = {
   start() {
     this.instance.start();
     this.runInterval();
-    $("#start").addClass("running");
+    // $("#start").addClass("running");
   },
   stop() {
     this.instance.stop();
