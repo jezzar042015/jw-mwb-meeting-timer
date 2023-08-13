@@ -9,8 +9,9 @@ export const handlers = {
             handlers.setActiveTimer(this);
             watchers.setTimerControls();
             timer.loadConsumedTime();
-            render.setActiveTitle()
-            render.runningTime()
+            render.setActiveTitle();
+            render.runningTime();
+            render.hideTimer();
         }
     },
     setItemTimer() {
@@ -27,7 +28,8 @@ export const handlers = {
             $(this).html("STOP");
             timer.start();
             watchers.imposeRestrictions();
-            render.hideSidebar()
+            render.hideSidebar();
+            render.showTimer();
         }
 
         watchers.setJumpers(timer.instance.isRunning);

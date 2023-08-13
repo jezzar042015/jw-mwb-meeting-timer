@@ -53,6 +53,11 @@ export const render = {
         $(".sidebar").animate({ width: 'toggle' }, 0);
     },
     hideTimer() {
-        $('.timer').hide()
+        $('.digits').hide()
+        $('.colons').hide()
+    },
+    showTimer() {
+        $('.digits').show()
+        $('.colons').show()
     }
 }
