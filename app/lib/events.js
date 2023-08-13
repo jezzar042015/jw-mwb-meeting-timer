@@ -31,9 +31,9 @@ export const events = {
         $("#countdown").on("click", handlers.manageCountDown);
     },
     add30s() {
-        $('#add30s').dblclick(handlers.jumpBySeconds);
+        $('#add30s').click(handlers.jumpBySeconds);
     },
     sub15s() {
-        $('#sub15s').dblclick(handlers.jumpBackBySeconds);
+        $('#sub15s').click(handlers.jumpBackBySeconds);
     },
 };

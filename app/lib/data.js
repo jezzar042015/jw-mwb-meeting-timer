@@ -1,4 +1,4 @@
-export const meetingSchedule = "Meetings | Aug 10 & 13"
+export const meetingSchedule = "Meetings | Aug 17 & 20"
 // const meetingSchedule = ""
 
 export const source = [
@@ -20,36 +20,36 @@ export const source = [
         name: "Opening Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "J. Dy",
+        participant: "M. Waniwan",
         hasParticipation: false
     },
     {
-        name: `“Is Manual Work Beneath You?”`,
+        name: `TREASURES: “The Joy of Jehovah Is Your Stronghold”`,
         class: "m-mwb",
         minutes: 10,
         participant: "K. Dagalea",
         hasParticipation: false
     },
     {
-        name: "Spiritual Gems: Nehemiah 5-7",
+        name: "Spiritual Gems: Nehemiah 8-9",
         class: "m-mwb",
         minutes: 10,
         participant: "M. Waniwan",
         hasParticipation: false
     },
     {
-        name: "Bible Reading (Ne 5:1-11)",
+        name: "Bible Reading (Ne 8:1-8)",
         class: "m-mwb",
         minutes: 4,
-        participant: "A. Danco",
+        participant: "N. Regala III",
         hasParticipation: false
 
     },
     {
-        name: "Chairman's Comments",
+        name: "Chairman's Comments for Bible Reading",
         class: "m-mwb",
         minutes: 1,
-        participant: "J. Dy",
+        participant: "M. Waniwan",
         hasParticipation: false
 
     },
@@ -57,15 +57,15 @@ export const source = [
         name: "First Conversation",
         class: "m-mwb",
         minutes: 3,
-        participant: "C. Waniwan | R. Balleres",
+        participant: "G. Cuizon | M. Dy",
         hasParticipation: false
 
     },
     {
-        name: "Chairman's Comments",
+        name: "Chairman's Comments for First Conversation",
         class: "m-mwb",
         minutes: 1,
-        participant: "J. Dy",
+        participant: "M. Waniwan",
         hasParticipation: false
 
     },
@@ -73,50 +73,50 @@ export const source = [
         name: "Return Visit",
         class: "m-mwb",
         minutes: 4,
-        participant: "JI Cuizon | M. Alibadbad",
+        participant: "EJ Borer | N. Baldesco",
         hasParticipation: false
 
     },
     {
-        name: "Chairman's Comments",
+        name: "Chairman's Comments for Return Visit",
         class: "m-mwb",
         minutes: 1,
-        participant: "J. Dy",
+        participant: "M. Waniwan",
         hasParticipation: false
     },
     {
-        name: "Talk",
+        name: "Bible Study: lff 11:5; Some People Say",
         class: "m-mwb",
         minutes: 5,
-        participant: "A. Balleres",
+        participant: "C. Cuizon | N. Escala",
         hasParticipation: false
     },
     {
-        name: "Chairman's Comments",
+        name: "Chairman's Comments for Bible Study",
         class: "m-mwb",
         minutes: 1,
-        participant: "J. Dy",
+        participant: "M. Waniwan",
         hasParticipation: false
     },
     {
-        name: `“They Work Hard to Serve Us”`,
+        name: `“You Can Contribute to Your Family's Joy”`,
         class: "m-mwb",
         minutes: 15,
-        participant: "",
+        participant: "K. Dagalea",
         hasParticipation: false
     },
     {
-        name: "Congregation Bible Study: lff 41:5; Summary; Review; Goal",
+        name: "Congregation Bible Study: lff 42; Endnote 4",
         class: "m-mwb",
         minutes: 20,
-        participant: "J. Tan",
+        participant: "J. Dy",
         hasParticipation: false
     },
     {
         name: "Concluding Comments",
         class: "m-mwb",
         minutes: 3,
-        participant: "J. Dy",
+        participant: "M. Waniwan",
         hasParticipation: false
     }
 ]

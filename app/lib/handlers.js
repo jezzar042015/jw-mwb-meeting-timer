@@ -23,7 +23,6 @@ export const handlers = {
         watchers.setJumpers(timer.instance.isRunning);
     },
     stopItemTimer() {
-        $(this).html("START");
         timer.instance.stop();
         timer.store();
         watchers.dropRestrictions();

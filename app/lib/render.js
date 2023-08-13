@@ -39,8 +39,44 @@ export const render = {
         $('#tdf-participant').html(s.participant == '' ? '&dash;' : s.participant);
         $('#tdf-time').text(`${s.minutes} min`);
 
-        let actual = typeof s.usedTime == 'undefined' || s.usedTime ==0 ? '&dash;' : s.usedTime + ' sec'
+        let seconds = typeof s.usedTime == 'undefined' ? 0 : s.usedTime;
+        let pt = render.parseToTime(seconds);
+        let actual = render.displayParsedTime(pt)  
         $('#tdf-consumed').html(actual);
+
+        const diff = render.getDifference()
+        $('#tdf-remarks').html(diff == 0 ? '&dash;' : render.displayRemarks(diff));
+    },
+    parseToTime(seconds) {
+        const t = {}        
+        t.h = Math.floor(seconds / 3600);
+        t.m = Math.floor(seconds / 60) % 60;
+        t.s = seconds % 60;
+
+        return t;
+    },
+    displayParsedTime(t = {h:0,m:0,s:0}) {
+        if (t.h == 0 && t.m == 0 && t.s == 0) {
+            return '&dash;';
+        } else if (t.m == 0 && t.s > 0) {
+            return `${t.s} sec`;
+        } else {
+            return `${t.m} min and ${t.s} sec`;
+        }
+    },
+    displayRemarks(secDifference) {
+        let abs = Math.abs(secDifference);
+        let pt = render.parseToTime(abs)
+        if (secDifference < 0) {
+            return `Overtime: ${render.displayParsedTime(pt)}`
+        } else {
+            return `Undertime: ${render.displayParsedTime(pt)}`
+        }   
+    },
+    getDifference() {
+        const s = watchers.getActiveSource();
+        if (typeof s.usedTime == 'undefined') return 0
+        return (s.minutes * 60) - (s.usedTime);
 
     },
     setDocumentTitle() {
