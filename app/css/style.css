@@ -259,6 +259,7 @@ button:focus
 .td-controls {
   display: flex;
   flex-flow: row;
+  flex-wrap: wrap;
   gap: .5em;
 }
 
@@ -352,7 +353,7 @@ button:focus
 
 #countdown
 {
-  display: none;
+  display: inline;
 }
 
 /* width */

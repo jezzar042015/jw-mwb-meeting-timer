@@ -2,6 +2,7 @@ import timer from "./timer.js";
 import { render } from "./render.js";
 import { watchers } from "./watchers.js";
 import alerts from "./alerts.js";
+import countdown from "./countdown.js";
 
 export const handlers = {
     loadItem() {
@@ -67,7 +68,24 @@ export const handlers = {
         $("#timers li:visible:first").click();
     },
     manageCountDown() {
+        const countdownBtn = $(this);
+        if (countdownBtn.text() == 'Hide Count Down') {
+            alerts.drop()
+            countdownBtn.text('Show Count Down')
+            $(".display").width('auto')
+            $(".sidebar").animate({ width: 'toggle' }, 0);
+            $(".controls").toggle(true)
 
+            $("#countdown").toggle($('#progress-bar-runtime').width() < 0)
+
+        } else {
+            // countdown.text('Hide Count Down')
+            countdown.running = true
+            render.hideSidebar();
+            render.showTimer();
+            $(".controls").toggle(false)
+            render.setActiveTitle('countdown');
+        }
     },
     jumpBySeconds() {
         let seconds = 30 * 1000

@@ -27,7 +27,7 @@ export const source = [
         name: `TREASURES: “The Joy of Jehovah Is Your Stronghold”`,
         class: "m-mwb",
         minutes: 10,
-        participant: "K. Dagalea",
+        participant: "J. Tan",
         hasParticipation: false
     },
     {

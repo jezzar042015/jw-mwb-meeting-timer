@@ -25,9 +25,18 @@ export const render = {
             $(ul).append(li);
         }
     },
-    setActiveTitle() {
-        let id = $('.selected').data('id');
-        $('#active-part').children('span').text(`${source[id].name} (${source[id].minutes} min)`);
+    setActiveTitle(mode = 'live') {
+        let title = '';
+        if (mode == 'live') {
+            let id = $('.selected').data('id');
+            title = `${source[id].name} (${source[id].minutes} min)`;
+        }
+        
+        if (mode == 'countdown') {
+            title = 'Meeting starts in...'
+        }
+        
+        $('#active-part').children('span').text(title);
     },
     loadItemDetails() {
         let meetingCode = $('#meeting-selector').val();
@@ -84,6 +93,9 @@ export const render = {
     },
     runningTime() {
         let seconds = timer.consumed;
+        this.runTime(seconds)
+    },
+    runTime(seconds) {
         let s = seconds % 60;
         let m = Math.floor(seconds / 60) % 60;
         let h = Math.floor(seconds / 3600);
