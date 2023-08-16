@@ -24,14 +24,18 @@ export const handlers = {
         watchers.setJumpers(timer.instance.isRunning);
     },
     stopItemTimer() {
-        timer.instance.stop();
-        timer.store();
-        watchers.dropRestrictions();
-        alerts.drop();
+        if (countdown.running) {
+            countdown.running = false
+        } else {
+            timer.instance.stop();
+            timer.store();
+            watchers.dropRestrictions();
+            alerts.drop();
+            watchers.setJumpers(timer.instance.isRunning);
+            render.loadItemDetails();
+        }
         render.showSidebar();
         render.hideTimer();
-        watchers.setJumpers(timer.instance.isRunning);
-        render.loadItemDetails();
 
     },
     setActiveTimer(i) {
@@ -68,24 +72,11 @@ export const handlers = {
         $("#timers li:visible:first").click();
     },
     manageCountDown() {
-        const countdownBtn = $(this);
-        if (countdownBtn.text() == 'Hide Count Down') {
-            alerts.drop()
-            countdownBtn.text('Show Count Down')
-            $(".display").width('auto')
-            $(".sidebar").animate({ width: 'toggle' }, 0);
-            $(".controls").toggle(true)
 
-            $("#countdown").toggle($('#progress-bar-runtime').width() < 0)
-
-        } else {
-            // countdown.text('Hide Count Down')
-            countdown.running = true
-            render.hideSidebar();
-            render.showTimer();
-            $(".controls").toggle(false)
-            render.setActiveTitle('countdown');
-        }
+        countdown.running = true
+        render.hideSidebar();
+        render.showTimer();
+        render.setActiveTitle('countdown');
     },
     jumpBySeconds() {
         let seconds = 30 * 1000
