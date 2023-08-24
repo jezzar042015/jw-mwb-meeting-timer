@@ -23,13 +23,13 @@ const timer = {
     this.instance.stop();
     $("#start").removeClass("running");
   },
-  restart: function () {
+  async restart() {
     let id = watchers.getActiveId();
     timer.instance.reset();
-    source[id].usedTime = 0;
     timer.loadConsumedTime();
     watchers.setTimerControls();
     render.runningTime();
+    source[id].usedTime = 0;
   },
   runInterval() {
     setInterval(() => {

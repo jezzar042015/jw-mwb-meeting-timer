@@ -54,7 +54,7 @@ export const render = {
         $('#tdf-consumed').html(actual);
 
         const diff = render.getDifference()
-        $('#tdf-remarks').html(diff == 0 ? '&dash;' : render.displayRemarks(diff));
+        $('#tdf-remarks').html(diff == 0 || s.usedTime == 0 ? '&dash;' : render.displayRemarks(diff));
     },
     parseToTime(seconds) {
         const t = {}        

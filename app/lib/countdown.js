@@ -1,3 +1,4 @@
+import alerts from "./alerts.js";
 import { render } from "./render.js";
 
 const countdown = {
@@ -24,6 +25,7 @@ const countdown = {
     },
     
     set() {
+
         if (!this.running) return;
 
         let meeting = $('#meeting-selector').val()
@@ -54,8 +56,8 @@ const countdown = {
 
             render.runTime(seconds)
 
-            if (seconds <= 300 && seconds > 180) { timerui.raiseAlert('warning') }
-            if (seconds <= 180) { timerui.raiseAlert('overtime') }
+            if (seconds <= 300 && seconds > 180) { alerts.raise('warning') }
+            if (seconds <= 180) { alerts.raise('overtime') }
         }
     },
 
@@ -92,6 +94,9 @@ const progress = {
 
         if (c > w) c = w
         if (c < 0) c = 0
+
+        console.log(c);
+        $('#countdown').toggle(c < 1);
 
         $('#progress-bar-runtime').width(c + 'px')
     },

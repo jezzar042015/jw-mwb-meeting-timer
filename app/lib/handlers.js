@@ -26,6 +26,7 @@ export const handlers = {
     stopItemTimer() {
         if (countdown.running) {
             countdown.running = false
+            alerts.drop();
         } else {
             timer.instance.stop();
             timer.store();
@@ -46,7 +47,7 @@ export const handlers = {
         $(".selected").removeClass("selected");
         $(".disabled").removeClass("disabled");
     },
-    resetItemTimer() {
+    async resetItemTimer() {
         timer.restart()
         render.loadItemDetails();
     },
