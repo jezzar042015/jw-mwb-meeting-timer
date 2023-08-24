@@ -72,7 +72,6 @@ export const handlers = {
         $("#timers li:visible:first").click();
     },
     manageCountDown() {
-
         countdown.running = true
         render.hideSidebar();
         render.showTimer();
