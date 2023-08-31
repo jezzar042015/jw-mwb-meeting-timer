@@ -95,7 +95,6 @@ const progress = {
         if (c > w) c = w
         if (c < 0) c = 0
 
-        console.log(c);
         $('#countdown').toggle(c < 1);
 
         $('#progress-bar-runtime').width(c + 'px')

@@ -1,4 +1,4 @@
-export const meetingSchedule = "Meetings | Aug 24 & 27"
+export const meetingSchedule = "Meetings | Aug 31 & Sep 3"
 // const meetingSchedule = ""
 
 export const source = [
@@ -6,42 +6,42 @@ export const source = [
         name: "Public Talk",
         class: "m-public",
         minutes: 30,
-        participant: "K. Dagalea",
+        participant: "J. Tan",
         hasParticipation: false
     },
     {
         name: "Watchtower Study",
         class: "m-public",
         minutes: 50,
-        participant: "J. Tan",
+        participant: "J. Dy",
         hasParticipation: false
     },
     {
         name: "Opening Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "K. Dagalea",
+        participant: "J. Dy",
         hasParticipation: false
     },
     {
-        name: `TREASURES: “They Made Personal Sacrifices for Jehovah”`,
+        name: `TREASURES: “Be Loyal to Jehovah When Choosing Friends”`,
         class: "m-mwb",
         minutes: 10,
-        participant: "J. Tan",
+        participant: "M. Waniwan",
         hasParticipation: false
     },
     {
-        name: "Spiritual Gems: Nehemiah 10-11",
+        name: "Spiritual Gems: Nehemiah 12-13",
         class: "m-mwb",
         minutes: 10,
-        participant: "K. Dagalea",
+        participant: "J. Dy",
         hasParticipation: false
     },
     {
-        name: "Bible Reading (Ne 10:28-36)",
+        name: "Bible Reading (Ne 12:31-39)",
         class: "m-mwb",
         minutes: 4,
-        participant: "R. Calutan",
+        participant: "R. Berbes",
         hasParticipation: false
 
     },
@@ -49,7 +49,7 @@ export const source = [
         name: "Chairman's Comments for Bible Reading",
         class: "m-mwb",
         minutes: 1,
-        participant: "K. Dagalea",
+        participant: "J. Dy",
         hasParticipation: false
 
     },
@@ -57,7 +57,7 @@ export const source = [
         name: "First Conversation",
         class: "m-mwb",
         minutes: 3,
-        participant: "R. Ballares | M. Olarte",
+        participant: "R. Calutan | A. Balleres",
         hasParticipation: false
 
     },
@@ -65,7 +65,7 @@ export const source = [
         name: "Chairman's Comments for First Conversation",
         class: "m-mwb",
         minutes: 1,
-        participant: "K. Dagalea",
+        participant: "J. Dy",
         hasParticipation: false
 
     },
@@ -73,7 +73,7 @@ export const source = [
         name: "Return Visit",
         class: "m-mwb",
         minutes: 4,
-        participant: "B. Dagalea | J. Cuezon",
+        participant: "N. Baldesco | G. Cuizon",
         hasParticipation: false
 
     },
@@ -81,49 +81,49 @@ export const source = [
         name: "Chairman's Comments for Return Visit",
         class: "m-mwb",
         minutes: 1,
-        participant: "K. Dagalea",
+        participant: "J. Dy",
         hasParticipation: false
     },
     {
-        name: "Talk: w11-ASL 2/15 2:12-15—Theme: Sacrifices That Please God Today",
+        name: "Bible Study: lff 11:Summary; Review; Goal",
         class: "m-mwb",
         minutes: 5,
-        participant: "A. Ballares",
+        participant: "Z. Tan | J. Cuizon",
         hasParticipation: false
     },
     {
         name: "Chairman's Comments for Talk",
         class: "m-mwb",
         minutes: 1,
-        participant: "K. Dagalea",
-        hasParticipation: false
-    },
-    {
-        name: `“What Are Your Goals for the New Service Year?”`,
-        class: "m-mwb",
-        minutes: 10,
-        participant: "J. Tan",
-        hasParticipation: false
-    },
-    {
-        name: `“Special Campaign to Publicize God’s Kingdom in September!”`,
-        class: "m-mwb",
-        minutes: 5,
         participant: "J. Dy",
         hasParticipation: false
     },
     {
-        name: "Congregation Bible Study: lff 43",
+        name: `Local Needs`,
+        class: "m-mwb",
+        minutes: 5,
+        participant: "M. Waniwan",
+        hasParticipation: false
+    },
+    {
+        name: `“Imitate Jehovah’s Loyal Love”`,
+        class: "m-mwb",
+        minutes: 10,
+        participant: "K. Dagalea",
+        hasParticipation: false
+    },
+    {
+        name: "Congregation Bible Study: lff 44:1-4; Endnote 5",
         class: "m-mwb",
         minutes: 20,
-        participant: "M. Waniwan",
+        participant: "J. Tan",
         hasParticipation: false
     },
     {
         name: "Concluding Comments",
         class: "m-mwb",
         minutes: 3,
-        participant: "K. Dagalea",
+        participant: "J. Dy",
         hasParticipation: false
     }
 ]
