@@ -6,42 +6,42 @@ export const source = [
         name: "Public Talk",
         class: "m-public",
         minutes: 30,
-        participant: "J. Dy",
+        participant: "J. Tan",
         hasParticipation: false
     },
     {
         name: "Watchtower Study",
         class: "m-public",
         minutes: 50,
-        participant: "J. Tan",
+        participant: "-",
         hasParticipation: false
     },
     {
         name: "Opening Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "M. Waniwan",
-        hasParticipation: false
-    },
-    {
-        name: `TREASURES: “Strive to Be Modest Like Esther”`,
-        class: "m-mwb",
-        minutes: 10,
         participant: "K. Dagalea",
         hasParticipation: false
     },
     {
-        name: "Spiritual Gems: Esther 1-2",
+        name: `TREASURES: “Help Others to Reach Their Full Potential”`,
         class: "m-mwb",
         minutes: 10,
         participant: "J. Tan",
         hasParticipation: false
     },
     {
-        name: "Bible Reading (Es 1:13-22)",
+        name: "Spiritual Gems: Esther 3-5",
+        class: "m-mwb",
+        minutes: 10,
+        participant: "J. Dy",
+        hasParticipation: false
+    },
+    {
+        name: "Bible Reading (Es 3:1-12)",
         class: "m-mwb",
         minutes: 4,
-        participant: "E. Redoña",
+        participant: "A. Danco",
         hasParticipation: false
 
     },
@@ -49,73 +49,66 @@ export const source = [
         name: "Chairman's Comments for Bible Reading",
         class: "m-mwb",
         minutes: 1,
-        participant: "M. Waniwan",
+        participant: "K. Dagalea",
         hasParticipation: false
 
     },
     {
-        name: "First Conversation Video",
+        name: "Return Visit Video",
         class: "m-mwb",
         minutes: 5,
-        participant: "M .Waniwan",
+        participant: "K. Dagalea",
         hasParticipation: false
 
     },
     {
-        name: "First Conversation",
+        name: "Return Visit",
         class: "m-mwb",
         minutes: 3,
-        participant: "N. Escala | M. Alibadbad",
+        participant: "C. Waniwan | N. Baldesco",
         hasParticipation: false
 
     },
     {
-        name: "Chairman's Comments for First Conversation",
+        name: "Chairman's Comments for Return Visit",
         class: "m-mwb",
         minutes: 1,
-        participant: "M. Waniwan",
+        participant: "K. Dagalea",
         hasParticipation: false
     },
     {
-        name: "Talk: w20.11 46:3-7​—Theme: Help From Jesus and the Angels",
+        name: "Bible Study: lff 12:Intro; 1-3",
         class: "m-mwb",
         minutes: 5,
-        participant: "A. Balleres",
+        participant: "B. Dagalea | EJ. Borer",
         hasParticipation: false
     },
     {
-        name: "Chairman's Comments for Talk",
+        name: "Chairman's Comments for Bible Study",
         class: "m-mwb",
         minutes: 1,
-        participant: "M. Waniwan",
+        participant: "K. Dagalea",
         hasParticipation: false
     },
     {
-        name: `What Your Peers Say​—Body Image`,
+        name: `Governing Body Update #6`,
         class: "m-mwb",
-        minutes: 5,
-        participant: "J. Tan",
-        hasParticipation: false
-    },
-    {
-        name: `Organizational Accomplishments`,
-        class: "m-mwb",
-        minutes: 10,
+        minutes: 15,
         participant: "-",
         hasParticipation: false
     },
     {
-        name: "Congregation Bible Study: lff 44:5-6; Summary; Review; Goal",
+        name: "Congregation Bible Study: lff 45:1-3",
         class: "m-mwb",
         minutes: 20,
-        participant: "J. Tan",
+        participant: "M. Waniwan",
         hasParticipation: false
     },
     {
         name: "Concluding Comments",
         class: "m-mwb",
         minutes: 3,
-        participant: "M. Waniwan",
+        participant: "K. Dagalea",
         hasParticipation: false
     }
 ]
