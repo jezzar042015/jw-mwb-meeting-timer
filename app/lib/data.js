@@ -6,42 +6,42 @@ export const source = [
         name: "Public Talk",
         class: "m-public",
         minutes: 30,
-        participant: "J. Tan",
+        participant: "K. Dagalea",
         hasParticipation: false
     },
     {
         name: "Watchtower Study",
         class: "m-public",
         minutes: 50,
-        participant: "-",
+        participant: "J. Tan",
         hasParticipation: false
     },
     {
         name: "Opening Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "K. Dagalea",
+        participant: "J. Dy",
         hasParticipation: false
     },
     {
-        name: `TREASURES: “Help Others to Reach Their Full Potential”`,
+        name: `TREASURES: “A Lesson in Good Communication”`,
         class: "m-mwb",
         minutes: 10,
         participant: "J. Tan",
         hasParticipation: false
     },
     {
-        name: "Spiritual Gems: Esther 3-5",
+        name: "Spiritual Gems: Esther 6-8",
         class: "m-mwb",
         minutes: 10,
-        participant: "J. Dy",
+        participant: "M. Waniwan",
         hasParticipation: false
     },
     {
-        name: "Bible Reading (Es 3:1-12)",
+        name: "Bible Reading (Es 8:9-17)",
         class: "m-mwb",
         minutes: 4,
-        participant: "A. Danco",
+        participant: "N. Regala III",
         hasParticipation: false
 
     },
@@ -49,15 +49,23 @@ export const source = [
         name: "Chairman's Comments for Bible Reading",
         class: "m-mwb",
         minutes: 1,
-        participant: "K. Dagalea",
+        participant: "J. Dy",
         hasParticipation: false
 
     },
     {
-        name: "Return Visit Video",
+        name: "First Conversation",
         class: "m-mwb",
-        minutes: 5,
-        participant: "K. Dagalea",
+        minutes: 3,
+        participant: "G. Cuizon | M. Olarte",
+        hasParticipation: false
+
+    },
+    {
+        name: "Chairman's Comments for First Conversation",
+        class: "m-mwb",
+        minutes: 1,
+        participant: "J. Dy",
         hasParticipation: false
 
     },
@@ -65,7 +73,7 @@ export const source = [
         name: "Return Visit",
         class: "m-mwb",
         minutes: 3,
-        participant: "C. Waniwan | N. Baldesco",
+        participant: "M. Dy | R. Balleres",
         hasParticipation: false
 
     },
@@ -73,42 +81,42 @@ export const source = [
         name: "Chairman's Comments for Return Visit",
         class: "m-mwb",
         minutes: 1,
-        participant: "K. Dagalea",
+        participant: "J. Dy",
         hasParticipation: false
     },
     {
-        name: "Bible Study: lff 12:Intro; 1-3",
+        name: "Talk: w22.01 2:8-10​—Theme: Teach Effectively Like James—​Keep Your Message Simple",
         class: "m-mwb",
         minutes: 5,
-        participant: "B. Dagalea | EJ. Borer",
+        participant: "G. Alibadbad",
         hasParticipation: false
     },
     {
-        name: "Chairman's Comments for Bible Study",
+        name: "Chairman's Comments for Talk",
         class: "m-mwb",
         minutes: 1,
-        participant: "K. Dagalea",
+        participant: "J. Dy",
         hasParticipation: false
     },
     {
-        name: `Governing Body Update #6`,
+        name: `“Rely On Jehovah When Dealing With a Bully”`,
         class: "m-mwb",
         minutes: 15,
-        participant: "-",
+        participant: "M. Waniwan",
         hasParticipation: false
     },
     {
-        name: "Congregation Bible Study: lff 45:1-3",
+        name: "Congregation Bible Study: lff 45:4; Summary; Review; Goal",
         class: "m-mwb",
         minutes: 20,
-        participant: "M. Waniwan",
+        participant: "K. Dagalea",
         hasParticipation: false
     },
     {
         name: "Concluding Comments",
         class: "m-mwb",
         minutes: 3,
-        participant: "K. Dagalea",
+        participant: "J. Dy",
         hasParticipation: false
     }
 ]
