@@ -6,7 +6,7 @@ export const source = [
         name: "Public Talk",
         class: "m-public",
         minutes: 30,
-        participant: "K. Dagalea",
+        participant: "J. Dy",
         hasParticipation: false
     },
     {
@@ -20,28 +20,28 @@ export const source = [
         name: "Opening Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "J. Dy",
+        participant: "M. Waniwan",
         hasParticipation: false
     },
     {
-        name: `TREASURES: “A Lesson in Good Communication”`,
+        name: `TREASURES: “He Used His Authority Unselfishly”`,
         class: "m-mwb",
         minutes: 10,
-        participant: "J. Tan",
+        participant: "K. Dagalea",
         hasParticipation: false
     },
     {
-        name: "Spiritual Gems: Esther 6-8",
+        name: "Spiritual Gems: Esther 9-10",
         class: "m-mwb",
         minutes: 10,
         participant: "M. Waniwan",
         hasParticipation: false
     },
     {
-        name: "Bible Reading (Es 8:9-17)",
+        name: "Bible Reading (Es 9:1-14)",
         class: "m-mwb",
         minutes: 4,
-        participant: "N. Regala III",
+        participant: "R. Calutan",
         hasParticipation: false
 
     },
@@ -49,15 +49,15 @@ export const source = [
         name: "Chairman's Comments for Bible Reading",
         class: "m-mwb",
         minutes: 1,
-        participant: "J. Dy",
+        participant: "M. Waniwan",
         hasParticipation: false
 
     },
     {
         name: "First Conversation",
         class: "m-mwb",
-        minutes: 3,
-        participant: "G. Cuizon | M. Olarte",
+        minutes: 2,
+        participant: "E. Barca | N. Baldesco",
         hasParticipation: false
 
     },
@@ -65,15 +65,15 @@ export const source = [
         name: "Chairman's Comments for First Conversation",
         class: "m-mwb",
         minutes: 1,
-        participant: "J. Dy",
+        participant: "M. Waniwan",
         hasParticipation: false
 
     },
     {
         name: "Return Visit",
         class: "m-mwb",
-        minutes: 3,
-        participant: "M. Dy | R. Balleres",
+        minutes: 5,
+        participant: "R. Berbes | A. Balleres",
         hasParticipation: false
 
     },
@@ -81,42 +81,42 @@ export const source = [
         name: "Chairman's Comments for Return Visit",
         class: "m-mwb",
         minutes: 1,
-        participant: "J. Dy",
-        hasParticipation: false
-    },
-    {
-        name: "Talk: w22.01 2:8-10​—Theme: Teach Effectively Like James—​Keep Your Message Simple",
-        class: "m-mwb",
-        minutes: 5,
-        participant: "G. Alibadbad",
-        hasParticipation: false
-    },
-    {
-        name: "Chairman's Comments for Talk",
-        class: "m-mwb",
-        minutes: 1,
-        participant: "J. Dy",
-        hasParticipation: false
-    },
-    {
-        name: `“Rely On Jehovah When Dealing With a Bully”`,
-        class: "m-mwb",
-        minutes: 15,
         participant: "M. Waniwan",
         hasParticipation: false
     },
     {
-        name: "Congregation Bible Study: lff 45:4; Summary; Review; Goal",
+        name: "Bible Study: (5 min.) lff 12:Dig Deeper; 4",
+        class: "m-mwb",
+        minutes: 5,
+        participant: "C. Cuizon | Z. Tan",
+        hasParticipation: false
+    },
+    {
+        name: "Chairman's Comments for Bible Study",
+        class: "m-mwb",
+        minutes: 1,
+        participant: "M. Waniwan",
+        hasParticipation: false
+    },
+    {
+        name: `“Shepherds Who Work for the Good of Jehovah’s People”`,
+        class: "m-mwb",
+        minutes: 15,
+        participant: "J. Dy",
+        hasParticipation: false
+    },
+    {
+        name: "Congregation Bible Study: lff 46",
         class: "m-mwb",
         minutes: 20,
-        participant: "K. Dagalea",
+        participant: "J. Tan",
         hasParticipation: false
     },
     {
         name: "Concluding Comments",
         class: "m-mwb",
         minutes: 3,
-        participant: "J. Dy",
+        participant: "M. Waniwan",
         hasParticipation: false
     }
 ]
