@@ -1,4 +1,4 @@
-export const meetingSchedule = "Meetings | Oct 5 & 8"
+export const meetingSchedule = "Meetings | Oct 12 & 15"
 // const meetingSchedule = ""
 
 export const source = [
@@ -6,7 +6,7 @@ export const source = [
         name: "Public Talk",
         class: "m-public",
         minutes: 30,
-        participant: "K. Mercadala",
+        participant: "M. Waniwan",
         hasParticipation: false
     },
     {
@@ -20,43 +20,43 @@ export const source = [
         name: "Opening Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "J. Tan",
+        participant: "J. Dy",
         hasParticipation: false
     },
     {
-        name: `TREASURES: “Continue to Show the Depth of Your Love for Jehovah”`,
-        class: "m-mwb",
-        minutes: 10,
-        participant: "M. Waniwan",
-        hasParticipation: false
-    },
-    {
-        name: "Spiritual Gems: Job 1-3",
+        name: `TREASURES: “Beware of Misinformation”`,
         class: "m-mwb",
         minutes: 10,
         participant: "J. Tan",
         hasParticipation: false
     },
     {
-        name: "Bible Reading (Job 3:1-20)",
+        name: "Spiritual Gems: Job 4-5",
+        class: "m-mwb",
+        minutes: 10,
+        participant: "J. Dy",
+        hasParticipation: false
+    },
+    {
+        name: "Bible Reading (Job 5:1-23)",
         class: "m-mwb",
         minutes: 4,
-        participant: "E. Redoña",
+        participant: "A. Danco",
         hasParticipation: false
     },
     {
         name: "Chairman's Comments for Bible Reading",
         class: "m-mwb",
         minutes: 1,
-        participant: "J. Tan",
+        participant: "J. Dy",
         hasParticipation: false
 
     },
     {
         name: "First Conversation",
         class: "m-mwb",
-        minutes: 3,
-        participant: "JC Cuizon | N. Escala",
+        minutes: 2,
+        participant: "EJ Borer | C. Waniwan",
         hasParticipation: false
 
     },
@@ -64,15 +64,15 @@ export const source = [
         name: "Chairman's Comments for First Conversation",
         class: "m-mwb",
         minutes: 1,
-        participant: "J. Tan",
+        participant: "J. Dy",
         hasParticipation: false
 
     },
     {
         name: "Return Visit",
         class: "m-mwb",
-        minutes: 4,
-        participant: "JI Cuizon | M. Alibadbad",
+        minutes: 5,
+        participant: "N. Regala III | R. Calutan",
         hasParticipation: false
 
     },
@@ -80,49 +80,42 @@ export const source = [
         name: "Chairman's Comments for Return Visit",
         class: "m-mwb",
         minutes: 1,
-        participant: "J. Tan",
+        participant: "J. Dy",
         hasParticipation: false
     },
     {
-        name: "Talk: (5 min.) Theme: Teach Effectively Like James—​Be Realistic and Humble",
+        name: "Bible Study: (5 min.) lff 16:5",
         class: "m-mwb",
         minutes: 5,
-        participant: "A. Balleres",
+        participant: "R. Balleres | -",
         hasParticipation: false
     },
     {
         name: "Chairman's Comments for Bible Study",
         class: "m-mwb",
         minutes: 1,
-        participant: "J. Tan",
+        participant: "J. Dy",
         hasParticipation: false
     },
     {
-        name: `I Thought I Had It All Together`,
+        name: `Local Needs`,
         class: "m-mwb",
-        minutes: 10,
-        participant: "M. Waniwan",
+        minutes: 15,
+        participant: "K. Dagalea",
         hasParticipation: false
     },
     {
-        name: `“Use the JW.ORG Home Page in Your Ministry”`,
-        class: "m-mwb",
-        minutes: 5,
-        participant: "J. Tan",
-        hasParticipation: false
-    },
-    {
-        name: "Congregation Bible Study: lff 47",
+        name: "Congregation Bible Study: lff section 3 review",
         class: "m-mwb",
         minutes: 20,
-        participant: "J. Dy",
+        participant: "M. Waniwan",
         hasParticipation: false
     },
     {
         name: "Concluding Comments",
         class: "m-mwb",
         minutes: 3,
-        participant: "J. Tan",
+        participant: "J. Dy",
         hasParticipation: false
     }
 ]
