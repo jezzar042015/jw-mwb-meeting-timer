@@ -1,4 +1,4 @@
-export const meetingSchedule = "Meetings | Oct 19 & 22"
+export const meetingSchedule = "Meetings | Oct 26 & 29"
 // const meetingSchedule = ""
 
 export const source = [
@@ -6,7 +6,7 @@ export const source = [
         name: "Public Talk",
         class: "m-public",
         minutes: 30,
-        participant: "K. Dagalea",
+        participant: "J. Dy",
         hasParticipation: false
     },
     {
@@ -20,35 +20,35 @@ export const source = [
         name: "Opening Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "M. Waniwan",
-        hasParticipation: false
-    },
-    {
-        name: `TREASURES: “When Life Feels Unbearable”`,
-        class: "m-mwb",
-        minutes: 10,
         participant: "K. Dagalea",
         hasParticipation: false
     },
     {
-        name: "Spiritual Gems: Job 6-7",
+        name: `TREASURES: “God’s Loyal Love Protects Us From Satan’s Lies”`,
         class: "m-mwb",
         minutes: 10,
         participant: "M. Waniwan",
         hasParticipation: false
     },
     {
-        name: "Bible Reading (Job 6:1-21)",
+        name: "Spiritual Gems: Job 8-10",
+        class: "m-mwb",
+        minutes: 10,
+        participant: "J. Tan",
+        hasParticipation: false
+    },
+    {
+        name: "Bible Reading (Job 9:20-35)",
         class: "m-mwb",
         minutes: 4,
-        participant: "A. Balleres",
+        participant: "R. Calutan",
         hasParticipation: false
     },
     {
         name: "Chairman's Comments for Bible Reading",
         class: "m-mwb",
         minutes: 1,
-        participant: "M. Waniwan",
+        participant: "K. Dagalea",
         hasParticipation: false
 
     },
@@ -56,7 +56,7 @@ export const source = [
         name: "First Conversation",
         class: "m-mwb",
         minutes: 3,
-        participant: "G. Cuizon | JI Cuizon",
+        participant: "R. Berbes | A. Balleres",
         hasParticipation: false
 
     },
@@ -64,7 +64,7 @@ export const source = [
         name: "Chairman's Comments for First Conversation",
         class: "m-mwb",
         minutes: 1,
-        participant: "M. Waniwan",
+        participant: "K. Dagalea",
         hasParticipation: false
 
     },
@@ -72,7 +72,7 @@ export const source = [
         name: "Return Visit",
         class: "m-mwb",
         minutes: 4,
-        participant: "M. Dy | C. Cuizon",
+        participant: "N. Baldesco | M. Alibadbad",
         hasParticipation: false
 
     },
@@ -80,42 +80,49 @@ export const source = [
         name: "Chairman's Comments for Return Visit",
         class: "m-mwb",
         minutes: 1,
-        participant: "M. Waniwan",
+        participant: "K. Dagalea",
         hasParticipation: false
     },
     {
-        name: "Talk: w22.01 2:15-18​—Theme: Teach Effectively Like James—​Use Effective Illustrations",
+        name: "Bible Study: lff 16:6; Some People Say",
         class: "m-mwb",
         minutes: 5,
-        participant: "G. Alibadbad",
+        participant: "Z. Tan | N. Escala",
         hasParticipation: false
     },
     {
         name: "Chairman's Comments for Talk",
         class: "m-mwb",
         minutes: 1,
+        participant: "K. Dagalea",
+        hasParticipation: false
+    },
+    {
+        name: `“Help Nonreligious People Come to Know Their Creator”`,
+        class: "m-mwb",
+        minutes: 10,
+        participant: "J. Tan",
+        hasParticipation: false
+    },
+    {
+        name: `Local Needs`,
+        class: "m-mwb",
+        minutes: 5,
         participant: "M. Waniwan",
         hasParticipation: false
     },
     {
-        name: `“Jehovah Saves Those Who Are Crushed in Spirit”`,
-        class: "m-mwb",
-        minutes: 15,
-        participant: "J. Dy",
-        hasParticipation: false
-    },
-    {
-        name: "Congregation Bible Study: lff 48:1-4",
+        name: "Congregation Bible Study: lff 48:5; Summary; Review; Goal",
         class: "m-mwb",
         minutes: 20,
-        participant: "J. Tan",
+        participant: "J. Dy",
         hasParticipation: false
     },
     {
         name: "Concluding Comments",
         class: "m-mwb",
         minutes: 3,
-        participant: "M. Waniwan",
+        participant: "K. Dagalea",
         hasParticipation: false
     }
 ]
