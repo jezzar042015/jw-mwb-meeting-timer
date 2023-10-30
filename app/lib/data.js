@@ -1,4 +1,4 @@
-export const meetingSchedule = "Meetings | Oct 26 & 29"
+export const meetingSchedule = "CABR 2024 | Enter Into God's Rest"
 // const meetingSchedule = ""
 
 export const settings = {
