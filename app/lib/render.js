@@ -36,7 +36,7 @@ export const render = {
             title = 'Meeting starts in...'
         }
         
-        $('#active-part').children('span').text(title);
+        $('#active-part').children('span').html(title);
     },
     loadItemDetails() {
         let meetingCode = $('#meeting-selector').val();
