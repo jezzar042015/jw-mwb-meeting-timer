@@ -57,6 +57,8 @@ export const handlers = {
             let meeting = $("#meeting-selector").val();
             let mwb_parts = $(".m-mwb");
             let public_parts = $(".m-public");
+            let ca01 = $(".cabr-01");
+            let ca02 = $(".cabr-02");
 
             if (meeting === "mwb") {
                 mwb_parts.show();
@@ -64,6 +66,12 @@ export const handlers = {
             } else if (meeting === "public") {
                 mwb_parts.hide();
                 public_parts.show();
+            } else if (meeting === "cabr-01") {
+                ca02.hide();
+                ca01.show();
+            } else if (meeting === "cabr-02") {
+                ca01.hide();
+                ca02.show();
             }
         }
         await toggle();

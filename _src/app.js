@@ -161,12 +161,21 @@ const timerui = {
   switchMeeting: function () {
     let meeting = $("#meeting-selector").val();
 
+    console.log("meeting changed");
     if (meeting === "mwb") {
       $(".m-mwb").show();
       $(".m-public").hide();
     } else if (meeting === "public") {
       $(".m-mwb").hide();
       $(".m-public").show();
+    } else if (meeting == 'cabr-01') {
+      $(".cabr-02").hide();
+      $(".cabr-01").show();
+      console.log(".cabr-01");
+    }  else if (meeting == 'cabr-02') {
+      $(".cabr-01").hide();
+      $(".cabr-02").show();
+      console.log(".cabr-02");
     }
 
     timerui.autoSelectFirstTimer();

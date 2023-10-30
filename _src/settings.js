@@ -1,4 +1,6 @@
 
+import { settings } from "../app/lib/data"
+
 const overall = {
     settings: {
         mwb: {
@@ -122,6 +124,11 @@ const overall = {
         $('#progress-bar-runtime').width(c + 'px')
     },
     init() {
+        if (!settings.ismeeting) {
+            $("#countdown").hide()
+            return
+        }
+
         setInterval(() => {
             overall.progress()
             overall.countdown()

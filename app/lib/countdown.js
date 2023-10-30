@@ -1,5 +1,7 @@
 import alerts from "./alerts.js";
+import { settings } from "./data.js";
 import { render } from "./render.js";
+
 
 const countdown = {
     settings: {
@@ -18,6 +20,11 @@ const countdown = {
     },
     running: false,
     init() {
+        if (!settings.ismeeting) {
+            $('#countdown').hide()
+            return
+        };
+
         setInterval(() => {
             progress.track()
             countdown.set()
