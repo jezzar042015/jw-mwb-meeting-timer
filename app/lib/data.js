@@ -1,11 +1,122 @@
-export const meetingSchedule = "CABR 2024 | Enter Into God's Rest"
+export const meetingSchedule = "Meeting | Nov 9 & 12"
 // const meetingSchedule = ""
 
 export const settings = {
-    ismeeting: false
+    ismeeting: true
 }
 
 export const source = [
+    {
+        name: "Public Talk",
+        class: "m-public",
+        minutes: 30,
+        participant: "J. Dy",
+        hasParticipation: false
+    },
+    {
+        name: "Watchtower Study",
+        class: "m-public",
+        minutes: 50,
+        participant: "J. Tan",
+        hasParticipation: false
+    },
+    {
+        name: "Opening Comments",
+        class: "m-mwb",
+        minutes: 1,
+        participant: "J. Dy",
+        hasParticipation: false
+    },
+    {
+        name: `TREASURES: “If a Man Dies, Can He Live Again?”`,
+        class: "m-mwb",
+        minutes: 10,
+        participant: "J. Tan",
+        hasParticipation: false
+    },
+    {
+        name: "Spiritual Gems: Job 13-14",
+        class: "m-mwb",
+        minutes: 10,
+        participant: "M. Waniwan",
+        hasParticipation: false
+    },
+    {
+        name: "Bible Reading (Job 13:1-24)",
+        class: "m-mwb",
+        minutes: 4,
+        participant: "E. Redona",
+        hasParticipation: false
+    },
+    {
+        name: "Chairman's Comments for Bible Reading",
+        class: "m-mwb",
+        minutes: 1,
+        participant: "J. Dy",
+        hasParticipation: false
+
+    },
+    {
+        name: "First Conversation Video",
+        class: "m-mwb",
+        minutes: 5,
+        participant: "J. Dy",
+        hasParticipation: false
+
+    },
+    {
+        name: "First Conversation",
+        class: "m-mwb",
+        minutes: 3,
+        participant: "Jace Cuizon | G. Cuizon",
+        hasParticipation: false
+
+    },
+    {
+        name: "Chairman's Comments for First Conversation",
+        class: "m-mwb",
+        minutes: 1,
+        participant: "J. Dy",
+        hasParticipation: false
+    },
+    {
+        name: "Bible Study: lff Section 1 Review 1-5",
+        class: "m-mwb",
+        minutes: 5,
+        participant: "JC Cuizon | M. Alibadbad",
+        hasParticipation: false
+    },
+    {
+        name: "Chairman's Comments for Talk",
+        class: "m-mwb",
+        minutes: 1,
+        participant: "J. Dy",
+        hasParticipation: false
+    },
+    {
+        name: `“Set Something Aside”`,
+        class: "m-mwb",
+        minutes: 15,
+        participant: "M. Waniwan",
+        hasParticipation: false
+    },
+    {
+        name: "Congregation Bible Study: lff 49:6; Summary; Review; Goal",
+        class: "m-mwb",
+        minutes: 20,
+        participant: "K. Dagalea",
+        hasParticipation: false
+    },
+    {
+        name: "Concluding Comments",
+        class: "m-mwb",
+        minutes: 3,
+        participant: "J. Dy",
+        hasParticipation: false
+    }
+]
+
+export const Assembly = [
     {
         name: "Enter Into God’s Rest​—How?",
         class: "cabr-01",
@@ -81,132 +192,6 @@ export const source = [
         class: "cabr-02",
         minutes: 44,
         participant: "Branch Representative",
-        hasParticipation: false
-    }
-]
-
-export const sourceMeeting = [
-    {
-        name: "Public Talk",
-        class: "m-public",
-        minutes: 30,
-        participant: "J. Dy",
-        hasParticipation: false
-    },
-    {
-        name: "Watchtower Study",
-        class: "m-public",
-        minutes: 50,
-        participant: "J. Tan",
-        hasParticipation: false
-    },
-    {
-        name: "Opening Comments",
-        class: "m-mwb",
-        minutes: 1,
-        participant: "K. Dagalea",
-        hasParticipation: false
-    },
-    {
-        name: `TREASURES: “God’s Loyal Love Protects Us From Satan’s Lies”`,
-        class: "m-mwb",
-        minutes: 10,
-        participant: "M. Waniwan",
-        hasParticipation: false
-    },
-    {
-        name: "Spiritual Gems: Job 8-10",
-        class: "m-mwb",
-        minutes: 10,
-        participant: "J. Tan",
-        hasParticipation: false
-    },
-    {
-        name: "Bible Reading (Job 9:20-35)",
-        class: "m-mwb",
-        minutes: 4,
-        participant: "R. Calutan",
-        hasParticipation: false
-    },
-    {
-        name: "Chairman's Comments for Bible Reading",
-        class: "m-mwb",
-        minutes: 1,
-        participant: "K. Dagalea",
-        hasParticipation: false
-
-    },
-    {
-        name: "First Conversation",
-        class: "m-mwb",
-        minutes: 3,
-        participant: "R. Berbes | A. Balleres",
-        hasParticipation: false
-
-    },
-    {
-        name: "Chairman's Comments for First Conversation",
-        class: "m-mwb",
-        minutes: 1,
-        participant: "K. Dagalea",
-        hasParticipation: false
-
-    },
-    {
-        name: "Return Visit",
-        class: "m-mwb",
-        minutes: 4,
-        participant: "N. Baldesco | M. Alibadbad",
-        hasParticipation: false
-
-    },
-    {
-        name: "Chairman's Comments for Return Visit",
-        class: "m-mwb",
-        minutes: 1,
-        participant: "K. Dagalea",
-        hasParticipation: false
-    },
-    {
-        name: "Bible Study: lff 16:6; Some People Say",
-        class: "m-mwb",
-        minutes: 5,
-        participant: "Z. Tan | N. Escala",
-        hasParticipation: false
-    },
-    {
-        name: "Chairman's Comments for Talk",
-        class: "m-mwb",
-        minutes: 1,
-        participant: "K. Dagalea",
-        hasParticipation: false
-    },
-    {
-        name: `“Help Nonreligious People Come to Know Their Creator”`,
-        class: "m-mwb",
-        minutes: 10,
-        participant: "J. Tan",
-        hasParticipation: false
-    },
-    {
-        name: `Local Needs`,
-        class: "m-mwb",
-        minutes: 5,
-        participant: "M. Waniwan",
-        hasParticipation: false
-    },
-    {
-        name: "Congregation Bible Study: lff 48:5; Summary; Review; Goal",
-        class: "m-mwb",
-        minutes: 20,
-        participant: "J. Dy",
-        hasParticipation: false
-    },
-    {
-        name: "Concluding Comments",
-        class: "m-mwb",
-        minutes: 3,
-        participant: "K. Dagalea",
         hasParticipation: false
     }
 ]
