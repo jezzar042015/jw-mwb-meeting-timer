@@ -1,4 +1,4 @@
-export const meetingSchedule = "Meeting | Nov 9 & 12"
+export const meetingSchedule = "Meeting | Nov 16 & 19"
 // const meetingSchedule = ""
 
 export const settings = {
@@ -10,107 +10,114 @@ export const source = [
         name: "Public Talk",
         class: "m-public",
         minutes: 30,
-        participant: "J. Dy",
+        participant: "J. Tan",
         hasParticipation: false
     },
     {
         name: "Watchtower Study",
         class: "m-public",
         minutes: 50,
-        participant: "J. Tan",
+        participant: "J. Dy",
         hasParticipation: false
     },
     {
         name: "Opening Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "J. Dy",
+        participant: "M. Waniwan",
         hasParticipation: false
     },
     {
-        name: `TREASURES: “If a Man Dies, Can He Live Again?”`,
+        name: `TREASURES: “Eliphaz Demonstrates How Not to Give Comfort”`,
+        class: "m-mwb",
+        minutes: 10,
+        participant: "K. Dagalea",
+        hasParticipation: false
+    },
+    {
+        name: "Spiritual Gems: Job 15-17",
         class: "m-mwb",
         minutes: 10,
         participant: "J. Tan",
         hasParticipation: false
     },
     {
-        name: "Spiritual Gems: Job 13-14",
-        class: "m-mwb",
-        minutes: 10,
-        participant: "M. Waniwan",
-        hasParticipation: false
-    },
-    {
-        name: "Bible Reading (Job 13:1-24)",
+        name: "Bible Reading (Job 17:1-16)",
         class: "m-mwb",
         minutes: 4,
-        participant: "E. Redona",
+        participant: "A. Danco",
         hasParticipation: false
     },
     {
         name: "Chairman's Comments for Bible Reading",
         class: "m-mwb",
         minutes: 1,
-        participant: "J. Dy",
+        participant: "M. Waniwan",
         hasParticipation: false
 
     },
     {
-        name: "First Conversation Video",
+        name: "Return Visit Video",
         class: "m-mwb",
         minutes: 5,
-        participant: "J. Dy",
+        participant: "M. Waniwan",
         hasParticipation: false
 
     },
     {
-        name: "First Conversation",
+        name: "Return Visit",
         class: "m-mwb",
         minutes: 3,
-        participant: "Jace Cuizon | G. Cuizon",
+        participant: "M. Olarte | M. Dy",
         hasParticipation: false
 
     },
     {
-        name: "Chairman's Comments for First Conversation",
+        name: "Chairman's Comments for Return Visit",
         class: "m-mwb",
         minutes: 1,
-        participant: "J. Dy",
+        participant: "M. Waniwan",
         hasParticipation: false
     },
     {
-        name: "Bible Study: lff Section 1 Review 1-5",
+        name: "Bible Study: <i>lff</i> Section 1 Review 6-10",
         class: "m-mwb",
         minutes: 5,
-        participant: "JC Cuizon | M. Alibadbad",
+        participant: "CH Cuizon | EJ Borer",
         hasParticipation: false
     },
     {
-        name: "Chairman's Comments for Talk",
+        name: "Chairman's Comments for Bible Study",
         class: "m-mwb",
         minutes: 1,
-        participant: "J. Dy",
+        participant: "M. Waniwan",
         hasParticipation: false
     },
     {
-        name: `“Set Something Aside”`,
+        name: `2023 Governing Body Update #7`,
         class: "m-mwb",
         minutes: 15,
         participant: "M. Waniwan",
         hasParticipation: false
     },
     {
-        name: "Congregation Bible Study: lff 49:6; Summary; Review; Goal",
+        name: "Congregation Bible Study: <i>lff</i> 50:1-5; Protect Your Children",
         class: "m-mwb",
         minutes: 20,
-        participant: "K. Dagalea",
+        participant: "J. Tan",
         hasParticipation: false
     },
     {
         name: "Concluding Comments",
         class: "m-mwb",
         minutes: 3,
+        participant: "M. Waniwan",
+        hasParticipation: false
+    }, 
+    {
+        name: "Closin Prayer",
+        class: "m-mwb",
+        minutes: 0,
         participant: "J. Dy",
         hasParticipation: false
     }
