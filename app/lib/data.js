@@ -38,7 +38,7 @@ export const source = [
         name: "Spiritual Gems: Job 15-17",
         class: "m-mwb",
         minutes: 10,
-        participant: "J. Tan",
+        participant: "J. Dy",
         hasParticipation: false
     },
     {
