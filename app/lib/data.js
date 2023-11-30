@@ -1,4 +1,4 @@
-export const meetingSchedule = "Meeting | Nov 23 & 26"
+export const meetingSchedule = "Meeting | Nov 30 & Dec 6"
 // const meetingSchedule = ""
 
 export const settings = {
@@ -10,57 +10,57 @@ export const source = [
         name: "Public Talk",
         class: "m-public",
         minutes: 30,
-        participant: "J. Dy",
+        participant: "J. Tan",
         hasParticipation: false
     },
     {
         name: "Watchtower Study",
         class: "m-public",
         minutes: 50,
-        participant: "J. Tan",
+        participant: "J. Dy",
         hasParticipation: false
     },
     {
         name: "Opening Comments",
         class: "m-mwb",
         minutes: 1,
-        participant: "K. Dagalea",
-        hasParticipation: false
-    },
-    {
-        name: `TREASURES: “Never Abandon Your Fellow Worshippers”`,
-        class: "m-mwb",
-        minutes: 10,
         participant: "J. Dy",
         hasParticipation: false
     },
     {
-        name: "Spiritual Gems: Job 18-19",
+        name: `TREASURES: “Righteousness Is Not Defined by Wealth”`,
         class: "m-mwb",
         minutes: 10,
         participant: "J. Tan",
         hasParticipation: false
     },
     {
-        name: "Bible Reading (Job 18:1-21)",
+        name: "Spiritual Gems: Job 20-21",
+        class: "m-mwb",
+        minutes: 10,
+        participant: "J. Dy",
+        hasParticipation: false
+    },
+    {
+        name: "Bible Reading (Job 20:1-22)",
         class: "m-mwb",
         minutes: 4,
-        participant: "N. Regala III",
+        participant: "R. Berbes",
         hasParticipation: false
     },
     {
         name: "Chairman's Comments for Bible Reading",
         class: "m-mwb",
         minutes: 1,
-        participant: "K. Dagalea",
+        participant: "J. Dy",
         hasParticipation: false
 
     },
     {
         name: "First Conversation",
         class: "m-mwb",
-        minutes: 3,
-        participant: "E. Barca | R. Balleres",
+        minutes: 2,
+        participant: "M. Calutan | E. Borer",
         hasParticipation: false
 
     },
@@ -68,14 +68,14 @@ export const source = [
         name: "Chairman's Comments for First Conversation",
         class: "m-mwb",
         minutes: 1,
-        participant: "K. Dagalea",
+        participant: "J. Dy",
         hasParticipation: false
     },
     {
         name: "Return Visit",
         class: "m-mwb",
-        minutes: 4,
-        participant: "C. Waniwan | N. Escala",
+        minutes: 5,
+        participant: "Z. Tan | JC Cuizon",
         hasParticipation: false
 
     },
@@ -83,56 +83,49 @@ export const source = [
         name: "Chairman's Comments for Return Visit",
         class: "m-mwb",
         minutes: 1,
-        participant: "K. Dagalea",
+        participant: "J. Dy",
         hasParticipation: false
     },
     {
-        name: "Talk: <i>w20.10</i> 42:10-11​—Theme: Encourage Students to Make Friends in the Congregation",
+        name: "Talk: <i>w19.10</i> 43:5-10​—Theme: Guard Against Loving Money",
         class: "m-mwb",
         minutes: 5,
-        participant: "A. Balleres",
+        participant: "G. Alibadbad",
         hasParticipation: false
     },
     {
         name: "Chairman's Comments for Talk",
         class: "m-mwb",
         minutes: 1,
-        participant: "K. Dagalea",
-        hasParticipation: false
-    },
-    {
-        name: `Become Jehovah’s Friend​—Help Others`,
-        class: "m-mwb",
-        minutes: 5,
         participant: "J. Dy",
         hasParticipation: false
     },
     {
-        name: `“An Arrangement to Comfort Those at Bethel”`,
+        name: `“Be ‘Content With the Present Things’”`,
         class: "m-mwb",
-        minutes: 10,
-        participant: "J. Tan",
+        minutes: 15,
+        participant: "M. Waniwan",
         hasParticipation: false
     },
     {
-        name: "Congregation Bible Study: <i>lff</i> 50:6-7; Summary; Review; Goal",
+        name: "Congregation Bible Study: <i>lff</i> 51",
         class: "m-mwb",
         minutes: 20,
-        participant: "M. Waniwan",
+        participant: "J. Tan",
         hasParticipation: false
     },
     {
         name: "Concluding Comments",
         class: "m-mwb",
         minutes: 3,
-        participant: "K. Dagalea",
+        participant: "J. Dy",
         hasParticipation: false
     },
     {
         name: "Closing Prayer",
         class: "m-mwb",
         minutes: 0,
-        participant: "M. Waniwan",
+        participant: "K. Dagalea",
         hasParticipation: false
     }
 ]
